@@ -1,4 +1,4 @@
-diebieslave\system_stm32f3xx.o: ../Drivers/CMSIS//Device/ST/STM32F3xx/Source/Templates/system_stm32f3xx.c
+diebieslave\system_stm32f3xx.o: ..\Device\Src\system_stm32f3xx.c
 diebieslave\system_stm32f3xx.o: ../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h
 diebieslave\system_stm32f3xx.o: ../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xe.h
 diebieslave\system_stm32f3xx.o: ../Drivers/CMSIS/Include/core_cm4.h
@@ -9,8 +9,8 @@ diebieslave\system_stm32f3xx.o: ../Drivers/CMSIS/Include/core_cmFunc.h
 diebieslave\system_stm32f3xx.o: ../Drivers/CMSIS/Include/core_cmSimd.h
 diebieslave\system_stm32f3xx.o: ../Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h
 diebieslave\system_stm32f3xx.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h
-diebieslave\system_stm32f3xx.o: ../Inc/stm32f3xx_hal_conf.h
-diebieslave\system_stm32f3xx.o: ../Inc/mxconstants.h
+diebieslave\system_stm32f3xx.o: ..\Device\Inc\stm32f3xx_hal_conf.h
+diebieslave\system_stm32f3xx.o: ..\Device\Inc\mxconstants.h
 diebieslave\system_stm32f3xx.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h
 diebieslave\system_stm32f3xx.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h
 diebieslave\system_stm32f3xx.o: ../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h

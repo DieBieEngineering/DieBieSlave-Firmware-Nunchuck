@@ -1,7 +1,7 @@
-diebieslave\main.o: ../Src/main.c
+diebieslave\main.o: ..\Main\main.c
 diebieslave\main.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h
-diebieslave\main.o: ../Inc/stm32f3xx_hal_conf.h
-diebieslave\main.o: ../Inc/mxconstants.h
+diebieslave\main.o: ..\Device\Inc\stm32f3xx_hal_conf.h
+diebieslave\main.o: ..\Device\Inc\mxconstants.h
 diebieslave\main.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h
 diebieslave\main.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h
 diebieslave\main.o: ../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h
@@ -35,9 +35,9 @@ diebieslave\main.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_spi.h
 diebieslave\main.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_spi_ex.h
 diebieslave\main.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h
 diebieslave\main.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h
-diebieslave\main.o: ../Inc/usb_device.h
+diebieslave\main.o: ..\Drivers\HWDrivers\Inc\usb_device.h
 diebieslave\main.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h
-diebieslave\main.o: ../Inc/usbd_conf.h
+diebieslave\main.o: ..\Drivers\HWDrivers\Inc\usbd_conf.h
 diebieslave\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 diebieslave\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 diebieslave\main.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h

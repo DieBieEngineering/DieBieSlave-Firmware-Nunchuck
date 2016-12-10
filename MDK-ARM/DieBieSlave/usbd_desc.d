@@ -1,6 +1,6 @@
-diebieslave\usbd_desc.o: ../Src/usbd_desc.c
+diebieslave\usbd_desc.o: ..\Drivers\HWDrivers\Src\usbd_desc.c
 diebieslave\usbd_desc.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h
-diebieslave\usbd_desc.o: ../Inc/usbd_conf.h
+diebieslave\usbd_desc.o: ..\Drivers\HWDrivers\Inc\usbd_conf.h
 diebieslave\usbd_desc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 diebieslave\usbd_desc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 diebieslave\usbd_desc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
@@ -14,8 +14,8 @@ diebieslave\usbd_desc.o: ../Drivers/CMSIS/Include/core_cmFunc.h
 diebieslave\usbd_desc.o: ../Drivers/CMSIS/Include/core_cmSimd.h
 diebieslave\usbd_desc.o: ../Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h
 diebieslave\usbd_desc.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h
-diebieslave\usbd_desc.o: ../Inc/stm32f3xx_hal_conf.h
-diebieslave\usbd_desc.o: ../Inc/mxconstants.h
+diebieslave\usbd_desc.o: ..\Device\Inc\stm32f3xx_hal_conf.h
+diebieslave\usbd_desc.o: ..\Device\Inc\mxconstants.h
 diebieslave\usbd_desc.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h
 diebieslave\usbd_desc.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h
 diebieslave\usbd_desc.o: ../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h
@@ -40,8 +40,8 @@ diebieslave\usbd_desc.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_spi_e
 diebieslave\usbd_desc.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h
 diebieslave\usbd_desc.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h
 diebieslave\usbd_desc.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h
-diebieslave\usbd_desc.o: ../Inc/usbd_conf.h
+diebieslave\usbd_desc.o: ..\Drivers\HWDrivers\Inc\usbd_conf.h
 diebieslave\usbd_desc.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h
 diebieslave\usbd_desc.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h
 diebieslave\usbd_desc.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
-diebieslave\usbd_desc.o: ../Inc/usbd_desc.h
+diebieslave\usbd_desc.o: ..\Drivers\HWDrivers\Inc\usbd_desc.h

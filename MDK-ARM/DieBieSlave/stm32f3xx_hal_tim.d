@@ -1,7 +1,7 @@
 diebieslave\stm32f3xx_hal_tim.o: ../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c
 diebieslave\stm32f3xx_hal_tim.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h
-diebieslave\stm32f3xx_hal_tim.o: ../Inc/stm32f3xx_hal_conf.h
-diebieslave\stm32f3xx_hal_tim.o: ../Inc/mxconstants.h
+diebieslave\stm32f3xx_hal_tim.o: ..\Device\Inc\stm32f3xx_hal_conf.h
+diebieslave\stm32f3xx_hal_tim.o: ..\Device\Inc\mxconstants.h
 diebieslave\stm32f3xx_hal_tim.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h
 diebieslave\stm32f3xx_hal_tim.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h
 diebieslave\stm32f3xx_hal_tim.o: ../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h

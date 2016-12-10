@@ -687,7 +687,7 @@ erwork --depend=diebieslave\startup_stm32f303xe.d -odiebieslave\startup_stm32f3
 Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include -IC:\Keil_v5\ARM\PACK\Keil
 \STM32F3xx_DFP\1.3.0\Device\Include --predefine="__MICROLIB SETA 1" --predefine
 ="__UVISION_VERSION SETA 520" --predefine="_RTE_ SETA 1" --predefine="STM32F303
-xE SETA 1" --list=startup_stm32f303xe.lst startup_stm32f303xe.s
+xE SETA 1" --list=startup_stm32f303xe.lst ..\Device\startup_stm32f303xe.s
 
 
 
@@ -698,7 +698,7 @@ STACK 00000000
 
 Symbol: STACK
    Definitions
-      At line 50 in file startup_stm32f303xe.s
+      At line 50 in file ..\Device\startup_stm32f303xe.s
    Uses
       None
 Comment: STACK unused
@@ -706,7 +706,7 @@ Stack_Mem 00000000
 
 Symbol: Stack_Mem
    Definitions
-      At line 51 in file startup_stm32f303xe.s
+      At line 51 in file ..\Device\startup_stm32f303xe.s
    Uses
       None
 Comment: Stack_Mem unused
@@ -714,10 +714,10 @@ __initial_sp 00000400
 
 Symbol: __initial_sp
    Definitions
-      At line 52 in file startup_stm32f303xe.s
+      At line 52 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 76 in file startup_stm32f303xe.s
-      At line 405 in file startup_stm32f303xe.s
+      At line 76 in file ..\Device\startup_stm32f303xe.s
+      At line 405 in file ..\Device\startup_stm32f303xe.s
 
 3 symbols
 
@@ -730,7 +730,7 @@ HEAP 00000000
 
 Symbol: HEAP
    Definitions
-      At line 61 in file startup_stm32f303xe.s
+      At line 61 in file ..\Device\startup_stm32f303xe.s
    Uses
       None
 Comment: HEAP unused
@@ -738,7 +738,7 @@ Heap_Mem 00000000
 
 Symbol: Heap_Mem
    Definitions
-      At line 63 in file startup_stm32f303xe.s
+      At line 63 in file ..\Device\startup_stm32f303xe.s
    Uses
       None
 Comment: Heap_Mem unused
@@ -746,17 +746,17 @@ __heap_base 00000000
 
 Symbol: __heap_base
    Definitions
-      At line 62 in file startup_stm32f303xe.s
+      At line 62 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 406 in file startup_stm32f303xe.s
+      At line 406 in file ..\Device\startup_stm32f303xe.s
 Comment: __heap_base used once
 __heap_limit 00000200
 
 Symbol: __heap_limit
    Definitions
-      At line 64 in file startup_stm32f303xe.s
+      At line 64 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 407 in file startup_stm32f303xe.s
+      At line 407 in file ..\Device\startup_stm32f303xe.s
 Comment: __heap_limit used once
 4 symbols
 
@@ -769,7 +769,7 @@ RESET 00000000
 
 Symbol: RESET
    Definitions
-      At line 71 in file startup_stm32f303xe.s
+      At line 71 in file ..\Device\startup_stm32f303xe.s
    Uses
       None
 Comment: RESET unused
@@ -777,19 +777,19 @@ __Vectors 00000000
 
 Symbol: __Vectors
    Definitions
-      At line 76 in file startup_stm32f303xe.s
+      At line 76 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 72 in file startup_stm32f303xe.s
-      At line 182 in file startup_stm32f303xe.s
+      At line 72 in file ..\Device\startup_stm32f303xe.s
+      At line 182 in file ..\Device\startup_stm32f303xe.s
 
 __Vectors_End 00000194
 
 Symbol: __Vectors_End
    Definitions
-      At line 180 in file startup_stm32f303xe.s
+      At line 180 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 73 in file startup_stm32f303xe.s
-      At line 182 in file startup_stm32f303xe.s
+      At line 73 in file ..\Device\startup_stm32f303xe.s
+      At line 182 in file ..\Device\startup_stm32f303xe.s
 
 3 symbols
 
@@ -802,7 +802,7 @@ Relocatable symbols
 
 Symbol: .text
    Definitions
-      At line 184 in file startup_stm32f303xe.s
+      At line 184 in file ..\Device\startup_stm32f303xe.s
    Uses
       None
 Comment: .text unused
@@ -810,52 +810,52 @@ ADC1_2_IRQHandler 0000001A
 
 Symbol: ADC1_2_IRQHandler
    Definitions
-      At line 337 in file startup_stm32f303xe.s
+      At line 337 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 112 in file startup_stm32f303xe.s
-      At line 262 in file startup_stm32f303xe.s
+      At line 112 in file ..\Device\startup_stm32f303xe.s
+      At line 262 in file ..\Device\startup_stm32f303xe.s
 
 ADC3_IRQHandler 0000001A
 
 Symbol: ADC3_IRQHandler
    Definitions
-      At line 366 in file startup_stm32f303xe.s
+      At line 366 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 141 in file startup_stm32f303xe.s
-      At line 291 in file startup_stm32f303xe.s
+      At line 141 in file ..\Device\startup_stm32f303xe.s
+      At line 291 in file ..\Device\startup_stm32f303xe.s
 
 ADC4_IRQHandler 0000001A
 
 Symbol: ADC4_IRQHandler
    Definitions
-      At line 378 in file startup_stm32f303xe.s
+      At line 378 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 155 in file startup_stm32f303xe.s
-      At line 303 in file startup_stm32f303xe.s
+      At line 155 in file ..\Device\startup_stm32f303xe.s
+      At line 303 in file ..\Device\startup_stm32f303xe.s
 
 BusFault_Handler 0000000E
 
 Symbol: BusFault_Handler
    Definitions
-      At line 215 in file startup_stm32f303xe.s
+      At line 215 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 81 in file startup_stm32f303xe.s
-      At line 216 in file startup_stm32f303xe.s
+      At line 81 in file ..\Device\startup_stm32f303xe.s
+      At line 216 in file ..\Device\startup_stm32f303xe.s
 
 CAN_RX1_IRQHandler 0000001A
 
 Symbol: CAN_RX1_IRQHandler
    Definitions
-      At line 340 in file startup_stm32f303xe.s
+      At line 340 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 115 in file startup_stm32f303xe.s
-      At line 265 in file startup_stm32f303xe.s
+      At line 115 in file ..\Device\startup_stm32f303xe.s
+      At line 265 in file ..\Device\startup_stm32f303xe.s
 
 CAN_SCE_IRQHandler 0000001A
 
 Symbol: CAN_SCE_IRQHandler
    Definitions
-      At line 341 in file startup_stm32f303xe.s
+      At line 341 in file ..\Device\startup_stm32f303xe.s
    Uses
 
 
@@ -863,62 +863,62 @@ Symbol: CAN_SCE_IRQHandler
 ARM Macro Assembler    Page 2 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 116 in file startup_stm32f303xe.s
-      At line 266 in file startup_stm32f303xe.s
+      At line 116 in file ..\Device\startup_stm32f303xe.s
+      At line 266 in file ..\Device\startup_stm32f303xe.s
 
 COMP1_2_3_IRQHandler 0000001A
 
 Symbol: COMP1_2_3_IRQHandler
    Definitions
-      At line 379 in file startup_stm32f303xe.s
+      At line 379 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 158 in file startup_stm32f303xe.s
-      At line 304 in file startup_stm32f303xe.s
+      At line 158 in file ..\Device\startup_stm32f303xe.s
+      At line 304 in file ..\Device\startup_stm32f303xe.s
 
 COMP4_5_6_IRQHandler 0000001A
 
 Symbol: COMP4_5_6_IRQHandler
    Definitions
-      At line 380 in file startup_stm32f303xe.s
+      At line 380 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 159 in file startup_stm32f303xe.s
-      At line 305 in file startup_stm32f303xe.s
+      At line 159 in file ..\Device\startup_stm32f303xe.s
+      At line 305 in file ..\Device\startup_stm32f303xe.s
 
 COMP7_IRQHandler 0000001A
 
 Symbol: COMP7_IRQHandler
    Definitions
-      At line 381 in file startup_stm32f303xe.s
+      At line 381 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 160 in file startup_stm32f303xe.s
-      At line 306 in file startup_stm32f303xe.s
+      At line 160 in file ..\Device\startup_stm32f303xe.s
+      At line 306 in file ..\Device\startup_stm32f303xe.s
 
 DMA1_Channel1_IRQHandler 0000001A
 
 Symbol: DMA1_Channel1_IRQHandler
    Definitions
-      At line 330 in file startup_stm32f303xe.s
+      At line 330 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 105 in file startup_stm32f303xe.s
-      At line 255 in file startup_stm32f303xe.s
+      At line 105 in file ..\Device\startup_stm32f303xe.s
+      At line 255 in file ..\Device\startup_stm32f303xe.s
 
 DMA1_Channel2_IRQHandler 0000001A
 
 Symbol: DMA1_Channel2_IRQHandler
    Definitions
-      At line 331 in file startup_stm32f303xe.s
+      At line 331 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 106 in file startup_stm32f303xe.s
-      At line 256 in file startup_stm32f303xe.s
+      At line 106 in file ..\Device\startup_stm32f303xe.s
+      At line 256 in file ..\Device\startup_stm32f303xe.s
 
 DMA1_Channel3_IRQHandler 0000001A
 
 Symbol: DMA1_Channel3_IRQHandler
    Definitions
-      At line 332 in file startup_stm32f303xe.s
+      At line 332 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 107 in file startup_stm32f303xe.s
-      At line 257 in file startup_stm32f303xe.s
+      At line 107 in file ..\Device\startup_stm32f303xe.s
+      At line 257 in file ..\Device\startup_stm32f303xe.s
 
 DMA1_Channel4_IRQHandler 0000001A
 
@@ -930,103 +930,103 @@ Relocatable symbols
 
 Symbol: DMA1_Channel4_IRQHandler
    Definitions
-      At line 333 in file startup_stm32f303xe.s
+      At line 333 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 108 in file startup_stm32f303xe.s
-      At line 258 in file startup_stm32f303xe.s
+      At line 108 in file ..\Device\startup_stm32f303xe.s
+      At line 258 in file ..\Device\startup_stm32f303xe.s
 
 DMA1_Channel5_IRQHandler 0000001A
 
 Symbol: DMA1_Channel5_IRQHandler
    Definitions
-      At line 334 in file startup_stm32f303xe.s
+      At line 334 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 109 in file startup_stm32f303xe.s
-      At line 259 in file startup_stm32f303xe.s
+      At line 109 in file ..\Device\startup_stm32f303xe.s
+      At line 259 in file ..\Device\startup_stm32f303xe.s
 
 DMA1_Channel6_IRQHandler 0000001A
 
 Symbol: DMA1_Channel6_IRQHandler
    Definitions
-      At line 335 in file startup_stm32f303xe.s
+      At line 335 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 110 in file startup_stm32f303xe.s
-      At line 260 in file startup_stm32f303xe.s
+      At line 110 in file ..\Device\startup_stm32f303xe.s
+      At line 260 in file ..\Device\startup_stm32f303xe.s
 
 DMA1_Channel7_IRQHandler 0000001A
 
 Symbol: DMA1_Channel7_IRQHandler
    Definitions
-      At line 336 in file startup_stm32f303xe.s
+      At line 336 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 111 in file startup_stm32f303xe.s
-      At line 261 in file startup_stm32f303xe.s
+      At line 111 in file ..\Device\startup_stm32f303xe.s
+      At line 261 in file ..\Device\startup_stm32f303xe.s
 
 DMA2_Channel1_IRQHandler 0000001A
 
 Symbol: DMA2_Channel1_IRQHandler
    Definitions
-      At line 373 in file startup_stm32f303xe.s
+      At line 373 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 150 in file startup_stm32f303xe.s
-      At line 298 in file startup_stm32f303xe.s
+      At line 150 in file ..\Device\startup_stm32f303xe.s
+      At line 298 in file ..\Device\startup_stm32f303xe.s
 
 DMA2_Channel2_IRQHandler 0000001A
 
 Symbol: DMA2_Channel2_IRQHandler
    Definitions
-      At line 374 in file startup_stm32f303xe.s
+      At line 374 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 151 in file startup_stm32f303xe.s
-      At line 299 in file startup_stm32f303xe.s
+      At line 151 in file ..\Device\startup_stm32f303xe.s
+      At line 299 in file ..\Device\startup_stm32f303xe.s
 
 DMA2_Channel3_IRQHandler 0000001A
 
 Symbol: DMA2_Channel3_IRQHandler
    Definitions
-      At line 375 in file startup_stm32f303xe.s
+      At line 375 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 152 in file startup_stm32f303xe.s
+      At line 152 in file ..\Device\startup_stm32f303xe.s
 
 
 
 ARM Macro Assembler    Page 4 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 300 in file startup_stm32f303xe.s
+      At line 300 in file ..\Device\startup_stm32f303xe.s
 
 DMA2_Channel4_IRQHandler 0000001A
 
 Symbol: DMA2_Channel4_IRQHandler
    Definitions
-      At line 376 in file startup_stm32f303xe.s
+      At line 376 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 153 in file startup_stm32f303xe.s
-      At line 301 in file startup_stm32f303xe.s
+      At line 153 in file ..\Device\startup_stm32f303xe.s
+      At line 301 in file ..\Device\startup_stm32f303xe.s
 
 DMA2_Channel5_IRQHandler 0000001A
 
 Symbol: DMA2_Channel5_IRQHandler
    Definitions
-      At line 377 in file startup_stm32f303xe.s
+      At line 377 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 154 in file startup_stm32f303xe.s
-      At line 302 in file startup_stm32f303xe.s
+      At line 154 in file ..\Device\startup_stm32f303xe.s
+      At line 302 in file ..\Device\startup_stm32f303xe.s
 
 DebugMon_Handler 00000014
 
 Symbol: DebugMon_Handler
    Definitions
-      At line 229 in file startup_stm32f303xe.s
+      At line 229 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 88 in file startup_stm32f303xe.s
-      At line 230 in file startup_stm32f303xe.s
+      At line 88 in file ..\Device\startup_stm32f303xe.s
+      At line 230 in file ..\Device\startup_stm32f303xe.s
 
 Default_Handler 0000001A
 
 Symbol: Default_Handler
    Definitions
-      At line 242 in file startup_stm32f303xe.s
+      At line 242 in file ..\Device\startup_stm32f303xe.s
    Uses
       None
 Comment: Default_Handler unused
@@ -1034,19 +1034,19 @@ EXTI0_IRQHandler 0000001A
 
 Symbol: EXTI0_IRQHandler
    Definitions
-      At line 325 in file startup_stm32f303xe.s
+      At line 325 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 100 in file startup_stm32f303xe.s
-      At line 250 in file startup_stm32f303xe.s
+      At line 100 in file ..\Device\startup_stm32f303xe.s
+      At line 250 in file ..\Device\startup_stm32f303xe.s
 
 EXTI15_10_IRQHandler 0000001A
 
 Symbol: EXTI15_10_IRQHandler
    Definitions
-      At line 359 in file startup_stm32f303xe.s
+      At line 359 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 134 in file startup_stm32f303xe.s
-      At line 284 in file startup_stm32f303xe.s
+      At line 134 in file ..\Device\startup_stm32f303xe.s
+      At line 284 in file ..\Device\startup_stm32f303xe.s
 
 EXTI1_IRQHandler 0000001A
 
@@ -1058,64 +1058,64 @@ Symbol: EXTI1_IRQHandler
 ARM Macro Assembler    Page 5 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 326 in file startup_stm32f303xe.s
+      At line 326 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 101 in file startup_stm32f303xe.s
-      At line 251 in file startup_stm32f303xe.s
+      At line 101 in file ..\Device\startup_stm32f303xe.s
+      At line 251 in file ..\Device\startup_stm32f303xe.s
 
 EXTI2_TSC_IRQHandler 0000001A
 
 Symbol: EXTI2_TSC_IRQHandler
    Definitions
-      At line 327 in file startup_stm32f303xe.s
+      At line 327 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 102 in file startup_stm32f303xe.s
-      At line 252 in file startup_stm32f303xe.s
+      At line 102 in file ..\Device\startup_stm32f303xe.s
+      At line 252 in file ..\Device\startup_stm32f303xe.s
 
 EXTI3_IRQHandler 0000001A
 
 Symbol: EXTI3_IRQHandler
    Definitions
-      At line 328 in file startup_stm32f303xe.s
+      At line 328 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 103 in file startup_stm32f303xe.s
-      At line 253 in file startup_stm32f303xe.s
+      At line 103 in file ..\Device\startup_stm32f303xe.s
+      At line 253 in file ..\Device\startup_stm32f303xe.s
 
 EXTI4_IRQHandler 0000001A
 
 Symbol: EXTI4_IRQHandler
    Definitions
-      At line 329 in file startup_stm32f303xe.s
+      At line 329 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 104 in file startup_stm32f303xe.s
-      At line 254 in file startup_stm32f303xe.s
+      At line 104 in file ..\Device\startup_stm32f303xe.s
+      At line 254 in file ..\Device\startup_stm32f303xe.s
 
 EXTI9_5_IRQHandler 0000001A
 
 Symbol: EXTI9_5_IRQHandler
    Definitions
-      At line 342 in file startup_stm32f303xe.s
+      At line 342 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 117 in file startup_stm32f303xe.s
-      At line 267 in file startup_stm32f303xe.s
+      At line 117 in file ..\Device\startup_stm32f303xe.s
+      At line 267 in file ..\Device\startup_stm32f303xe.s
 
 FLASH_IRQHandler 0000001A
 
 Symbol: FLASH_IRQHandler
    Definitions
-      At line 323 in file startup_stm32f303xe.s
+      At line 323 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 98 in file startup_stm32f303xe.s
-      At line 248 in file startup_stm32f303xe.s
+      At line 98 in file ..\Device\startup_stm32f303xe.s
+      At line 248 in file ..\Device\startup_stm32f303xe.s
 
 FMC_IRQHandler 0000001A
 
 Symbol: FMC_IRQHandler
    Definitions
-      At line 367 in file startup_stm32f303xe.s
+      At line 367 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 142 in file startup_stm32f303xe.s
-      At line 292 in file startup_stm32f303xe.s
+      At line 142 in file ..\Device\startup_stm32f303xe.s
+      At line 292 in file ..\Device\startup_stm32f303xe.s
 
 
 
@@ -1127,61 +1127,61 @@ FPU_IRQHandler 0000001A
 
 Symbol: FPU_IRQHandler
    Definitions
-      At line 391 in file startup_stm32f303xe.s
+      At line 391 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 175 in file startup_stm32f303xe.s
-      At line 316 in file startup_stm32f303xe.s
+      At line 175 in file ..\Device\startup_stm32f303xe.s
+      At line 316 in file ..\Device\startup_stm32f303xe.s
 
 HardFault_Handler 0000000A
 
 Symbol: HardFault_Handler
    Definitions
-      At line 205 in file startup_stm32f303xe.s
+      At line 205 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 79 in file startup_stm32f303xe.s
-      At line 206 in file startup_stm32f303xe.s
+      At line 79 in file ..\Device\startup_stm32f303xe.s
+      At line 206 in file ..\Device\startup_stm32f303xe.s
 
 I2C1_ER_IRQHandler 0000001A
 
 Symbol: I2C1_ER_IRQHandler
    Definitions
-      At line 351 in file startup_stm32f303xe.s
+      At line 351 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 126 in file startup_stm32f303xe.s
-      At line 276 in file startup_stm32f303xe.s
+      At line 126 in file ..\Device\startup_stm32f303xe.s
+      At line 276 in file ..\Device\startup_stm32f303xe.s
 
 I2C1_EV_IRQHandler 0000001A
 
 Symbol: I2C1_EV_IRQHandler
    Definitions
-      At line 350 in file startup_stm32f303xe.s
+      At line 350 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 125 in file startup_stm32f303xe.s
-      At line 275 in file startup_stm32f303xe.s
+      At line 125 in file ..\Device\startup_stm32f303xe.s
+      At line 275 in file ..\Device\startup_stm32f303xe.s
 
 I2C2_ER_IRQHandler 0000001A
 
 Symbol: I2C2_ER_IRQHandler
    Definitions
-      At line 353 in file startup_stm32f303xe.s
+      At line 353 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 128 in file startup_stm32f303xe.s
-      At line 278 in file startup_stm32f303xe.s
+      At line 128 in file ..\Device\startup_stm32f303xe.s
+      At line 278 in file ..\Device\startup_stm32f303xe.s
 
 I2C2_EV_IRQHandler 0000001A
 
 Symbol: I2C2_EV_IRQHandler
    Definitions
-      At line 352 in file startup_stm32f303xe.s
+      At line 352 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 127 in file startup_stm32f303xe.s
-      At line 277 in file startup_stm32f303xe.s
+      At line 127 in file ..\Device\startup_stm32f303xe.s
+      At line 277 in file ..\Device\startup_stm32f303xe.s
 
 I2C3_ER_IRQHandler 0000001A
 
 Symbol: I2C3_ER_IRQHandler
    Definitions
-      At line 383 in file startup_stm32f303xe.s
+      At line 383 in file ..\Device\startup_stm32f303xe.s
 
 
 
@@ -1189,62 +1189,62 @@ ARM Macro Assembler    Page 7 Alphabetic symbol ordering
 Relocatable symbols
 
    Uses
-      At line 167 in file startup_stm32f303xe.s
-      At line 308 in file startup_stm32f303xe.s
+      At line 167 in file ..\Device\startup_stm32f303xe.s
+      At line 308 in file ..\Device\startup_stm32f303xe.s
 
 I2C3_EV_IRQHandler 0000001A
 
 Symbol: I2C3_EV_IRQHandler
    Definitions
-      At line 382 in file startup_stm32f303xe.s
+      At line 382 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 166 in file startup_stm32f303xe.s
-      At line 307 in file startup_stm32f303xe.s
+      At line 166 in file ..\Device\startup_stm32f303xe.s
+      At line 307 in file ..\Device\startup_stm32f303xe.s
 
 MemManage_Handler 0000000C
 
 Symbol: MemManage_Handler
    Definitions
-      At line 210 in file startup_stm32f303xe.s
+      At line 210 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 80 in file startup_stm32f303xe.s
-      At line 211 in file startup_stm32f303xe.s
+      At line 80 in file ..\Device\startup_stm32f303xe.s
+      At line 211 in file ..\Device\startup_stm32f303xe.s
 
 NMI_Handler 00000008
 
 Symbol: NMI_Handler
    Definitions
-      At line 200 in file startup_stm32f303xe.s
+      At line 200 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 78 in file startup_stm32f303xe.s
-      At line 201 in file startup_stm32f303xe.s
+      At line 78 in file ..\Device\startup_stm32f303xe.s
+      At line 201 in file ..\Device\startup_stm32f303xe.s
 
 PVD_IRQHandler 0000001A
 
 Symbol: PVD_IRQHandler
    Definitions
-      At line 320 in file startup_stm32f303xe.s
+      At line 320 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 95 in file startup_stm32f303xe.s
-      At line 245 in file startup_stm32f303xe.s
+      At line 95 in file ..\Device\startup_stm32f303xe.s
+      At line 245 in file ..\Device\startup_stm32f303xe.s
 
 PendSV_Handler 00000016
 
 Symbol: PendSV_Handler
    Definitions
-      At line 233 in file startup_stm32f303xe.s
+      At line 233 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 90 in file startup_stm32f303xe.s
-      At line 234 in file startup_stm32f303xe.s
+      At line 90 in file ..\Device\startup_stm32f303xe.s
+      At line 234 in file ..\Device\startup_stm32f303xe.s
 
 RCC_IRQHandler 0000001A
 
 Symbol: RCC_IRQHandler
    Definitions
-      At line 324 in file startup_stm32f303xe.s
+      At line 324 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 99 in file startup_stm32f303xe.s
-      At line 249 in file startup_stm32f303xe.s
+      At line 99 in file ..\Device\startup_stm32f303xe.s
+      At line 249 in file ..\Device\startup_stm32f303xe.s
 
 RTC_Alarm_IRQHandler 0000001A
 
@@ -1256,61 +1256,61 @@ Relocatable symbols
 
 Symbol: RTC_Alarm_IRQHandler
    Definitions
-      At line 360 in file startup_stm32f303xe.s
+      At line 360 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 135 in file startup_stm32f303xe.s
-      At line 285 in file startup_stm32f303xe.s
+      At line 135 in file ..\Device\startup_stm32f303xe.s
+      At line 285 in file ..\Device\startup_stm32f303xe.s
 
 RTC_WKUP_IRQHandler 0000001A
 
 Symbol: RTC_WKUP_IRQHandler
    Definitions
-      At line 322 in file startup_stm32f303xe.s
+      At line 322 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 97 in file startup_stm32f303xe.s
-      At line 247 in file startup_stm32f303xe.s
+      At line 97 in file ..\Device\startup_stm32f303xe.s
+      At line 247 in file ..\Device\startup_stm32f303xe.s
 
 Reset_Handler 00000000
 
 Symbol: Reset_Handler
    Definitions
-      At line 187 in file startup_stm32f303xe.s
+      At line 187 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 77 in file startup_stm32f303xe.s
-      At line 188 in file startup_stm32f303xe.s
+      At line 77 in file ..\Device\startup_stm32f303xe.s
+      At line 188 in file ..\Device\startup_stm32f303xe.s
 
 SPI1_IRQHandler 0000001A
 
 Symbol: SPI1_IRQHandler
    Definitions
-      At line 354 in file startup_stm32f303xe.s
+      At line 354 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 129 in file startup_stm32f303xe.s
-      At line 279 in file startup_stm32f303xe.s
+      At line 129 in file ..\Device\startup_stm32f303xe.s
+      At line 279 in file ..\Device\startup_stm32f303xe.s
 
 SPI2_IRQHandler 0000001A
 
 Symbol: SPI2_IRQHandler
    Definitions
-      At line 355 in file startup_stm32f303xe.s
+      At line 355 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 130 in file startup_stm32f303xe.s
-      At line 280 in file startup_stm32f303xe.s
+      At line 130 in file ..\Device\startup_stm32f303xe.s
+      At line 280 in file ..\Device\startup_stm32f303xe.s
 
 SPI3_IRQHandler 0000001A
 
 Symbol: SPI3_IRQHandler
    Definitions
-      At line 368 in file startup_stm32f303xe.s
+      At line 368 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 145 in file startup_stm32f303xe.s
-      At line 293 in file startup_stm32f303xe.s
+      At line 145 in file ..\Device\startup_stm32f303xe.s
+      At line 293 in file ..\Device\startup_stm32f303xe.s
 
 SPI4_IRQHandler 0000001A
 
 Symbol: SPI4_IRQHandler
    Definitions
-      At line 392 in file startup_stm32f303xe.s
+      At line 392 in file ..\Device\startup_stm32f303xe.s
    Uses
 
 
@@ -1318,62 +1318,62 @@ Symbol: SPI4_IRQHandler
 ARM Macro Assembler    Page 9 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 178 in file startup_stm32f303xe.s
-      At line 317 in file startup_stm32f303xe.s
+      At line 178 in file ..\Device\startup_stm32f303xe.s
+      At line 317 in file ..\Device\startup_stm32f303xe.s
 
 SVC_Handler 00000012
 
 Symbol: SVC_Handler
    Definitions
-      At line 224 in file startup_stm32f303xe.s
+      At line 224 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 87 in file startup_stm32f303xe.s
-      At line 225 in file startup_stm32f303xe.s
+      At line 87 in file ..\Device\startup_stm32f303xe.s
+      At line 225 in file ..\Device\startup_stm32f303xe.s
 
 SysTick_Handler 00000018
 
 Symbol: SysTick_Handler
    Definitions
-      At line 237 in file startup_stm32f303xe.s
+      At line 237 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 91 in file startup_stm32f303xe.s
-      At line 238 in file startup_stm32f303xe.s
+      At line 91 in file ..\Device\startup_stm32f303xe.s
+      At line 238 in file ..\Device\startup_stm32f303xe.s
 
 TAMP_STAMP_IRQHandler 0000001A
 
 Symbol: TAMP_STAMP_IRQHandler
    Definitions
-      At line 321 in file startup_stm32f303xe.s
+      At line 321 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 96 in file startup_stm32f303xe.s
-      At line 246 in file startup_stm32f303xe.s
+      At line 96 in file ..\Device\startup_stm32f303xe.s
+      At line 246 in file ..\Device\startup_stm32f303xe.s
 
 TIM1_BRK_TIM15_IRQHandler 0000001A
 
 Symbol: TIM1_BRK_TIM15_IRQHandler
    Definitions
-      At line 343 in file startup_stm32f303xe.s
+      At line 343 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 118 in file startup_stm32f303xe.s
-      At line 268 in file startup_stm32f303xe.s
+      At line 118 in file ..\Device\startup_stm32f303xe.s
+      At line 268 in file ..\Device\startup_stm32f303xe.s
 
 TIM1_CC_IRQHandler 0000001A
 
 Symbol: TIM1_CC_IRQHandler
    Definitions
-      At line 346 in file startup_stm32f303xe.s
+      At line 346 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 121 in file startup_stm32f303xe.s
-      At line 271 in file startup_stm32f303xe.s
+      At line 121 in file ..\Device\startup_stm32f303xe.s
+      At line 271 in file ..\Device\startup_stm32f303xe.s
 
 TIM1_TRG_COM_TIM17_IRQHandler 0000001A
 
 Symbol: TIM1_TRG_COM_TIM17_IRQHandler
    Definitions
-      At line 345 in file startup_stm32f303xe.s
+      At line 345 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 120 in file startup_stm32f303xe.s
-      At line 270 in file startup_stm32f303xe.s
+      At line 120 in file ..\Device\startup_stm32f303xe.s
+      At line 270 in file ..\Device\startup_stm32f303xe.s
 
 TIM1_UP_TIM16_IRQHandler 0000001A
 
@@ -1385,124 +1385,124 @@ Relocatable symbols
 
 Symbol: TIM1_UP_TIM16_IRQHandler
    Definitions
-      At line 344 in file startup_stm32f303xe.s
+      At line 344 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 119 in file startup_stm32f303xe.s
-      At line 269 in file startup_stm32f303xe.s
+      At line 119 in file ..\Device\startup_stm32f303xe.s
+      At line 269 in file ..\Device\startup_stm32f303xe.s
 
 TIM20_BRK_IRQHandler 0000001A
 
 Symbol: TIM20_BRK_IRQHandler
    Definitions
-      At line 387 in file startup_stm32f303xe.s
+      At line 387 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 171 in file startup_stm32f303xe.s
-      At line 312 in file startup_stm32f303xe.s
+      At line 171 in file ..\Device\startup_stm32f303xe.s
+      At line 312 in file ..\Device\startup_stm32f303xe.s
 
 TIM20_CC_IRQHandler 0000001A
 
 Symbol: TIM20_CC_IRQHandler
    Definitions
-      At line 390 in file startup_stm32f303xe.s
+      At line 390 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 174 in file startup_stm32f303xe.s
-      At line 315 in file startup_stm32f303xe.s
+      At line 174 in file ..\Device\startup_stm32f303xe.s
+      At line 315 in file ..\Device\startup_stm32f303xe.s
 
 TIM20_TRG_COM_IRQHandler 0000001A
 
 Symbol: TIM20_TRG_COM_IRQHandler
    Definitions
-      At line 389 in file startup_stm32f303xe.s
+      At line 389 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 173 in file startup_stm32f303xe.s
-      At line 314 in file startup_stm32f303xe.s
+      At line 173 in file ..\Device\startup_stm32f303xe.s
+      At line 314 in file ..\Device\startup_stm32f303xe.s
 
 TIM20_UP_IRQHandler 0000001A
 
 Symbol: TIM20_UP_IRQHandler
    Definitions
-      At line 388 in file startup_stm32f303xe.s
+      At line 388 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 172 in file startup_stm32f303xe.s
-      At line 313 in file startup_stm32f303xe.s
+      At line 172 in file ..\Device\startup_stm32f303xe.s
+      At line 313 in file ..\Device\startup_stm32f303xe.s
 
 TIM2_IRQHandler 0000001A
 
 Symbol: TIM2_IRQHandler
    Definitions
-      At line 347 in file startup_stm32f303xe.s
+      At line 347 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 122 in file startup_stm32f303xe.s
-      At line 272 in file startup_stm32f303xe.s
+      At line 122 in file ..\Device\startup_stm32f303xe.s
+      At line 272 in file ..\Device\startup_stm32f303xe.s
 
 TIM3_IRQHandler 0000001A
 
 Symbol: TIM3_IRQHandler
    Definitions
-      At line 348 in file startup_stm32f303xe.s
+      At line 348 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 123 in file startup_stm32f303xe.s
+      At line 123 in file ..\Device\startup_stm32f303xe.s
 
 
 
 ARM Macro Assembler    Page 11 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 273 in file startup_stm32f303xe.s
+      At line 273 in file ..\Device\startup_stm32f303xe.s
 
 TIM4_IRQHandler 0000001A
 
 Symbol: TIM4_IRQHandler
    Definitions
-      At line 349 in file startup_stm32f303xe.s
+      At line 349 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 124 in file startup_stm32f303xe.s
-      At line 274 in file startup_stm32f303xe.s
+      At line 124 in file ..\Device\startup_stm32f303xe.s
+      At line 274 in file ..\Device\startup_stm32f303xe.s
 
 TIM6_DAC_IRQHandler 0000001A
 
 Symbol: TIM6_DAC_IRQHandler
    Definitions
-      At line 371 in file startup_stm32f303xe.s
+      At line 371 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 148 in file startup_stm32f303xe.s
-      At line 296 in file startup_stm32f303xe.s
+      At line 148 in file ..\Device\startup_stm32f303xe.s
+      At line 296 in file ..\Device\startup_stm32f303xe.s
 
 TIM7_IRQHandler 0000001A
 
 Symbol: TIM7_IRQHandler
    Definitions
-      At line 372 in file startup_stm32f303xe.s
+      At line 372 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 149 in file startup_stm32f303xe.s
-      At line 297 in file startup_stm32f303xe.s
+      At line 149 in file ..\Device\startup_stm32f303xe.s
+      At line 297 in file ..\Device\startup_stm32f303xe.s
 
 TIM8_BRK_IRQHandler 0000001A
 
 Symbol: TIM8_BRK_IRQHandler
    Definitions
-      At line 362 in file startup_stm32f303xe.s
+      At line 362 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 137 in file startup_stm32f303xe.s
-      At line 287 in file startup_stm32f303xe.s
+      At line 137 in file ..\Device\startup_stm32f303xe.s
+      At line 287 in file ..\Device\startup_stm32f303xe.s
 
 TIM8_CC_IRQHandler 0000001A
 
 Symbol: TIM8_CC_IRQHandler
    Definitions
-      At line 365 in file startup_stm32f303xe.s
+      At line 365 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 140 in file startup_stm32f303xe.s
-      At line 290 in file startup_stm32f303xe.s
+      At line 140 in file ..\Device\startup_stm32f303xe.s
+      At line 290 in file ..\Device\startup_stm32f303xe.s
 
 TIM8_TRG_COM_IRQHandler 0000001A
 
 Symbol: TIM8_TRG_COM_IRQHandler
    Definitions
-      At line 364 in file startup_stm32f303xe.s
+      At line 364 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 139 in file startup_stm32f303xe.s
-      At line 289 in file startup_stm32f303xe.s
+      At line 139 in file ..\Device\startup_stm32f303xe.s
+      At line 289 in file ..\Device\startup_stm32f303xe.s
 
 TIM8_UP_IRQHandler 0000001A
 
@@ -1514,64 +1514,64 @@ ARM Macro Assembler    Page 12 Alphabetic symbol ordering
 Relocatable symbols
 
    Definitions
-      At line 363 in file startup_stm32f303xe.s
+      At line 363 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 138 in file startup_stm32f303xe.s
-      At line 288 in file startup_stm32f303xe.s
+      At line 138 in file ..\Device\startup_stm32f303xe.s
+      At line 288 in file ..\Device\startup_stm32f303xe.s
 
 UART4_IRQHandler 0000001A
 
 Symbol: UART4_IRQHandler
    Definitions
-      At line 369 in file startup_stm32f303xe.s
+      At line 369 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 146 in file startup_stm32f303xe.s
-      At line 294 in file startup_stm32f303xe.s
+      At line 146 in file ..\Device\startup_stm32f303xe.s
+      At line 294 in file ..\Device\startup_stm32f303xe.s
 
 UART5_IRQHandler 0000001A
 
 Symbol: UART5_IRQHandler
    Definitions
-      At line 370 in file startup_stm32f303xe.s
+      At line 370 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 147 in file startup_stm32f303xe.s
-      At line 295 in file startup_stm32f303xe.s
+      At line 147 in file ..\Device\startup_stm32f303xe.s
+      At line 295 in file ..\Device\startup_stm32f303xe.s
 
 USART1_IRQHandler 0000001A
 
 Symbol: USART1_IRQHandler
    Definitions
-      At line 356 in file startup_stm32f303xe.s
+      At line 356 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 131 in file startup_stm32f303xe.s
-      At line 281 in file startup_stm32f303xe.s
+      At line 131 in file ..\Device\startup_stm32f303xe.s
+      At line 281 in file ..\Device\startup_stm32f303xe.s
 
 USART2_IRQHandler 0000001A
 
 Symbol: USART2_IRQHandler
    Definitions
-      At line 357 in file startup_stm32f303xe.s
+      At line 357 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 132 in file startup_stm32f303xe.s
-      At line 282 in file startup_stm32f303xe.s
+      At line 132 in file ..\Device\startup_stm32f303xe.s
+      At line 282 in file ..\Device\startup_stm32f303xe.s
 
 USART3_IRQHandler 0000001A
 
 Symbol: USART3_IRQHandler
    Definitions
-      At line 358 in file startup_stm32f303xe.s
+      At line 358 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 133 in file startup_stm32f303xe.s
-      At line 283 in file startup_stm32f303xe.s
+      At line 133 in file ..\Device\startup_stm32f303xe.s
+      At line 283 in file ..\Device\startup_stm32f303xe.s
 
 USBWakeUp_IRQHandler 0000001A
 
 Symbol: USBWakeUp_IRQHandler
    Definitions
-      At line 361 in file startup_stm32f303xe.s
+      At line 361 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 136 in file startup_stm32f303xe.s
-      At line 286 in file startup_stm32f303xe.s
+      At line 136 in file ..\Device\startup_stm32f303xe.s
+      At line 286 in file ..\Device\startup_stm32f303xe.s
 
 
 
@@ -1583,55 +1583,55 @@ USBWakeUp_RMP_IRQHandler 0000001A
 
 Symbol: USBWakeUp_RMP_IRQHandler
    Definitions
-      At line 386 in file startup_stm32f303xe.s
+      At line 386 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 170 in file startup_stm32f303xe.s
-      At line 311 in file startup_stm32f303xe.s
+      At line 170 in file ..\Device\startup_stm32f303xe.s
+      At line 311 in file ..\Device\startup_stm32f303xe.s
 
 USB_HP_CAN_TX_IRQHandler 0000001A
 
 Symbol: USB_HP_CAN_TX_IRQHandler
    Definitions
-      At line 338 in file startup_stm32f303xe.s
+      At line 338 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 113 in file startup_stm32f303xe.s
-      At line 263 in file startup_stm32f303xe.s
+      At line 113 in file ..\Device\startup_stm32f303xe.s
+      At line 263 in file ..\Device\startup_stm32f303xe.s
 
 USB_HP_IRQHandler 0000001A
 
 Symbol: USB_HP_IRQHandler
    Definitions
-      At line 384 in file startup_stm32f303xe.s
+      At line 384 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 168 in file startup_stm32f303xe.s
-      At line 309 in file startup_stm32f303xe.s
+      At line 168 in file ..\Device\startup_stm32f303xe.s
+      At line 309 in file ..\Device\startup_stm32f303xe.s
 
 USB_LP_CAN_RX0_IRQHandler 0000001A
 
 Symbol: USB_LP_CAN_RX0_IRQHandler
    Definitions
-      At line 339 in file startup_stm32f303xe.s
+      At line 339 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 114 in file startup_stm32f303xe.s
-      At line 264 in file startup_stm32f303xe.s
+      At line 114 in file ..\Device\startup_stm32f303xe.s
+      At line 264 in file ..\Device\startup_stm32f303xe.s
 
 USB_LP_IRQHandler 0000001A
 
 Symbol: USB_LP_IRQHandler
    Definitions
-      At line 385 in file startup_stm32f303xe.s
+      At line 385 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 169 in file startup_stm32f303xe.s
-      At line 310 in file startup_stm32f303xe.s
+      At line 169 in file ..\Device\startup_stm32f303xe.s
+      At line 310 in file ..\Device\startup_stm32f303xe.s
 
 UsageFault_Handler 00000010
 
 Symbol: UsageFault_Handler
    Definitions
-      At line 220 in file startup_stm32f303xe.s
+      At line 220 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 82 in file startup_stm32f303xe.s
-      At line 221 in file startup_stm32f303xe.s
+      At line 82 in file ..\Device\startup_stm32f303xe.s
+      At line 221 in file ..\Device\startup_stm32f303xe.s
 
 WWDG_IRQHandler 0000001A
 
@@ -1643,10 +1643,10 @@ Symbol: WWDG_IRQHandler
 ARM Macro Assembler    Page 14 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 319 in file startup_stm32f303xe.s
+      At line 319 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 94 in file startup_stm32f303xe.s
-      At line 244 in file startup_stm32f303xe.s
+      At line 94 in file ..\Device\startup_stm32f303xe.s
+      At line 244 in file ..\Device\startup_stm32f303xe.s
 
 86 symbols
 
@@ -1659,25 +1659,25 @@ Heap_Size 00000200
 
 Symbol: Heap_Size
    Definitions
-      At line 59 in file startup_stm32f303xe.s
+      At line 59 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 63 in file startup_stm32f303xe.s
+      At line 63 in file ..\Device\startup_stm32f303xe.s
 Comment: Heap_Size used once
 Stack_Size 00000400
 
 Symbol: Stack_Size
    Definitions
-      At line 48 in file startup_stm32f303xe.s
+      At line 48 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 51 in file startup_stm32f303xe.s
+      At line 51 in file ..\Device\startup_stm32f303xe.s
 Comment: Stack_Size used once
 __Vectors_Size 00000194
 
 Symbol: __Vectors_Size
    Definitions
-      At line 182 in file startup_stm32f303xe.s
+      At line 182 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 74 in file startup_stm32f303xe.s
+      At line 74 in file ..\Device\startup_stm32f303xe.s
 Comment: __Vectors_Size used once
 3 symbols
 
@@ -1690,17 +1690,17 @@ SystemInit 00000000
 
 Symbol: SystemInit
    Definitions
-      At line 189 in file startup_stm32f303xe.s
+      At line 189 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 192 in file startup_stm32f303xe.s
+      At line 192 in file ..\Device\startup_stm32f303xe.s
 Comment: SystemInit used once
 __main 00000000
 
 Symbol: __main
    Definitions
-      At line 190 in file startup_stm32f303xe.s
+      At line 190 in file ..\Device\startup_stm32f303xe.s
    Uses
-      At line 194 in file startup_stm32f303xe.s
+      At line 194 in file ..\Device\startup_stm32f303xe.s
 Comment: __main used once
 2 symbols
 438 symbols in table

@@ -1,9 +1,9 @@
-diebieslave\usbd_cdc_if.o: ../Src/usbd_cdc_if.c
-diebieslave\usbd_cdc_if.o: ../Inc/usbd_cdc_if.h
+diebieslave\usbd_cdc_if.o: ..\Drivers\HWDrivers\Src\usbd_cdc_if.c
+diebieslave\usbd_cdc_if.o: ..\Drivers\HWDrivers\Inc\usbd_cdc_if.h
 diebieslave\usbd_cdc_if.o: ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h
 diebieslave\usbd_cdc_if.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h
 diebieslave\usbd_cdc_if.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h
-diebieslave\usbd_cdc_if.o: ../Inc/usbd_conf.h
+diebieslave\usbd_cdc_if.o: ..\Drivers\HWDrivers\Inc\usbd_conf.h
 diebieslave\usbd_cdc_if.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 diebieslave\usbd_cdc_if.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 diebieslave\usbd_cdc_if.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
@@ -17,8 +17,8 @@ diebieslave\usbd_cdc_if.o: ../Drivers/CMSIS/Include/core_cmFunc.h
 diebieslave\usbd_cdc_if.o: ../Drivers/CMSIS/Include/core_cmSimd.h
 diebieslave\usbd_cdc_if.o: ../Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h
 diebieslave\usbd_cdc_if.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h
-diebieslave\usbd_cdc_if.o: ../Inc/stm32f3xx_hal_conf.h
-diebieslave\usbd_cdc_if.o: ../Inc/mxconstants.h
+diebieslave\usbd_cdc_if.o: ..\Device\Inc\stm32f3xx_hal_conf.h
+diebieslave\usbd_cdc_if.o: ..\Device\Inc\mxconstants.h
 diebieslave\usbd_cdc_if.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h
 diebieslave\usbd_cdc_if.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h
 diebieslave\usbd_cdc_if.o: ../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h
