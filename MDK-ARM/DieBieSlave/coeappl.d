@@ -1,0 +1,15 @@
+diebieslave\coeappl.o: ..\Middlewares\SSC\Src\coeappl.c
+diebieslave\coeappl.o: ..\Middlewares\SSC\Inc\ecat_def.h
+diebieslave\coeappl.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+diebieslave\coeappl.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+diebieslave\coeappl.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+diebieslave\coeappl.o: ..\Middlewares\SSC\Inc\ecatslv.h
+diebieslave\coeappl.o: ..\Middlewares\SSC\Inc\middleLAN9252.h
+diebieslave\coeappl.o: ..\Middlewares\SSC\Inc\esc.h
+diebieslave\coeappl.o: ..\Middlewares\SSC\Inc\coeappl.h
+diebieslave\coeappl.o: ..\Middlewares\SSC\Inc\objdef.h
+diebieslave\coeappl.o: ..\Middlewares\SSC\Inc\sdoserv.h
+diebieslave\coeappl.o: ..\Middlewares\SSC\Inc\ecatcoe.h
+diebieslave\coeappl.o: ..\Middlewares\SSC\Inc\mailbox.h
+diebieslave\coeappl.o: ..\Middlewares\SSC\Inc\el9800appl.h
+diebieslave\coeappl.o: ..\Middlewares\SSC\Inc\ecatappl.h

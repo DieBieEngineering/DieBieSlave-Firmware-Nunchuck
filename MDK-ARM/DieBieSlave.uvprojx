@@ -334,7 +334,7 @@
               <MiscControls>--C99</MiscControls>
               <Define>USE_HAL_DRIVER,STM32F303xE</Define>
               <Undefine></Undefine>
-              <IncludePath>../Inc;../Drivers/STM32F3xx_HAL_Driver/Inc;../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy;../Middlewares/ST/STM32_USB_Device_Library/Core/Inc;../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc;../Drivers/CMSIS/Include;../Drivers/CMSIS/Device/ST/STM32F3xx/Include</IncludePath>
+              <IncludePath>..\Device\Src;..\Device\Inc;../Drivers/STM32F3xx_HAL_Driver/Inc;../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Include;../Drivers/CMSIS/Device/ST/STM32F3xx/Include;../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc;../Middlewares/ST/STM32_USB_Device_Library/Core/Inc;..\Drivers\HWDrivers\Inc;..\Drivers\HWDrivers\Src;..\Drivers\SWDrivers\Inc;..\Drivers\SWDrivers\Src;..\Modules\Inc;..\Modules\Src;..\Libraries\Inc;..\Libraries\Src;..\Middlewares\SSC\Inc;..\Middlewares\SSC\Src</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -375,7 +375,7 @@
       </TargetOption>
       <Groups>
         <Group>
-          <GroupName>Drivers/STM32F3xx_HAL_Driver</GroupName>
+          <GroupName>Drivers/HALDriver</GroupName>
           <Files>
             <File>
               <FileName>stm32f3xx_hal_uart.c</FileName>
@@ -485,67 +485,102 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>Application/MDK-ARM</GroupName>
+          <GroupName>Drivers/HWDriver</GroupName>
           <Files>
             <File>
-              <FileName>startup_stm32f303xe.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>startup_stm32f303xe.s</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>Application/User</GroupName>
-          <Files>
-            <File>
-              <FileName>main.c</FileName>
+              <FileName>driverHWSPI1.c</FileName>
               <FileType>1</FileType>
-              <FilePath>../Src/main.c</FilePath>
+              <FilePath>..\Drivers\HWDrivers\Src\driverHWSPI1.c</FilePath>
             </File>
             <File>
-              <FileName>usbd_cdc_if.c</FileName>
+              <FileName>driverHWStatus.c</FileName>
               <FileType>1</FileType>
-              <FilePath>../Src/usbd_cdc_if.c</FilePath>
-            </File>
-            <File>
-              <FileName>usbd_conf.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>../Src/usbd_conf.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f3xx_hal_msp.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>../Src/stm32f3xx_hal_msp.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f3xx_it.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>../Src/stm32f3xx_it.c</FilePath>
+              <FilePath>..\Drivers\HWDrivers\Src\driverHWStatus.c</FilePath>
             </File>
             <File>
               <FileName>usb_device.c</FileName>
               <FileType>1</FileType>
-              <FilePath>../Src/usb_device.c</FilePath>
+              <FilePath>..\Drivers\HWDrivers\Src\usb_device.c</FilePath>
+            </File>
+            <File>
+              <FileName>usbd_cdc_if.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\HWDrivers\Src\usbd_cdc_if.c</FilePath>
+            </File>
+            <File>
+              <FileName>usbd_conf.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\HWDrivers\Src\usbd_conf.c</FilePath>
             </File>
             <File>
               <FileName>usbd_desc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>../Src/usbd_desc.c</FilePath>
+              <FilePath>..\Drivers\HWDrivers\Src\usbd_desc.c</FilePath>
             </File>
           </Files>
         </Group>
         <Group>
-          <GroupName>Drivers/CMSIS</GroupName>
+          <GroupName>Driver/SWDriver</GroupName>
           <Files>
             <File>
-              <FileName>system_stm32f3xx.c</FileName>
+              <FileName>driverSWLAN9252.c</FileName>
               <FileType>1</FileType>
-              <FilePath>../Drivers/CMSIS//Device/ST/STM32F3xx/Source/Templates/system_stm32f3xx.c</FilePath>
+              <FilePath>..\Drivers\SWDrivers\Src\driverSWLAN9252.c</FilePath>
             </File>
           </Files>
         </Group>
         <Group>
-          <GroupName>Middlewares/USB_Device_Library</GroupName>
+          <GroupName>Middlewares/SSC</GroupName>
+          <Files>
+            <File>
+              <FileName>middleLAN9252.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Middlewares\SSC\Src\middleLAN9252.c</FilePath>
+            </File>
+            <File>
+              <FileName>ecatappl.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Middlewares\SSC\Src\ecatappl.c</FilePath>
+            </File>
+            <File>
+              <FileName>el9800appl.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Middlewares\SSC\Src\el9800appl.c</FilePath>
+            </File>
+            <File>
+              <FileName>coeappl.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Middlewares\SSC\Src\coeappl.c</FilePath>
+            </File>
+            <File>
+              <FileName>ecatslv.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Middlewares\SSC\Src\ecatslv.c</FilePath>
+            </File>
+            <File>
+              <FileName>objdef.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Middlewares\SSC\Src\objdef.c</FilePath>
+            </File>
+            <File>
+              <FileName>sdoserv.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Middlewares\SSC\Src\sdoserv.c</FilePath>
+            </File>
+            <File>
+              <FileName>ecatcoe.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Middlewares\SSC\Src\ecatcoe.c</FilePath>
+            </File>
+            <File>
+              <FileName>mailbox.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Middlewares\SSC\Src\mailbox.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Middlewares/USB</GroupName>
           <Files>
             <File>
               <FileName>usbd_cdc.c</FileName>
@@ -566,6 +601,61 @@
               <FileName>usbd_core.c</FileName>
               <FileType>1</FileType>
               <FilePath>../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Modules</GroupName>
+          <Files>
+            <File>
+              <FileName>modDelay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Modules\Src\modDelay.c</FilePath>
+            </File>
+            <File>
+              <FileName>modEffect.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Modules\Src\modEffect.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Device</GroupName>
+          <Files>
+            <File>
+              <FileName>startup_stm32f303xe.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\Device\startup_stm32f303xe.s</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f3xx_hal_msp.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Device\Src\stm32f3xx_hal_msp.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f3xx_it.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Device\Src\stm32f3xx_it.c</FilePath>
+            </File>
+            <File>
+              <FileName>system_stm32f3xx.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Device\Src\system_stm32f3xx.c</FilePath>
+            </File>
+            <File>
+              <FileName>dataHelper.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Device\Inc\dataHelper.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Main</GroupName>
+          <Files>
+            <File>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Main\main.c</FilePath>
             </File>
           </Files>
         </Group>

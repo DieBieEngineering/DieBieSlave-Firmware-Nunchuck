@@ -51,8 +51,8 @@
 #define LAN_SYNC0_GPIO_Port GPIOC
 #define LAN_SYNC1_Pin GPIO_PIN_5
 #define LAN_SYNC1_GPIO_Port GPIOC
-#define SPI1_CS_Pin GPIO_PIN_12
-#define SPI1_CS_GPIO_Port GPIOB
+#define LAN_CS_Pin GPIO_PIN_12
+#define LAN_CS_GPIO_Port GPIOB
 #define LAN_IRQ_Pin GPIO_PIN_13
 #define LAN_IRQ_GPIO_Port GPIOB
 #define LAN_SYNC0B14_Pin GPIO_PIN_14

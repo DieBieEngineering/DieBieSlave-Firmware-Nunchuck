@@ -2,6 +2,7 @@ diebieslave\main.o: ..\Main\main.c
 diebieslave\main.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h
 diebieslave\main.o: ..\Device\Inc\stm32f3xx_hal_conf.h
 diebieslave\main.o: ..\Device\Inc\mxconstants.h
+diebieslave\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 diebieslave\main.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h
 diebieslave\main.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h
 diebieslave\main.o: ../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h
@@ -41,3 +42,14 @@ diebieslave\main.o: ..\Drivers\HWDrivers\Inc\usbd_conf.h
 diebieslave\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 diebieslave\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 diebieslave\main.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h
+diebieslave\main.o: ..\Modules\Inc\modDelay.h
+diebieslave\main.o: ..\Modules\Inc\modEffect.h
+diebieslave\main.o: ..\Modules\Inc\modDelay.h
+diebieslave\main.o: ..\Drivers\HWDrivers\Inc\driverHWStatus.h
+diebieslave\main.o: ..\Modules\Inc\modDelay.h
+diebieslave\main.o: ..\Drivers\SWDrivers\Inc\driverSWLAN9252.h
+diebieslave\main.o: ..\Device\Inc\dataHelper.h
+diebieslave\main.o: ..\Drivers\HWDrivers\Inc\driverHWSPI1.h
+diebieslave\main.o: ..\Middlewares\SSC\Inc\middleLAN9252.h
+diebieslave\main.o: ..\Middlewares\SSC\Inc\esc.h
+diebieslave\main.o: ..\Middlewares\SSC\Inc\ecat_def.h

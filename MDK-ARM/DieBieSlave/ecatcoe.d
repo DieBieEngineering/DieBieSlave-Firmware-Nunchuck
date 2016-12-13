@@ -1,0 +1,9 @@
+diebieslave\ecatcoe.o: ..\Middlewares\SSC\Src\ecatcoe.c
+diebieslave\ecatcoe.o: ..\Middlewares\SSC\Inc\ecat_def.h
+diebieslave\ecatcoe.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+diebieslave\ecatcoe.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+diebieslave\ecatcoe.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+diebieslave\ecatcoe.o: ..\Middlewares\SSC\Inc\sdoserv.h
+diebieslave\ecatcoe.o: ..\Middlewares\SSC\Inc\ecatcoe.h
+diebieslave\ecatcoe.o: ..\Middlewares\SSC\Inc\mailbox.h
+diebieslave\ecatcoe.o: ..\Middlewares\SSC\Inc\ecatcoe.h

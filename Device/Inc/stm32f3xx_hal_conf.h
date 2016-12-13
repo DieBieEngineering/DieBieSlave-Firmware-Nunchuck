@@ -41,6 +41,7 @@
 #endif
 
 #include "mxconstants.h" 
+#include <stdbool.h>
 
 /* Exported types ------------------------------------------------------------*/
 /* Exported constants --------------------------------------------------------*/

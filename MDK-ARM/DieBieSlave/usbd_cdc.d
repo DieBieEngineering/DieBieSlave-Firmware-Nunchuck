@@ -18,6 +18,7 @@ diebieslave\usbd_cdc.o: ../Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm3
 diebieslave\usbd_cdc.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h
 diebieslave\usbd_cdc.o: ..\Device\Inc\stm32f3xx_hal_conf.h
 diebieslave\usbd_cdc.o: ..\Device\Inc\mxconstants.h
+diebieslave\usbd_cdc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 diebieslave\usbd_cdc.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h
 diebieslave\usbd_cdc.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h
 diebieslave\usbd_cdc.o: ../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h

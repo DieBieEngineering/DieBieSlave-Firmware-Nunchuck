@@ -1,0 +1,11 @@
+diebieslave\mailbox.o: ..\Middlewares\SSC\Src\mailbox.c
+diebieslave\mailbox.o: ..\Middlewares\SSC\Inc\ecat_def.h
+diebieslave\mailbox.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+diebieslave\mailbox.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+diebieslave\mailbox.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+diebieslave\mailbox.o: ..\Middlewares\SSC\Inc\ecatslv.h
+diebieslave\mailbox.o: ..\Middlewares\SSC\Inc\middleLAN9252.h
+diebieslave\mailbox.o: ..\Middlewares\SSC\Inc\esc.h
+diebieslave\mailbox.o: ..\Middlewares\SSC\Inc\mailbox.h
+diebieslave\mailbox.o: ..\Middlewares\SSC\Inc\ecatcoe.h
+diebieslave\mailbox.o: ..\Middlewares\SSC\Inc\mailbox.h
