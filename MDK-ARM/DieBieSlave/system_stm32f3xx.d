@@ -11,7 +11,6 @@ diebieslave\system_stm32f3xx.o: ../Drivers/CMSIS/Device/ST/STM32F3xx/Include/sys
 diebieslave\system_stm32f3xx.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h
 diebieslave\system_stm32f3xx.o: ..\Device\Inc\stm32f3xx_hal_conf.h
 diebieslave\system_stm32f3xx.o: ..\Device\Inc\mxconstants.h
-diebieslave\system_stm32f3xx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 diebieslave\system_stm32f3xx.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h
 diebieslave\system_stm32f3xx.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h
 diebieslave\system_stm32f3xx.o: ../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h
@@ -34,5 +33,7 @@ diebieslave\system_stm32f3xx.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_ha
 diebieslave\system_stm32f3xx.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h
 diebieslave\system_stm32f3xx.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_spi.h
 diebieslave\system_stm32f3xx.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_spi_ex.h
+diebieslave\system_stm32f3xx.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h
+diebieslave\system_stm32f3xx.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h
 diebieslave\system_stm32f3xx.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h
 diebieslave\system_stm32f3xx.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h

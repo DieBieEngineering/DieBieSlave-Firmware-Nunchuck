@@ -4,6 +4,7 @@ SPI_HandleTypeDef driverHWSPI1Handle;
 
 void driverHWSPI1Init(void) {
   __HAL_RCC_GPIOB_CLK_ENABLE();
+	HAL_GPIO_WritePin(LAN_CS_GPIO_Port,LAN_CS_Pin,GPIO_PIN_SET);
   GPIO_InitTypeDef GPIO_InitStruct;
   GPIO_InitStruct.Pin = LAN_CS_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
@@ -17,7 +18,7 @@ void driverHWSPI1Init(void) {
   driverHWSPI1Handle.Init.CLKPolarity = SPI_POLARITY_LOW;
   driverHWSPI1Handle.Init.CLKPhase = SPI_PHASE_1EDGE;
   driverHWSPI1Handle.Init.NSS = SPI_NSS_SOFT;
-  driverHWSPI1Handle.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_128;
+  driverHWSPI1Handle.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_8; // <-- change this for faster SPI
   driverHWSPI1Handle.Init.FirstBit = SPI_FIRSTBIT_MSB;
   driverHWSPI1Handle.Init.TIMode = SPI_TIMODE_DISABLE;
   driverHWSPI1Handle.Init.CRCCalculation = SPI_CRCCALCULATION_DISABLE;
@@ -25,11 +26,7 @@ void driverHWSPI1Init(void) {
   driverHWSPI1Handle.Init.CRCLength = SPI_CRC_LENGTH_DATASIZE;
   driverHWSPI1Handle.Init.NSSPMode = SPI_NSS_PULSE_DISABLE;
   if (HAL_SPI_Init(&driverHWSPI1Handle) != HAL_OK)
-  {
     while(true);
-  }
-	
-	HAL_GPIO_WritePin(LAN_CS_GPIO_Port,LAN_CS_Pin,GPIO_PIN_SET);
 };
 
 bool driverHWSPI1Write(uint8_t *writeBuffer, uint8_t noOfBytesToWrite) {
@@ -44,6 +41,11 @@ bool driverHWSPI1Write(uint8_t *writeBuffer, uint8_t noOfBytesToWrite) {
 	
 	return (halReturnStatus == HAL_OK);																														// Return true if all went OK
 };
+
+bool driverHWSPI1WriteSingleByte(uint8_t data) {
+	uint8_t  writeByte[1] = {data};
+	return driverHWSPI1Write(writeByte,1);
+}
 
 bool driverHWSPI1WriteRead(uint8_t *writeBuffer, uint8_t noOfBytesToWrite, uint8_t *readBuffer, uint8_t noOfBytesToRead) {
 	uint8_t *writeArray, *readArray;

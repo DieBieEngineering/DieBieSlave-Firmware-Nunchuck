@@ -310,7 +310,7 @@
           </ArmAdsMisc>
           <Cads>
             <interw>1</interw>
-            <Optim>4</Optim>
+            <Optim>1</Optim>
             <oTime>0</oTime>
             <SplitLS>0</SplitLS>
             <OneElfS>1</OneElfS>
@@ -488,14 +488,24 @@
           <GroupName>Drivers/HWDriver</GroupName>
           <Files>
             <File>
-              <FileName>driverHWSPI1.c</FileName>
+              <FileName>driverHWECATTickTimer.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Drivers\HWDrivers\Src\driverHWSPI1.c</FilePath>
+              <FilePath>..\Drivers\HWDrivers\Src\driverHWECATTickTimer.c</FilePath>
+            </File>
+            <File>
+              <FileName>driverHWLANInterrupt.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\HWDrivers\Src\driverHWLANInterrupt.c</FilePath>
             </File>
             <File>
               <FileName>driverHWStatus.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Drivers\HWDrivers\Src\driverHWStatus.c</FilePath>
+            </File>
+            <File>
+              <FileName>driverHWSPI1.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\HWDrivers\Src\driverHWSPI1.c</FilePath>
             </File>
             <File>
               <FileName>usb_device.c</FileName>

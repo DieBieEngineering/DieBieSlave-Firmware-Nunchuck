@@ -103,7 +103,7 @@
   * @{
   */
 #if !defined  (HSE_VALUE) 
-  #define HSE_VALUE    ((uint32_t)8000000) /*!< Default value of the External oscillator in Hz.
+  #define HSE_VALUE    ((uint32_t)12000000) /*!< Default value of the External oscillator in Hz.
                                                 This value can be provided and adapted by the user application. */
 #endif /* HSE_VALUE */
 
@@ -140,7 +140,7 @@
                call the 2 first functions listed above, since SystemCoreClock variable is 
                updated automatically.
   */
-uint32_t SystemCoreClock = 8000000;
+uint32_t SystemCoreClock = 12000000;
 
 const uint8_t AHBPrescTable[16] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};
 const uint8_t APBPrescTable[8]  = {0, 0, 0, 0, 1, 2, 3, 4};

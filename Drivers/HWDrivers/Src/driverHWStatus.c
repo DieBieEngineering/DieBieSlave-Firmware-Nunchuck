@@ -12,6 +12,9 @@ void driverHWStatusInit(void) {
 	GPIO_InitTypeDef STATPortHolder;
 	uint8_t STATPointer;
 	
+	__HAL_RCC_GPIOA_CLK_ENABLE();
+	__HAL_RCC_GPIOB_CLK_ENABLE();
+	
 	for(STATPointer = 0; STATPointer < NoOfSTATs; STATPointer++) {
 		RCC->AHBENR |= STATPorts[STATPointer].ClkRegister;						// Enable clock de desired port
 		STATPortHolder.Mode = GPIO_MODE_OUTPUT_PP;										// Push pull output

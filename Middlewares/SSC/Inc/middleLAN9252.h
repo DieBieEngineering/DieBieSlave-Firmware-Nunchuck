@@ -17,6 +17,7 @@
 	0.3			-
 	0.4			-
 	1.0			-
+	1.3			- *Re-arranged the functions. 
 *******************************************************************************/
 
 /*******************************************************************************
@@ -47,37 +48,19 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 
 ///////////////////////////////////////////////////////////////////////////////
 // Includes
-
 #include  "esc.h"
-
-///////////////////////////////////////////////////////////////////////////////
-// Defines, types
-
-#define ESC_RD                    0x02 /**< \brief Indicates a read access to ESC or EEPROM*/
-#define ESC_WR                    0x04 /**< \brief Indicates a write access to ESC or EEPROM.*/
-
-#define PORT_CFG            {TRISD = 0xFFFF; TRISB = 0x0008; TRISF = 0xFFCC; TRISG = 0x210C; PORTB = 0x00F4; PORTF = 0x0030; PORTG = 0x1243;}
-#define SWITCH_1            PORTDbits.RD7 /**< \brief Access to switch 1 input*/
-#define SWITCH_2            PORTDbits.RD6 /**< \brief Access to switch 2 input*/
-#define SWITCH_3            PORTDbits.RD5 /**< \brief Access to switch 3 input*/
-#define SWITCH_4            PORTDbits.RD4 /**< \brief Access to switch 4 input*/
-#define SWITCH_5            PORTDbits.RD3 /**< \brief Access to switch 5 input*/
-#define SWITCH_6            PORTDbits.RD2 /**< \brief Access to switch 6 input*/
-#define SWITCH_7            PORTDbits.RD1 /**< \brief Access to switch 7 input*/
-#define SWITCH_8            PORTDbits.RD0 /**< \brief Access to switch 8 input*/
-
-#define LED_1               LATBbits.LATB8 /**< \brief Access to led 1 output*/
-#define LED_2               LATBbits.LATB9 /**< \brief Access to led 2 output*/
-#define LED_3               LATBbits.LATB10 /**< \brief Access to led 3 output*/
-#define LED_4               LATBbits.LATB11 /**< \brief Access to led 4 output*/
-#define LED_5               LATBbits.LATB12 /**< \brief Access to led 5 output*/
-#define LED_6               LATBbits.LATB13 /**< \brief Access to led 6 output*/
-#define LED_7               LATBbits.LATB14 /**< \brief Access to led 7 output*/
-#define LED_8               LATBbits.LATB15 /**< \brief Access to led 8 output*/
 
 ///////////////////////////////////////////////////////////////////////////////
 //9252 HW DEFINES
 #define ECAT_REG_BASE_ADDR              0x0300
+
+#define LAN9252_BYTE_ORDER_REG          0x0064																	// Test byte order
+#define LAN9252_CSR_INT_CONF            0x0054																	// IRQ buffer type in Interrupt Configuration register
+#define LAN9252_CSR_INT_EN              0x005C																	// Interrupt Enable output register
+#define LAN9252_CSR_INT_STS             0x0058																	// Interrupt Status register
+#define LAN9252_HW_CFG                  0x0074      														// hardware configuration register
+#define LAN9252_RESET_CTL               0x01F8      														// reset register       
+#define LAN9252_ID_REV                  0x0050      														// chip ID and revision
 
 #define CSR_DATA_REG_OFFSET             0x00
 #define CSR_CMD_REG_OFFSET              0x04
@@ -88,7 +71,6 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 
 #define PRAM_SPACE_AVBL_COUNT_MASK      0x1f
 #define IS_PRAM_SPACE_AVBL_MASK         0x01
-
 
 #define CSR_DATA_REG                    ECAT_REG_BASE_ADDR+CSR_DATA_REG_OFFSET
 #define CSR_CMD_REG                     ECAT_REG_BASE_ADDR+CSR_CMD_REG_OFFSET
@@ -111,39 +93,14 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 #define HBI_INDEXED_PRAM_READ_WRITE_FIFO    0x18
 
 #define PRAM_RW_ABORT_MASK      (1 << 30)
-#define PRAM_RW_BUSY_32B        2147483648/*(1 << 31)*/
+#define PRAM_RW_BUSY_32B        2147483648 /*(1 << 31)*/
 #define PRAM_RW_BUSY_8B         (1 << 7)
 #define PRAM_SET_READ           (1 << 6)
 #define PRAM_SET_WRITE          0
 
 ///////////////////////////////////////////////////////////////////////////////
-
-///////////////////////////////////////////////////////////////////////////////
 // Hardware timer settings
-#define ECAT_TIMER_INC_P_MS              312 /**< \brief 312 ticks per ms*/
-
-
-///////////////////////////////////////////////////////////////////////////////
-// Interrupt and Timer Defines
-
-#ifndef DISABLE_ESC_INT
-    #define    DISABLE_ESC_INT()          // {(IEC0bits.INT0IE)=0;} /**< \brief Disable interrupt source INT1*/
-#endif
-#ifndef ENABLE_ESC_INT
-    #define    ENABLE_ESC_INT()           //{(IEC0bits.INT0IE)=1;} /**< \brief Enable interrupt source INT1*/
-#endif
-
-//TODO
-#ifndef HW_GetTimer
-	#define HW_GetTimer()       0//((UINT16)(TMR5)) < \brief Access to the hardware timer TODO: Implement passing the timer value
-#endif
-
-#ifndef HW_ClearTimer
-	#define HW_ClearTimer()       //{(TMR5) = 0;} < \brief Clear the hardware timer TODO: Implement clearing the timer
-#endif
-
-#endif // end of #ifdef PIC32_HW
-
+#define ECAT_TIMER_INC_P_MS              10 /**< \brief 10 ticks per ms*/
 
 ///////////////////////////////////////////////////////////////////////////////
 // Interrupt and Timer defines
@@ -182,3 +139,9 @@ void HW_DisableSyncManChannel(UINT8 channel);
 void HW_EnableSyncManChannel(UINT8 channel);
 TSYNCMAN ESCMEM *HW_GetSyncMan(UINT8 channel);
 void HW_SetLed(UINT8 RunLed,UINT8 ErrLed);
+uint32_t HW_GetTimer(void);
+void HW_ClearTimer(void);
+void DISABLE_ESC_INT(void);
+void ENABLE_ESC_INT(void);
+
+#endif // end of #ifdef _9252_HW_H_

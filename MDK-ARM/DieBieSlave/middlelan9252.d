@@ -6,12 +6,10 @@ diebieslave\middlelan9252.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 diebieslave\middlelan9252.o: ..\Middlewares\SSC\Inc\ecatslv.h
 diebieslave\middlelan9252.o: ..\Middlewares\SSC\Inc\middleLAN9252.h
 diebieslave\middlelan9252.o: ..\Middlewares\SSC\Inc\esc.h
-diebieslave\middlelan9252.o: ..\Middlewares\SSC\Inc\middleLAN9252.h
 diebieslave\middlelan9252.o: ..\Drivers\SWDrivers\Inc\driverSWLAN9252.h
 diebieslave\middlelan9252.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h
 diebieslave\middlelan9252.o: ..\Device\Inc\stm32f3xx_hal_conf.h
 diebieslave\middlelan9252.o: ..\Device\Inc\mxconstants.h
-diebieslave\middlelan9252.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 diebieslave\middlelan9252.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h
 diebieslave\middlelan9252.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h
 diebieslave\middlelan9252.o: ../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h
@@ -42,9 +40,13 @@ diebieslave\middlelan9252.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_p
 diebieslave\middlelan9252.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h
 diebieslave\middlelan9252.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_spi.h
 diebieslave\middlelan9252.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_spi_ex.h
+diebieslave\middlelan9252.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h
+diebieslave\middlelan9252.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h
 diebieslave\middlelan9252.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h
 diebieslave\middlelan9252.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h
+diebieslave\middlelan9252.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 diebieslave\middlelan9252.o: ..\Device\Inc\dataHelper.h
 diebieslave\middlelan9252.o: ..\Drivers\HWDrivers\Inc\driverHWSPI1.h
-diebieslave\middlelan9252.o: ..\Middlewares\SSC\Inc\middleLAN9252.h
+diebieslave\middlelan9252.o: ..\Drivers\HWDrivers\Inc\driverHWECATTickTimer.h
+diebieslave\middlelan9252.o: ..\Drivers\HWDrivers\Inc\driverHWLANInterrupt.h
 diebieslave\middlelan9252.o: ..\Middlewares\SSC\Inc\ecatappl.h
