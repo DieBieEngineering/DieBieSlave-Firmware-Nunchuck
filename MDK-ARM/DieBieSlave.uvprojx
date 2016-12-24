@@ -334,7 +334,7 @@
               <MiscControls>--C99</MiscControls>
               <Define>USE_HAL_DRIVER,STM32F303xE</Define>
               <Undefine></Undefine>
-              <IncludePath>..\Device\Src;..\Device\Inc;../Drivers/STM32F3xx_HAL_Driver/Inc;../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Include;../Drivers/CMSIS/Device/ST/STM32F3xx/Include;../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc;../Middlewares/ST/STM32_USB_Device_Library/Core/Inc;..\Drivers\HWDrivers\Inc;..\Drivers\HWDrivers\Src;..\Drivers\SWDrivers\Inc;..\Drivers\SWDrivers\Src;..\Modules\Inc;..\Modules\Src;..\Libraries\Inc;..\Libraries\Src;..\Middlewares\SSC\Inc;..\Middlewares\SSC\Src</IncludePath>
+              <IncludePath>..\Device\Src;..\Device\Inc;../Drivers/STM32F3xx_HAL_Driver/Inc;../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Include;../Drivers/CMSIS/Device/ST/STM32F3xx/Include;../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc;../Middlewares/ST/STM32_USB_Device_Library/Core/Inc;..\Drivers\HWDrivers\Inc;..\Drivers\HWDrivers\Src;..\Drivers\SWDrivers\Inc;..\Drivers\SWDrivers\Src;..\Modules\Inc;..\Modules\Src;..\Libraries\Inc;..\Libraries\Src;..\Middlewares\SSC\Inc;..\Middlewares\SSC\Src;..\ObjDictionary\Inc;..\ObjDictionary\Src</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -543,49 +543,29 @@
           <GroupName>Middlewares/SSC</GroupName>
           <Files>
             <File>
-              <FileName>middleLAN9252.c</FileName>
+              <FileName>esc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\SSC\Src\middleLAN9252.c</FilePath>
+              <FilePath>..\Middlewares\SSC\Src\esc.c</FilePath>
             </File>
             <File>
-              <FileName>ecatappl.c</FileName>
+              <FileName>esc_coe.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\SSC\Src\ecatappl.c</FilePath>
+              <FilePath>..\Middlewares\SSC\Src\esc_coe.c</FilePath>
             </File>
             <File>
-              <FileName>el9800appl.c</FileName>
+              <FileName>esc_foe.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\SSC\Src\el9800appl.c</FilePath>
+              <FilePath>..\Middlewares\SSC\Src\esc_foe.c</FilePath>
             </File>
             <File>
-              <FileName>coeappl.c</FileName>
+              <FileName>soes.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\SSC\Src\coeappl.c</FilePath>
+              <FilePath>..\Middlewares\SSC\Src\soes.c</FilePath>
             </File>
             <File>
-              <FileName>ecatslv.c</FileName>
+              <FileName>objectlist.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\SSC\Src\ecatslv.c</FilePath>
-            </File>
-            <File>
-              <FileName>objdef.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Middlewares\SSC\Src\objdef.c</FilePath>
-            </File>
-            <File>
-              <FileName>sdoserv.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Middlewares\SSC\Src\sdoserv.c</FilePath>
-            </File>
-            <File>
-              <FileName>ecatcoe.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Middlewares\SSC\Src\ecatcoe.c</FilePath>
-            </File>
-            <File>
-              <FileName>mailbox.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Middlewares\SSC\Src\mailbox.c</FilePath>
+              <FilePath>..\Middlewares\SSC\Src\objectlist.c</FilePath>
             </File>
           </Files>
         </Group>

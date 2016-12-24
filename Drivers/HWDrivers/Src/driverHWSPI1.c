@@ -18,7 +18,7 @@ void driverHWSPI1Init(void) {
   driverHWSPI1Handle.Init.CLKPolarity = SPI_POLARITY_LOW;
   driverHWSPI1Handle.Init.CLKPhase = SPI_PHASE_1EDGE;
   driverHWSPI1Handle.Init.NSS = SPI_NSS_SOFT;
-  driverHWSPI1Handle.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_8; // <-- change this for faster SPI
+  driverHWSPI1Handle.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_2; // <-- change this for faster SPI
   driverHWSPI1Handle.Init.FirstBit = SPI_FIRSTBIT_MSB;
   driverHWSPI1Handle.Init.TIMode = SPI_TIMODE_DISABLE;
   driverHWSPI1Handle.Init.CRCCalculation = SPI_CRCCALCULATION_DISABLE;

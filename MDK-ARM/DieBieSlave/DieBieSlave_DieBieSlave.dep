@@ -1,5 +1,5 @@
 Dependencies for Project 'DieBieSlave', Target 'DieBieSlave': (DO NOT MODIFY !)
-F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c)(0x5782B964)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_uart.o --omf_browse diebieslave\stm32f3xx_hal_uart.crf --depend diebieslave\stm32f3xx_hal_uart.d)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c)(0x5782B964)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_uart.o --omf_browse diebieslave\stm32f3xx_hal_uart.crf --depend diebieslave\stm32f3xx_hal_uart.d)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5782B963)
 I (..\Device\Inc\stm32f3xx_hal_conf.h)(0x584FE34E)
 I (..\Device\Inc\mxconstants.h)(0x58543855)
@@ -37,7 +37,7 @@ I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x584FB5CD)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
-F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c)(0x5782B963)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_flash.o --omf_browse diebieslave\stm32f3xx_hal_flash.crf --depend diebieslave\stm32f3xx_hal_flash.d)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c)(0x5782B963)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_flash.o --omf_browse diebieslave\stm32f3xx_hal_flash.crf --depend diebieslave\stm32f3xx_hal_flash.d)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5782B963)
 I (..\Device\Inc\stm32f3xx_hal_conf.h)(0x584FE34E)
 I (..\Device\Inc\mxconstants.h)(0x58543855)
@@ -75,7 +75,7 @@ I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x584FB5CD)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
-F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c)(0x5782B963)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_gpio.o --omf_browse diebieslave\stm32f3xx_hal_gpio.crf --depend diebieslave\stm32f3xx_hal_gpio.d)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c)(0x5782B963)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_gpio.o --omf_browse diebieslave\stm32f3xx_hal_gpio.crf --depend diebieslave\stm32f3xx_hal_gpio.d)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5782B963)
 I (..\Device\Inc\stm32f3xx_hal_conf.h)(0x584FE34E)
 I (..\Device\Inc\mxconstants.h)(0x58543855)
@@ -113,7 +113,7 @@ I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x584FB5CD)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
-F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c)(0x584BEDA2)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_pwr_ex.o --omf_browse diebieslave\stm32f3xx_hal_pwr_ex.crf --depend diebieslave\stm32f3xx_hal_pwr_ex.d)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c)(0x584BEDA2)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_pwr_ex.o --omf_browse diebieslave\stm32f3xx_hal_pwr_ex.crf --depend diebieslave\stm32f3xx_hal_pwr_ex.d)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5782B963)
 I (..\Device\Inc\stm32f3xx_hal_conf.h)(0x584FE34E)
 I (..\Device\Inc\mxconstants.h)(0x58543855)
@@ -151,7 +151,7 @@ I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x584FB5CD)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
-F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c)(0x5782B963)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_i2c.o --omf_browse diebieslave\stm32f3xx_hal_i2c.crf --depend diebieslave\stm32f3xx_hal_i2c.d)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c)(0x5782B963)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_i2c.o --omf_browse diebieslave\stm32f3xx_hal_i2c.crf --depend diebieslave\stm32f3xx_hal_i2c.d)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5782B963)
 I (..\Device\Inc\stm32f3xx_hal_conf.h)(0x584FE34E)
 I (..\Device\Inc\mxconstants.h)(0x58543855)
@@ -189,7 +189,7 @@ I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x584FB5CD)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
-F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c)(0x5782B963)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_rcc_ex.o --omf_browse diebieslave\stm32f3xx_hal_rcc_ex.crf --depend diebieslave\stm32f3xx_hal_rcc_ex.d)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c)(0x5782B963)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_rcc_ex.o --omf_browse diebieslave\stm32f3xx_hal_rcc_ex.crf --depend diebieslave\stm32f3xx_hal_rcc_ex.d)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5782B963)
 I (..\Device\Inc\stm32f3xx_hal_conf.h)(0x584FE34E)
 I (..\Device\Inc\mxconstants.h)(0x58543855)
@@ -227,7 +227,7 @@ I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x584FB5CD)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
-F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c)(0x5782B963)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_pwr.o --omf_browse diebieslave\stm32f3xx_hal_pwr.crf --depend diebieslave\stm32f3xx_hal_pwr.d)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c)(0x5782B963)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_pwr.o --omf_browse diebieslave\stm32f3xx_hal_pwr.crf --depend diebieslave\stm32f3xx_hal_pwr.d)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5782B963)
 I (..\Device\Inc\stm32f3xx_hal_conf.h)(0x584FE34E)
 I (..\Device\Inc\mxconstants.h)(0x58543855)
@@ -265,7 +265,7 @@ I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x584FB5CD)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
-F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c)(0x5782B963)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal.o --omf_browse diebieslave\stm32f3xx_hal.crf --depend diebieslave\stm32f3xx_hal.d)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c)(0x5782B963)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal.o --omf_browse diebieslave\stm32f3xx_hal.crf --depend diebieslave\stm32f3xx_hal.d)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5782B963)
 I (..\Device\Inc\stm32f3xx_hal_conf.h)(0x584FE34E)
 I (..\Device\Inc\mxconstants.h)(0x58543855)
@@ -303,7 +303,7 @@ I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x584FB5CD)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
-F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c)(0x5782B963)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_i2c_ex.o --omf_browse diebieslave\stm32f3xx_hal_i2c_ex.crf --depend diebieslave\stm32f3xx_hal_i2c_ex.d)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c)(0x5782B963)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_i2c_ex.o --omf_browse diebieslave\stm32f3xx_hal_i2c_ex.crf --depend diebieslave\stm32f3xx_hal_i2c_ex.d)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5782B963)
 I (..\Device\Inc\stm32f3xx_hal_conf.h)(0x584FE34E)
 I (..\Device\Inc\mxconstants.h)(0x58543855)
@@ -341,7 +341,7 @@ I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x584FB5CD)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
-F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c)(0x5782B964)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_tim_ex.o --omf_browse diebieslave\stm32f3xx_hal_tim_ex.crf --depend diebieslave\stm32f3xx_hal_tim_ex.d)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c)(0x5782B964)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_tim_ex.o --omf_browse diebieslave\stm32f3xx_hal_tim_ex.crf --depend diebieslave\stm32f3xx_hal_tim_ex.d)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5782B963)
 I (..\Device\Inc\stm32f3xx_hal_conf.h)(0x584FE34E)
 I (..\Device\Inc\mxconstants.h)(0x58543855)
@@ -379,7 +379,7 @@ I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x584FB5CD)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
-F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c)(0x5782B963)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_flash_ex.o --omf_browse diebieslave\stm32f3xx_hal_flash_ex.crf --depend diebieslave\stm32f3xx_hal_flash_ex.d)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c)(0x5782B963)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_flash_ex.o --omf_browse diebieslave\stm32f3xx_hal_flash_ex.crf --depend diebieslave\stm32f3xx_hal_flash_ex.d)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5782B963)
 I (..\Device\Inc\stm32f3xx_hal_conf.h)(0x584FE34E)
 I (..\Device\Inc\mxconstants.h)(0x58543855)
@@ -417,7 +417,7 @@ I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x584FB5CD)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
-F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c)(0x5782B963)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_can.o --omf_browse diebieslave\stm32f3xx_hal_can.crf --depend diebieslave\stm32f3xx_hal_can.d)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c)(0x5782B963)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_can.o --omf_browse diebieslave\stm32f3xx_hal_can.crf --depend diebieslave\stm32f3xx_hal_can.d)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5782B963)
 I (..\Device\Inc\stm32f3xx_hal_conf.h)(0x584FE34E)
 I (..\Device\Inc\mxconstants.h)(0x58543855)
@@ -455,7 +455,7 @@ I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x584FB5CD)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
-F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c)(0x5782B963)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_pcd_ex.o --omf_browse diebieslave\stm32f3xx_hal_pcd_ex.crf --depend diebieslave\stm32f3xx_hal_pcd_ex.d)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c)(0x5782B963)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_pcd_ex.o --omf_browse diebieslave\stm32f3xx_hal_pcd_ex.crf --depend diebieslave\stm32f3xx_hal_pcd_ex.d)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5782B963)
 I (..\Device\Inc\stm32f3xx_hal_conf.h)(0x584FE34E)
 I (..\Device\Inc\mxconstants.h)(0x58543855)
@@ -493,7 +493,7 @@ I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x584FB5CD)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
-F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c)(0x5782B964)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_tim.o --omf_browse diebieslave\stm32f3xx_hal_tim.crf --depend diebieslave\stm32f3xx_hal_tim.d)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c)(0x5782B964)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_tim.o --omf_browse diebieslave\stm32f3xx_hal_tim.crf --depend diebieslave\stm32f3xx_hal_tim.d)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5782B963)
 I (..\Device\Inc\stm32f3xx_hal_conf.h)(0x584FE34E)
 I (..\Device\Inc\mxconstants.h)(0x58543855)
@@ -531,7 +531,7 @@ I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x584FB5CD)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
-F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c)(0x5782B963)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_dma.o --omf_browse diebieslave\stm32f3xx_hal_dma.crf --depend diebieslave\stm32f3xx_hal_dma.d)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c)(0x5782B963)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_dma.o --omf_browse diebieslave\stm32f3xx_hal_dma.crf --depend diebieslave\stm32f3xx_hal_dma.d)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5782B963)
 I (..\Device\Inc\stm32f3xx_hal_conf.h)(0x584FE34E)
 I (..\Device\Inc\mxconstants.h)(0x58543855)
@@ -569,7 +569,7 @@ I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x584FB5CD)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
-F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c)(0x5782B963)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_rcc.o --omf_browse diebieslave\stm32f3xx_hal_rcc.crf --depend diebieslave\stm32f3xx_hal_rcc.d)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c)(0x5782B963)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_rcc.o --omf_browse diebieslave\stm32f3xx_hal_rcc.crf --depend diebieslave\stm32f3xx_hal_rcc.d)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5782B963)
 I (..\Device\Inc\stm32f3xx_hal_conf.h)(0x584FE34E)
 I (..\Device\Inc\mxconstants.h)(0x58543855)
@@ -607,7 +607,7 @@ I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x584FB5CD)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
-F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c)(0x5782B963)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_spi.o --omf_browse diebieslave\stm32f3xx_hal_spi.crf --depend diebieslave\stm32f3xx_hal_spi.d)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c)(0x5782B963)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_spi.o --omf_browse diebieslave\stm32f3xx_hal_spi.crf --depend diebieslave\stm32f3xx_hal_spi.d)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5782B963)
 I (..\Device\Inc\stm32f3xx_hal_conf.h)(0x584FE34E)
 I (..\Device\Inc\mxconstants.h)(0x58543855)
@@ -645,7 +645,7 @@ I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x584FB5CD)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
-F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c)(0x5782B963)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_spi_ex.o --omf_browse diebieslave\stm32f3xx_hal_spi_ex.crf --depend diebieslave\stm32f3xx_hal_spi_ex.d)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c)(0x5782B963)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_spi_ex.o --omf_browse diebieslave\stm32f3xx_hal_spi_ex.crf --depend diebieslave\stm32f3xx_hal_spi_ex.d)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5782B963)
 I (..\Device\Inc\stm32f3xx_hal_conf.h)(0x584FE34E)
 I (..\Device\Inc\mxconstants.h)(0x58543855)
@@ -683,7 +683,7 @@ I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x584FB5CD)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
-F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c)(0x5782B963)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_pcd.o --omf_browse diebieslave\stm32f3xx_hal_pcd.crf --depend diebieslave\stm32f3xx_hal_pcd.d)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c)(0x5782B963)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_pcd.o --omf_browse diebieslave\stm32f3xx_hal_pcd.crf --depend diebieslave\stm32f3xx_hal_pcd.d)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5782B963)
 I (..\Device\Inc\stm32f3xx_hal_conf.h)(0x584FE34E)
 I (..\Device\Inc\mxconstants.h)(0x58543855)
@@ -721,7 +721,7 @@ I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x584FB5CD)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
-F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c)(0x5782B964)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_uart_ex.o --omf_browse diebieslave\stm32f3xx_hal_uart_ex.crf --depend diebieslave\stm32f3xx_hal_uart_ex.d)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c)(0x5782B964)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_uart_ex.o --omf_browse diebieslave\stm32f3xx_hal_uart_ex.crf --depend diebieslave\stm32f3xx_hal_uart_ex.d)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5782B963)
 I (..\Device\Inc\stm32f3xx_hal_conf.h)(0x584FE34E)
 I (..\Device\Inc\mxconstants.h)(0x58543855)
@@ -759,7 +759,7 @@ I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x584FB5CD)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
-F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c)(0x5782B963)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_cortex.o --omf_browse diebieslave\stm32f3xx_hal_cortex.crf --depend diebieslave\stm32f3xx_hal_cortex.d)
+F (../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c)(0x5782B963)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_cortex.o --omf_browse diebieslave\stm32f3xx_hal_cortex.crf --depend diebieslave\stm32f3xx_hal_cortex.d)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5782B963)
 I (..\Device\Inc\stm32f3xx_hal_conf.h)(0x584FE34E)
 I (..\Device\Inc\mxconstants.h)(0x58543855)
@@ -797,7 +797,7 @@ I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x584FB5CD)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
-F (..\Drivers\HWDrivers\Src\driverHWECATTickTimer.c)(0x5855AD20)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\driverhwecatticktimer.o --omf_browse diebieslave\driverhwecatticktimer.crf --depend diebieslave\driverhwecatticktimer.d)
+F (..\Drivers\HWDrivers\Src\driverHWECATTickTimer.c)(0x585EC5BE)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\driverhwecatticktimer.o --omf_browse diebieslave\driverhwecatticktimer.crf --depend diebieslave\driverhwecatticktimer.d)
 I (..\Drivers\HWDrivers\Inc\driverHWECATTickTimer.h)(0x5855AC45)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5782B963)
 I (..\Device\Inc\stm32f3xx_hal_conf.h)(0x584FE34E)
@@ -837,7 +837,7 @@ I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x56FE973C)
-F (..\Drivers\HWDrivers\Src\driverHWLANInterrupt.c)(0x5857A3EE)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\driverhwlaninterrupt.o --omf_browse diebieslave\driverhwlaninterrupt.crf --depend diebieslave\driverhwlaninterrupt.d)
+F (..\Drivers\HWDrivers\Src\driverHWLANInterrupt.c)(0x5857A3EE)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\driverhwlaninterrupt.o --omf_browse diebieslave\driverhwlaninterrupt.crf --depend diebieslave\driverhwlaninterrupt.d)
 I (..\Drivers\HWDrivers\Inc\driverHWLANInterrupt.h)(0x5855AC4D)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5782B963)
 I (..\Device\Inc\stm32f3xx_hal_conf.h)(0x584FE34E)
@@ -877,7 +877,7 @@ I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x56FE973C)
-F (..\Drivers\HWDrivers\Src\driverHWStatus.c)(0x5852ED41)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\driverhwstatus.o --omf_browse diebieslave\driverhwstatus.crf --depend diebieslave\driverhwstatus.d)
+F (..\Drivers\HWDrivers\Src\driverHWStatus.c)(0x5852ED41)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\driverhwstatus.o --omf_browse diebieslave\driverhwstatus.crf --depend diebieslave\driverhwstatus.d)
 I (..\Drivers\HWDrivers\Inc\driverHWStatus.h)(0x584BFBA6)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5782B963)
 I (..\Device\Inc\stm32f3xx_hal_conf.h)(0x584FE34E)
@@ -918,7 +918,7 @@ I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x56FE973C)
 I (..\Modules\Inc\modDelay.h)(0x57855AB9)
-F (..\Drivers\HWDrivers\Src\driverHWSPI1.c)(0x5852F0BF)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\driverhwspi1.o --omf_browse diebieslave\driverhwspi1.crf --depend diebieslave\driverhwspi1.d)
+F (..\Drivers\HWDrivers\Src\driverHWSPI1.c)(0x585EC5BE)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\driverhwspi1.o --omf_browse diebieslave\driverhwspi1.crf --depend diebieslave\driverhwspi1.d)
 I (..\Drivers\HWDrivers\Inc\driverHWSPI1.h)(0x58501BD5)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5782B963)
 I (..\Device\Inc\stm32f3xx_hal_conf.h)(0x584FE34E)
@@ -960,7 +960,7 @@ I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x56FE973C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE973E)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE973E)
-F (..\Drivers\HWDrivers\Src\usb_device.c)(0x584367E9)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\usb_device.o --omf_browse diebieslave\usb_device.crf --depend diebieslave\usb_device.d)
+F (..\Drivers\HWDrivers\Src\usb_device.c)(0x584367E9)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\usb_device.o --omf_browse diebieslave\usb_device.crf --depend diebieslave\usb_device.d)
 I (..\Drivers\HWDrivers\Inc\usb_device.h)(0x584367E9)
 I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h)(0x5782B94B)
 I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xe.h)(0x5782B94B)
@@ -1009,7 +1009,7 @@ I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h)(0x5782B968
 I (..\Drivers\HWDrivers\Inc\usbd_desc.h)(0x584367EA)
 I (../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h)(0x5782B968)
 I (..\Drivers\HWDrivers\Inc\usbd_cdc_if.h)(0x584367EA)
-F (..\Drivers\HWDrivers\Src\usbd_cdc_if.c)(0x584367EA)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\usbd_cdc_if.o --omf_browse diebieslave\usbd_cdc_if.crf --depend diebieslave\usbd_cdc_if.d)
+F (..\Drivers\HWDrivers\Src\usbd_cdc_if.c)(0x584367EA)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\usbd_cdc_if.o --omf_browse diebieslave\usbd_cdc_if.crf --depend diebieslave\usbd_cdc_if.d)
 I (..\Drivers\HWDrivers\Inc\usbd_cdc_if.h)(0x584367EA)
 I (../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h)(0x5782B968)
 I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h)(0x5782B968)
@@ -1056,7 +1056,7 @@ I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
 I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h)(0x5782B968)
 I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h)(0x5782B968)
-F (..\Drivers\HWDrivers\Src\usbd_conf.c)(0x584367EA)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\usbd_conf.o --omf_browse diebieslave\usbd_conf.crf --depend diebieslave\usbd_conf.d)
+F (..\Drivers\HWDrivers\Src\usbd_conf.c)(0x584367EA)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\usbd_conf.o --omf_browse diebieslave\usbd_conf.crf --depend diebieslave\usbd_conf.d)
 I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h)(0x5782B94B)
 I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xe.h)(0x5782B94B)
 I (../Drivers/CMSIS/Include/core_cm4.h)(0x5782B962)
@@ -1102,7 +1102,7 @@ I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h)(0x5782B968)
 I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h)(0x5782B968)
 I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h)(0x5782B968)
 I (../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h)(0x5782B968)
-F (..\Drivers\HWDrivers\Src\usbd_desc.c)(0x584367EA)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\usbd_desc.o --omf_browse diebieslave\usbd_desc.crf --depend diebieslave\usbd_desc.d)
+F (..\Drivers\HWDrivers\Src\usbd_desc.c)(0x584367EA)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\usbd_desc.o --omf_browse diebieslave\usbd_desc.crf --depend diebieslave\usbd_desc.d)
 I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h)(0x5782B968)
 I (..\Drivers\HWDrivers\Inc\usbd_conf.h)(0x584367EA)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE973E)
@@ -1148,64 +1148,12 @@ I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x5782B968)
 I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h)(0x5782B968)
 I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h)(0x5782B968)
 I (..\Drivers\HWDrivers\Inc\usbd_desc.h)(0x584367EA)
-F (..\Drivers\SWDrivers\Src\driverSWLAN9252.c)(0x58581B2F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\driverswlan9252.o --omf_browse diebieslave\driverswlan9252.crf --depend diebieslave\driverswlan9252.d)
-I (..\Drivers\SWDrivers\Inc\driverSWLAN9252.h)(0x5857A352)
-I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5782B963)
-I (..\Device\Inc\stm32f3xx_hal_conf.h)(0x584FE34E)
-I (..\Device\Inc\mxconstants.h)(0x58543855)
-I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h)(0x5782B963)
-I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h)(0x5782B963)
-I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h)(0x5782B94B)
-I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xe.h)(0x5782B94B)
-I (../Drivers/CMSIS/Include/core_cm4.h)(0x5782B962)
+F (..\Drivers\SWDrivers\Src\driverSWLAN9252.c)(0x585EC5BE)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\driverswlan9252.o --omf_browse diebieslave\driverswlan9252.crf --depend diebieslave\driverswlan9252.d)
+I (..\Drivers\SWDrivers\Inc\driverSWLAN9252.h)(0x585EC5BE)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x584DB232)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5782B962)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5782B962)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5782B962)
-I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5782B962)
-I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h)(0x5782B94B)
-I (../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5782B963)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE973E)
-I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h)(0x5782B963)
-I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h)(0x5782B963)
-I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h)(0x5782B963)
-I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h)(0x5782B963)
-I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h)(0x5782B963)
-I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h)(0x5782B963)
-I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_can.h)(0x5782B963)
-I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h)(0x5782B963)
-I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h)(0x5782B963)
-I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h)(0x5782B963)
-I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h)(0x5782B963)
-I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pcd.h)(0x5782B963)
-I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pcd_ex.h)(0x5782B963)
-I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h)(0x5782B963)
-I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h)(0x5782B963)
-I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_spi.h)(0x5782B963)
-I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_spi_ex.h)(0x5782B963)
-I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x584FB5CD)
-I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5782B963)
-I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
-I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x56FE973C)
 I (..\Device\Inc\dataHelper.h)(0x584DA37C)
 I (..\Drivers\HWDrivers\Inc\driverHWSPI1.h)(0x58501BD5)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE973E)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE973E)
-I (..\Drivers\HWDrivers\Inc\driverHWECATTickTimer.h)(0x5855AC45)
-I (..\Drivers\HWDrivers\Inc\driverHWLANInterrupt.h)(0x5855AC4D)
-I (..\Middlewares\SSC\Inc\middleLAN9252.h)(0x5852721C)
-I (..\Middlewares\SSC\Inc\esc.h)(0x584DDDD0)
-I (..\Middlewares\SSC\Inc\ecat_def.h)(0x584E7005)
-F (..\Middlewares\SSC\Src\middleLAN9252.c)(0x5858359B)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\middlelan9252.o --omf_browse diebieslave\middlelan9252.crf --depend diebieslave\middlelan9252.d)
-I (..\Middlewares\SSC\Inc\ecat_def.h)(0x584E7005)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE973E)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE973E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x584DB232)
-I (..\Middlewares\SSC\Inc\ecatslv.h)(0x584DE1EE)
-I (..\Middlewares\SSC\Inc\middleLAN9252.h)(0x5852721C)
-I (..\Middlewares\SSC\Inc\esc.h)(0x584DDDD0)
-I (..\Drivers\SWDrivers\Inc\driverSWLAN9252.h)(0x5857A352)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5782B963)
 I (..\Device\Inc\stm32f3xx_hal_conf.h)(0x584FE34E)
 I (..\Device\Inc\mxconstants.h)(0x58543855)
@@ -1242,116 +1190,226 @@ I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x584FB5CD)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE973E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE973E)
+I (..\Drivers\HWDrivers\Inc\driverHWECATTickTimer.h)(0x5855AC45)
+I (..\Drivers\HWDrivers\Inc\driverHWLANInterrupt.h)(0x5855AC4D)
+F (..\Middlewares\SSC\Src\esc.c)(0x585DEC15)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\esc.o --omf_browse diebieslave\esc.crf --depend diebieslave\esc.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE973E)
+I (..\Middlewares\SSC\Inc\cc.h)(0x585D70C4)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE9736)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x584DB232)
+I (..\Middlewares\SSC\Inc\esc.h)(0x585EC5BF)
+I (..\Middlewares\SSC\Inc\config.h)(0x57FC0C24)
+I (..\Drivers\SWDrivers\Inc\driverSWLAN9252.h)(0x585EC5BE)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x56FE973C)
 I (..\Device\Inc\dataHelper.h)(0x584DA37C)
 I (..\Drivers\HWDrivers\Inc\driverHWSPI1.h)(0x58501BD5)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5782B963)
+I (..\Device\Inc\stm32f3xx_hal_conf.h)(0x584FE34E)
+I (..\Device\Inc\mxconstants.h)(0x58543855)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h)(0x5782B963)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h)(0x5782B94B)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xe.h)(0x5782B94B)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5782B962)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5782B962)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5782B962)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5782B962)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5782B962)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h)(0x5782B94B)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5782B963)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE973E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_can.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pcd.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pcd_ex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_spi.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_spi_ex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x584FB5CD)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE973E)
 I (..\Drivers\HWDrivers\Inc\driverHWECATTickTimer.h)(0x5855AC45)
 I (..\Drivers\HWDrivers\Inc\driverHWLANInterrupt.h)(0x5855AC4D)
-I (..\Middlewares\SSC\Inc\ecatappl.h)(0x54AF9DBB)
-F (..\Middlewares\SSC\Src\ecatappl.c)(0x54AF9DBB)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\ecatappl.o --omf_browse diebieslave\ecatappl.crf --depend diebieslave\ecatappl.d)
-I (..\Middlewares\SSC\Inc\ecatslv.h)(0x584DE1EE)
-I (..\Middlewares\SSC\Inc\ecat_def.h)(0x584E7005)
+I (..\Middlewares\SSC\Inc\esc_coe.h)(0x57FC0C24)
+I (..\Middlewares\SSC\Inc\esc_foe.h)(0x57FC0C24)
+F (..\Middlewares\SSC\Src\esc_coe.c)(0x585D7266)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\esc_coe.o --omf_browse diebieslave\esc_coe.crf --depend diebieslave\esc_coe.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE973E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE973E)
+I (..\Middlewares\SSC\Inc\cc.h)(0x585D70C4)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE9736)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x584DB232)
+I (..\Middlewares\SSC\Inc\esc.h)(0x585EC5BF)
+I (..\Middlewares\SSC\Inc\config.h)(0x57FC0C24)
+I (..\Drivers\SWDrivers\Inc\driverSWLAN9252.h)(0x585EC5BE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x56FE973C)
+I (..\Device\Inc\dataHelper.h)(0x584DA37C)
+I (..\Drivers\HWDrivers\Inc\driverHWSPI1.h)(0x58501BD5)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5782B963)
+I (..\Device\Inc\stm32f3xx_hal_conf.h)(0x584FE34E)
+I (..\Device\Inc\mxconstants.h)(0x58543855)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h)(0x5782B963)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h)(0x5782B94B)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xe.h)(0x5782B94B)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5782B962)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5782B962)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5782B962)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5782B962)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5782B962)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h)(0x5782B94B)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5782B963)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE973E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_can.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pcd.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pcd_ex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_spi.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_spi_ex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x584FB5CD)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE973E)
+I (..\Drivers\HWDrivers\Inc\driverHWECATTickTimer.h)(0x5855AC45)
+I (..\Drivers\HWDrivers\Inc\driverHWLANInterrupt.h)(0x5855AC4D)
+I (..\Middlewares\SSC\Inc\esc_coe.h)(0x57FC0C24)
+F (..\Middlewares\SSC\Src\esc_foe.c)(0x57FC0C24)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\esc_foe.o --omf_browse diebieslave\esc_foe.crf --depend diebieslave\esc_foe.d)
+I (..\Middlewares\SSC\Inc\cc.h)(0x585D70C4)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE9736)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x584DB232)
+I (..\Middlewares\SSC\Inc\esc.h)(0x585EC5BF)
+I (..\Middlewares\SSC\Inc\config.h)(0x57FC0C24)
+I (..\Drivers\SWDrivers\Inc\driverSWLAN9252.h)(0x585EC5BE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x56FE973C)
+I (..\Device\Inc\dataHelper.h)(0x584DA37C)
+I (..\Drivers\HWDrivers\Inc\driverHWSPI1.h)(0x58501BD5)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5782B963)
+I (..\Device\Inc\stm32f3xx_hal_conf.h)(0x584FE34E)
+I (..\Device\Inc\mxconstants.h)(0x58543855)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h)(0x5782B963)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h)(0x5782B94B)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xe.h)(0x5782B94B)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5782B962)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5782B962)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5782B962)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5782B962)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5782B962)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h)(0x5782B94B)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5782B963)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE973E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_can.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pcd.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pcd_ex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_spi.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_spi_ex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x584FB5CD)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE973E)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE973E)
+I (..\Drivers\HWDrivers\Inc\driverHWECATTickTimer.h)(0x5855AC45)
+I (..\Drivers\HWDrivers\Inc\driverHWLANInterrupt.h)(0x5855AC4D)
+I (..\Middlewares\SSC\Inc\esc_foe.h)(0x57FC0C24)
+F (..\Middlewares\SSC\Src\objectlist.c)(0x57FC0C24)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\objectlist.o --omf_browse diebieslave\objectlist.crf --depend diebieslave\objectlist.d)
+I (..\Middlewares\SSC\Inc\esc_coe.h)(0x57FC0C24)
+I (..\Middlewares\SSC\Inc\cc.h)(0x585D70C4)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE9736)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x584DB232)
-I (..\Middlewares\SSC\Inc\middleLAN9252.h)(0x5852721C)
-I (..\Middlewares\SSC\Inc\esc.h)(0x584DDDD0)
-I (..\Middlewares\SSC\Inc\ecatappl.h)(0x54AF9DBB)
-I (..\Middlewares\SSC\Inc\coeappl.h)(0x54AF9DBB)
-I (..\Middlewares\SSC\Inc\objdef.h)(0x54AF9DBB)
-I (..\Middlewares\SSC\Inc\sdoserv.h)(0x54AF9DBB)
-I (..\Middlewares\SSC\Inc\ecatcoe.h)(0x54AF9DBB)
-I (..\Middlewares\SSC\Inc\mailbox.h)(0x54AF9DBB)
-I (..\Middlewares\SSC\Inc\applInterface.h)(0x54AF9DBB)
-I (..\Middlewares\SSC\Inc\el9800appl.h)(0x54AF9DBB)
-F (..\Middlewares\SSC\Src\el9800appl.c)(0x584E7505)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\el9800appl.o --omf_browse diebieslave\el9800appl.crf --depend diebieslave\el9800appl.d)
-I (..\Middlewares\SSC\Inc\ecat_def.h)(0x584E7005)
+I (..\Middlewares\SSC\Inc\utypes.h)(0x57FC0C24)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE973E)
+F (..\Middlewares\SSC\Src\middleSOES.c)(0x585EC1C4)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\middlesoes.o --omf_browse diebieslave\middlesoes.crf --depend diebieslave\middlesoes.d)
+I (..\Middlewares\SSC\Inc\middleSOES.h)(0x585EBFD0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x56FE973C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x584DB232)
+I (..\Middlewares\SSC\Inc\esc.h)(0x585EC5BF)
+I (..\Middlewares\SSC\Inc\cc.h)(0x585D70C4)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE9736)
+I (..\Middlewares\SSC\Inc\config.h)(0x57FC0C24)
+I (..\Drivers\SWDrivers\Inc\driverSWLAN9252.h)(0x585EC5BE)
+I (..\Device\Inc\dataHelper.h)(0x584DA37C)
+I (..\Drivers\HWDrivers\Inc\driverHWSPI1.h)(0x58501BD5)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5782B963)
+I (..\Device\Inc\stm32f3xx_hal_conf.h)(0x584FE34E)
+I (..\Device\Inc\mxconstants.h)(0x58543855)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h)(0x5782B963)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h)(0x5782B94B)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xe.h)(0x5782B94B)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5782B962)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5782B962)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5782B962)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5782B962)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5782B962)
+I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h)(0x5782B94B)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5782B963)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE973E)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_can.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pcd.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pcd_ex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_spi.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_spi_ex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x584FB5CD)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
+I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE973E)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE973E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x584DB232)
-I (..\Middlewares\SSC\Inc\applInterface.h)(0x54AF9DBB)
-I (..\Middlewares\SSC\Inc\esc.h)(0x584DDDD0)
-I (..\Middlewares\SSC\Inc\ecatslv.h)(0x584DE1EE)
-I (..\Middlewares\SSC\Inc\middleLAN9252.h)(0x5852721C)
-I (..\Middlewares\SSC\Inc\objdef.h)(0x54AF9DBB)
-I (..\Middlewares\SSC\Inc\sdoserv.h)(0x54AF9DBB)
-I (..\Middlewares\SSC\Inc\ecatcoe.h)(0x54AF9DBB)
-I (..\Middlewares\SSC\Inc\mailbox.h)(0x54AF9DBB)
-I (..\Middlewares\SSC\Inc\ecatappl.h)(0x54AF9DBB)
-I (..\Middlewares\SSC\Inc\el9800appl.h)(0x54AF9DBB)
-F (..\Middlewares\SSC\Src\coeappl.c)(0x54AF9DBB)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\coeappl.o --omf_browse diebieslave\coeappl.crf --depend diebieslave\coeappl.d)
-I (..\Middlewares\SSC\Inc\ecat_def.h)(0x584E7005)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE973E)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE973E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x584DB232)
-I (..\Middlewares\SSC\Inc\ecatslv.h)(0x584DE1EE)
-I (..\Middlewares\SSC\Inc\middleLAN9252.h)(0x5852721C)
-I (..\Middlewares\SSC\Inc\esc.h)(0x584DDDD0)
-I (..\Middlewares\SSC\Inc\coeappl.h)(0x54AF9DBB)
-I (..\Middlewares\SSC\Inc\objdef.h)(0x54AF9DBB)
-I (..\Middlewares\SSC\Inc\sdoserv.h)(0x54AF9DBB)
-I (..\Middlewares\SSC\Inc\ecatcoe.h)(0x54AF9DBB)
-I (..\Middlewares\SSC\Inc\mailbox.h)(0x54AF9DBB)
-I (..\Middlewares\SSC\Inc\el9800appl.h)(0x54AF9DBB)
-I (..\Middlewares\SSC\Inc\ecatappl.h)(0x54AF9DBB)
-F (..\Middlewares\SSC\Src\ecatslv.c)(0x54AF9DBB)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\ecatslv.o --omf_browse diebieslave\ecatslv.crf --depend diebieslave\ecatslv.d)
-I (..\Middlewares\SSC\Inc\ecatslv.h)(0x584DE1EE)
-I (..\Middlewares\SSC\Inc\ecat_def.h)(0x584E7005)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE973E)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE973E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x584DB232)
-I (..\Middlewares\SSC\Inc\middleLAN9252.h)(0x5852721C)
-I (..\Middlewares\SSC\Inc\esc.h)(0x584DDDD0)
-I (..\Middlewares\SSC\Inc\ecatappl.h)(0x54AF9DBB)
-I (..\Middlewares\SSC\Inc\mailbox.h)(0x54AF9DBB)
-I (..\Middlewares\SSC\Inc\ecatcoe.h)(0x54AF9DBB)
-I (..\Middlewares\SSC\Inc\objdef.h)(0x54AF9DBB)
-I (..\Middlewares\SSC\Inc\sdoserv.h)(0x54AF9DBB)
-I (..\Middlewares\SSC\Inc\el9800appl.h)(0x54AF9DBB)
-F (..\Middlewares\SSC\Src\objdef.c)(0x584E7034)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\objdef.o --omf_browse diebieslave\objdef.crf --depend diebieslave\objdef.d)
-I (..\Middlewares\SSC\Inc\ecat_def.h)(0x584E7005)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE973E)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE973E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x584DB232)
-I (..\Middlewares\SSC\Inc\ecatslv.h)(0x584DE1EE)
-I (..\Middlewares\SSC\Inc\middleLAN9252.h)(0x5852721C)
-I (..\Middlewares\SSC\Inc\esc.h)(0x584DDDD0)
-I (..\Middlewares\SSC\Inc\coeappl.h)(0x54AF9DBB)
-I (..\Middlewares\SSC\Inc\objdef.h)(0x54AF9DBB)
-I (..\Middlewares\SSC\Inc\sdoserv.h)(0x54AF9DBB)
-I (..\Middlewares\SSC\Inc\ecatcoe.h)(0x54AF9DBB)
-I (..\Middlewares\SSC\Inc\mailbox.h)(0x54AF9DBB)
-F (..\Middlewares\SSC\Src\sdoserv.c)(0x54AF9DBB)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\sdoserv.o --omf_browse diebieslave\sdoserv.crf --depend diebieslave\sdoserv.d)
-I (..\Middlewares\SSC\Inc\ecat_def.h)(0x584E7005)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE973E)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE973E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x584DB232)
-I (..\Middlewares\SSC\Inc\ecatslv.h)(0x584DE1EE)
-I (..\Middlewares\SSC\Inc\middleLAN9252.h)(0x5852721C)
-I (..\Middlewares\SSC\Inc\esc.h)(0x584DDDD0)
-I (..\Middlewares\SSC\Inc\objdef.h)(0x54AF9DBB)
-I (..\Middlewares\SSC\Inc\sdoserv.h)(0x54AF9DBB)
-I (..\Middlewares\SSC\Inc\ecatcoe.h)(0x54AF9DBB)
-I (..\Middlewares\SSC\Inc\mailbox.h)(0x54AF9DBB)
-F (..\Middlewares\SSC\Src\ecatcoe.c)(0x54AF9DBB)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\ecatcoe.o --omf_browse diebieslave\ecatcoe.crf --depend diebieslave\ecatcoe.d)
-I (..\Middlewares\SSC\Inc\ecat_def.h)(0x584E7005)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE973E)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE973E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x584DB232)
-I (..\Middlewares\SSC\Inc\sdoserv.h)(0x54AF9DBB)
-I (..\Middlewares\SSC\Inc\ecatcoe.h)(0x54AF9DBB)
-I (..\Middlewares\SSC\Inc\mailbox.h)(0x54AF9DBB)
-F (..\Middlewares\SSC\Src\mailbox.c)(0x54AF9DBB)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\mailbox.o --omf_browse diebieslave\mailbox.crf --depend diebieslave\mailbox.d)
-I (..\Middlewares\SSC\Inc\ecat_def.h)(0x584E7005)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE973E)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE973E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x584DB232)
-I (..\Middlewares\SSC\Inc\ecatslv.h)(0x584DE1EE)
-I (..\Middlewares\SSC\Inc\middleLAN9252.h)(0x5852721C)
-I (..\Middlewares\SSC\Inc\esc.h)(0x584DDDD0)
-I (..\Middlewares\SSC\Inc\mailbox.h)(0x54AF9DBB)
-I (..\Middlewares\SSC\Inc\ecatcoe.h)(0x54AF9DBB)
-F (../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c)(0x5782B968)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\usbd_cdc.o --omf_browse diebieslave\usbd_cdc.crf --depend diebieslave\usbd_cdc.d)
+I (..\Drivers\HWDrivers\Inc\driverHWECATTickTimer.h)(0x5855AC45)
+I (..\Drivers\HWDrivers\Inc\driverHWLANInterrupt.h)(0x5855AC4D)
+I (..\Middlewares\SSC\Inc\esc_coe.h)(0x57FC0C24)
+I (..\Middlewares\SSC\Inc\utypes.h)(0x57FC0C24)
+F (../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c)(0x5782B968)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\usbd_cdc.o --omf_browse diebieslave\usbd_cdc.crf --depend diebieslave\usbd_cdc.d)
 I (../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h)(0x5782B968)
 I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h)(0x5782B968)
 I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x5782B968)
@@ -1398,7 +1456,7 @@ I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
 I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h)(0x5782B968)
 I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h)(0x5782B968)
 I (..\Drivers\HWDrivers\Inc\usbd_desc.h)(0x584367EA)
-F (../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c)(0x5782B968)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\usbd_ioreq.o --omf_browse diebieslave\usbd_ioreq.crf --depend diebieslave\usbd_ioreq.d)
+F (../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c)(0x5782B968)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\usbd_ioreq.o --omf_browse diebieslave\usbd_ioreq.crf --depend diebieslave\usbd_ioreq.d)
 I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h)(0x5782B968)
 I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x5782B968)
 I (..\Drivers\HWDrivers\Inc\usbd_conf.h)(0x584367EA)
@@ -1443,7 +1501,7 @@ I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
 I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h)(0x5782B968)
 I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h)(0x5782B968)
-F (../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c)(0x5782B968)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\usbd_ctlreq.o --omf_browse diebieslave\usbd_ctlreq.crf --depend diebieslave\usbd_ctlreq.d)
+F (../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c)(0x5782B968)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\usbd_ctlreq.o --omf_browse diebieslave\usbd_ctlreq.crf --depend diebieslave\usbd_ctlreq.d)
 I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h)(0x5782B968)
 I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x5782B968)
 I (..\Drivers\HWDrivers\Inc\usbd_conf.h)(0x584367EA)
@@ -1488,7 +1546,7 @@ I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
 I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h)(0x5782B968)
 I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h)(0x5782B968)
-F (../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c)(0x5782B968)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\usbd_core.o --omf_browse diebieslave\usbd_core.crf --depend diebieslave\usbd_core.d)
+F (../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c)(0x5782B968)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\usbd_core.o --omf_browse diebieslave\usbd_core.crf --depend diebieslave\usbd_core.d)
 I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h)(0x5782B968)
 I (..\Drivers\HWDrivers\Inc\usbd_conf.h)(0x584367EA)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE973E)
@@ -1533,7 +1591,7 @@ I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
 I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x5782B968)
 I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h)(0x5782B968)
 I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h)(0x5782B968)
-F (..\Modules\Src\modDelay.c)(0x584BF7DA)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\moddelay.o --omf_browse diebieslave\moddelay.crf --depend diebieslave\moddelay.d)
+F (..\Modules\Src\modDelay.c)(0x584BF7DA)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\moddelay.o --omf_browse diebieslave\moddelay.crf --depend diebieslave\moddelay.d)
 I (..\Modules\Inc\modDelay.h)(0x57855AB9)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5782B963)
 I (..\Device\Inc\stm32f3xx_hal_conf.h)(0x584FE34E)
@@ -1573,7 +1631,7 @@ I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x56FE973C)
-F (..\Modules\Src\modEffect.c)(0x584FEA3E)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\modeffect.o --omf_browse diebieslave\modeffect.crf --depend diebieslave\modeffect.d)
+F (..\Modules\Src\modEffect.c)(0x584FEA3E)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\modeffect.o --omf_browse diebieslave\modeffect.crf --depend diebieslave\modeffect.d)
 I (..\Modules\Inc\modEffect.h)(0x578AC45D)
 I (..\Modules\Inc\modDelay.h)(0x57855AB9)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5782B963)
@@ -1616,7 +1674,7 @@ I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x56FE973C)
 I (..\Drivers\HWDrivers\Inc\driverHWStatus.h)(0x584BFBA6)
 F (..\Device\startup_stm32f303xe.s)(0x584367EC)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include--pd "__UVISION_VERSION SETA 520" --pd "_RTE_ SETA 1" --pd "STM32F303xE SETA 1"--list startup_stm32f303xe.lst --xref -o diebieslave\startup_stm32f303xe.o --depend diebieslave\startup_stm32f303xe.d)
-F (..\Device\Src\stm32f3xx_hal_msp.c)(0x584F9CC5)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_msp.o --omf_browse diebieslave\stm32f3xx_hal_msp.crf --depend diebieslave\stm32f3xx_hal_msp.d)
+F (..\Device\Src\stm32f3xx_hal_msp.c)(0x584F9CC5)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_hal_msp.o --omf_browse diebieslave\stm32f3xx_hal_msp.crf --depend diebieslave\stm32f3xx_hal_msp.d)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5782B963)
 I (..\Device\Inc\stm32f3xx_hal_conf.h)(0x584FE34E)
 I (..\Device\Inc\mxconstants.h)(0x58543855)
@@ -1654,7 +1712,7 @@ I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h)(0x584FB5CD)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
-F (..\Device\Src\stm32f3xx_it.c)(0x584367EA)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_it.o --omf_browse diebieslave\stm32f3xx_it.crf --depend diebieslave\stm32f3xx_it.d)
+F (..\Device\Src\stm32f3xx_it.c)(0x584367EA)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\stm32f3xx_it.o --omf_browse diebieslave\stm32f3xx_it.crf --depend diebieslave\stm32f3xx_it.d)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5782B963)
 I (..\Device\Inc\stm32f3xx_hal_conf.h)(0x584FE34E)
 I (..\Device\Inc\mxconstants.h)(0x58543855)
@@ -1693,7 +1751,7 @@ I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
 I (..\Device\Inc\stm32f3xx_it.h)(0x584367EA)
-F (..\Device\Src\system_stm32f3xx.c)(0x584FE3A2)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\system_stm32f3xx.o --omf_browse diebieslave\system_stm32f3xx.crf --depend diebieslave\system_stm32f3xx.d)
+F (..\Device\Src\system_stm32f3xx.c)(0x584FE3A2)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\system_stm32f3xx.o --omf_browse diebieslave\system_stm32f3xx.crf --depend diebieslave\system_stm32f3xx.d)
 I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h)(0x5782B94B)
 I (../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xe.h)(0x5782B94B)
 I (../Drivers/CMSIS/Include/core_cm4.h)(0x5782B962)
@@ -1732,7 +1790,7 @@ I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h)(0x5782B963)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h)(0x5782B963)
 F (..\Device\Inc\dataHelper.h)(0x584DA37C)()
-F (..\Main\main.c)(0x585827D5)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\main.o --omf_browse diebieslave\main.crf --depend diebieslave\main.d)
+F (..\Main\main.c)(0x585EC5BF)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Device\Src -I ..\Device\Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Drivers\HWDrivers\Inc -I ..\Drivers\HWDrivers\Src -I ..\Drivers\SWDrivers\Inc -I ..\Drivers\SWDrivers\Src -I ..\Modules\Inc -I ..\Modules\Src -I ..\Libraries\Inc -I ..\Libraries\Src -I ..\Middlewares\SSC\Inc -I ..\Middlewares\SSC\Src -I ..\ObjDictionary\Inc -I ..\ObjDictionary\Src --C99-I C:\Projecten\DieBieSlave\Github\Firmware\DieBieSlave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F303xE -DUSE_HAL_DRIVER -DSTM32F303xE-o diebieslave\main.o --omf_browse diebieslave\main.crf --depend diebieslave\main.d)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x5782B963)
 I (..\Device\Inc\stm32f3xx_hal_conf.h)(0x584FE34E)
 I (..\Device\Inc\mxconstants.h)(0x58543855)
@@ -1779,11 +1837,15 @@ I (..\Modules\Inc\modDelay.h)(0x57855AB9)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x56FE973C)
 I (..\Modules\Inc\modEffect.h)(0x578AC45D)
 I (..\Drivers\HWDrivers\Inc\driverHWStatus.h)(0x584BFBA6)
-I (..\Drivers\HWDrivers\Inc\driverHWECATTickTimer.h)(0x5855AC45)
-I (..\Drivers\SWDrivers\Inc\driverSWLAN9252.h)(0x5857A352)
+I (..\Middlewares\SSC\Inc\middleSOES.h)(0x585EBFD0)
+I (..\Middlewares\SSC\Inc\esc.h)(0x585EC5BF)
+I (..\Middlewares\SSC\Inc\cc.h)(0x585D70C4)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE9736)
+I (..\Middlewares\SSC\Inc\config.h)(0x57FC0C24)
+I (..\Drivers\SWDrivers\Inc\driverSWLAN9252.h)(0x585EC5BE)
 I (..\Device\Inc\dataHelper.h)(0x584DA37C)
 I (..\Drivers\HWDrivers\Inc\driverHWSPI1.h)(0x58501BD5)
+I (..\Drivers\HWDrivers\Inc\driverHWECATTickTimer.h)(0x5855AC45)
 I (..\Drivers\HWDrivers\Inc\driverHWLANInterrupt.h)(0x5855AC4D)
-I (..\Middlewares\SSC\Inc\middleLAN9252.h)(0x5852721C)
-I (..\Middlewares\SSC\Inc\esc.h)(0x584DDDD0)
-I (..\Middlewares\SSC\Inc\ecat_def.h)(0x584E7005)
+I (..\Middlewares\SSC\Inc\esc_coe.h)(0x57FC0C24)
+I (..\Middlewares\SSC\Inc\utypes.h)(0x57FC0C24)

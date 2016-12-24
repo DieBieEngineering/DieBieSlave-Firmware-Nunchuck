@@ -1,14 +1,52 @@
 #ifndef __DRIVERSWLAN9252_H
 #define	__DRIVERSWLAN9252_H
 
-
-#include "stm32f3xx_hal.h"
-#include "stdbool.h"
+#include <stdint.h>
+#include <stdbool.h>
 #include "dataHelper.h"
 #include "driverHWSPI1.h"
 #include "driverHWECATTickTimer.h"
 #include "driverHWLANInterrupt.h"
-#include "middleLAN9252.h"
+
+///////////////////////////////////////////////////////////////////////////////
+//9252 HW DEFINES
+#define ECAT_REG_BASE_ADDR              0x0300
+
+#define CSR_DATA_REG_OFFSET             0x00
+#define CSR_CMD_REG_OFFSET              0x04
+#define PRAM_READ_ADDR_LEN_OFFSET       0x08
+#define PRAM_READ_CMD_OFFSET            0x0c
+#define PRAM_WRITE_ADDR_LEN_OFFSET      0x10
+#define PRAM_WRITE_CMD_OFFSET           0x14
+
+#define PRAM_SPACE_AVBL_COUNT_MASK      0x1f
+#define IS_PRAM_SPACE_AVBL_MASK         0x01
+
+#define CSR_DATA_REG                    ECAT_REG_BASE_ADDR+CSR_DATA_REG_OFFSET
+#define CSR_CMD_REG                     ECAT_REG_BASE_ADDR+CSR_CMD_REG_OFFSET
+#define PRAM_READ_ADDR_LEN_REG          ECAT_REG_BASE_ADDR+PRAM_READ_ADDR_LEN_OFFSET
+#define PRAM_READ_CMD_REG               ECAT_REG_BASE_ADDR+PRAM_READ_CMD_OFFSET
+#define PRAM_WRITE_ADDR_LEN_REG         ECAT_REG_BASE_ADDR+PRAM_WRITE_ADDR_LEN_OFFSET
+#define PRAM_WRITE_CMD_REG              ECAT_REG_BASE_ADDR+PRAM_WRITE_CMD_OFFSET
+
+#define PRAM_READ_FIFO_REG              0x04
+#define PRAM_WRITE_FIFO_REG             0x20
+
+#define HBI_INDEXED_DATA0_REG           0x04
+#define HBI_INDEXED_DATA1_REG           0x0c
+#define HBI_INDEXED_DATA2_REG           0x14
+
+#define HBI_INDEXED_INDEX0_REG          0x00
+#define HBI_INDEXED_INDEX1_REG          0x08
+#define HBI_INDEXED_INDEX2_REG          0x10
+
+#define HBI_INDEXED_PRAM_READ_WRITE_FIFO    0x18
+
+#define PRAM_RW_ABORT_MASK      (1 << 30)
+#define PRAM_RW_BUSY_32B        (1 << 31)
+#define PRAM_RW_BUSY_8B         (1 << 7)
+#define PRAM_SET_READ           (1 << 6)
+#define PRAM_SET_WRITE          0
 
 #define CMD_SERIAL_READ 0x03
 #define CMD_FAST_READ 0x0B
@@ -40,6 +78,11 @@
 #define ESC_READ_BYTE 		0xC0
 #define ESC_CSR_BUSY		0x80
 
+#define LAN9252_BYTE_ORDER_REG          0x64
+#define LAN9252_CSR_INT_CONF            0x54
+#define LAN9252_CSR_INT_EN              0x5C
+#define LAN9252_CSR_INT_STS             0x58
+
 #define ADDRESS_AUTO_INCREMENT 0x40
 
 void PDI_Init(void);
@@ -56,6 +99,7 @@ void SPISendAddr (uint16_t Address);
 void SPIWriteBytes(uint16_t Address, uint8_t *Val, uint8_t nLenght);
 void PDIReadReg(uint8_t *ReadBuffer, uint16_t Address, uint16_t Count);
 void PDIWriteReg(uint8_t *WriteBuffer, uint16_t Address, uint16_t Count);
+uint16_t PDIReadAlEventReg(void);
 uint32_t PDIReadLAN9252DirectReg(uint16_t Address);
 void PDIWriteLAN9252DirectReg(uint32_t Val, uint16_t Address);
 uint32_t PDI_GetTimer(void);
@@ -69,8 +113,8 @@ void PDI_BindISR_IRQ(void (*callbackFunction)(void));
 void PDI_BindISR_SYNC0(void (*callbackFunction)(void));
 void PDI_BindISR_SYNC1(void (*callbackFunction)(void));
 void PDI_Enable_Global_interrupt(void);
-void PDI_Restore_Global_Interrupt(UINT32 int_sts);
-UINT32 PDI_Disable_Global_Interrupt(void);
+void PDI_Restore_Global_Interrupt(uint32_t int_sts);
+uint32_t PDI_Disable_Global_Interrupt(void);
 
 #endif	/* __DRIVERSWLAN9252_H */
 

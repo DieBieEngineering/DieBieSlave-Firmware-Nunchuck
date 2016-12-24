@@ -62,9 +62,9 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
 	if(driverHWECATTickTimerInterruptActive){		
 		if(driverHWECATTickTimercallBackTickFunction && driverHWECATTickTimerInterruptActive)
 			driverHWECATTickTimercallBackTickFunction();
-		
-		driverHWECATTick++;																											// Include this in the disable system?
 	}
+	
+	driverHWECATTick++;
 }
 	
 

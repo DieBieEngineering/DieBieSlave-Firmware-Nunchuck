@@ -1,5 +1,9 @@
 diebieslave\driverswlan9252.o: ..\Drivers\SWDrivers\Src\driverSWLAN9252.c
 diebieslave\driverswlan9252.o: ..\Drivers\SWDrivers\Inc\driverSWLAN9252.h
+diebieslave\driverswlan9252.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+diebieslave\driverswlan9252.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+diebieslave\driverswlan9252.o: ..\Device\Inc\dataHelper.h
+diebieslave\driverswlan9252.o: ..\Drivers\HWDrivers\Inc\driverHWSPI1.h
 diebieslave\driverswlan9252.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h
 diebieslave\driverswlan9252.o: ..\Device\Inc\stm32f3xx_hal_conf.h
 diebieslave\driverswlan9252.o: ..\Device\Inc\mxconstants.h
@@ -8,7 +12,6 @@ diebieslave\driverswlan9252.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal
 diebieslave\driverswlan9252.o: ../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h
 diebieslave\driverswlan9252.o: ../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xe.h
 diebieslave\driverswlan9252.o: ../Drivers/CMSIS/Include/core_cm4.h
-diebieslave\driverswlan9252.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 diebieslave\driverswlan9252.o: ../Drivers/CMSIS/Include/core_cmInstr.h
 diebieslave\driverswlan9252.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
 diebieslave\driverswlan9252.o: ../Drivers/CMSIS/Include/core_cmFunc.h
@@ -38,13 +41,7 @@ diebieslave\driverswlan9252.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal
 diebieslave\driverswlan9252.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h
 diebieslave\driverswlan9252.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h
 diebieslave\driverswlan9252.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h
-diebieslave\driverswlan9252.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-diebieslave\driverswlan9252.o: ..\Device\Inc\dataHelper.h
-diebieslave\driverswlan9252.o: ..\Drivers\HWDrivers\Inc\driverHWSPI1.h
 diebieslave\driverswlan9252.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 diebieslave\driverswlan9252.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 diebieslave\driverswlan9252.o: ..\Drivers\HWDrivers\Inc\driverHWECATTickTimer.h
 diebieslave\driverswlan9252.o: ..\Drivers\HWDrivers\Inc\driverHWLANInterrupt.h
-diebieslave\driverswlan9252.o: ..\Middlewares\SSC\Inc\middleLAN9252.h
-diebieslave\driverswlan9252.o: ..\Middlewares\SSC\Inc\esc.h
-diebieslave\driverswlan9252.o: ..\Middlewares\SSC\Inc\ecat_def.h

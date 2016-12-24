@@ -2,15 +2,10 @@
 #include "usb_device.h"
 #include "modDelay.h"
 #include "modEffect.h"
-#include "driverHWECATTickTimer.h"
-#include "driverSWLAN9252.h"
+#include "middleSOES.h"
 
-#include "driverHWSPI1.h"
 uint32_t modDelaySPI1LastTick; // Only for SPI Evaluation
 uint32_t temp = 0;						// Only for SPI Evaluation
-
-#include "driverHWLANInterrupt.h"
-
 uint16_t tempCounterIRQ = 0;
 uint16_t tempCounterSYNC0 = 0;
 uint16_t tempCounterSYNC1 = 0;
@@ -20,35 +15,25 @@ void SystemClock_Config(void);
 void Error_Handler(void);
 static void MX_GPIO_Init(void);
 
-void testFunctionIRQ(void) {
-	tempCounterIRQ++;
-}
+uint32_t delayTick;
 
-void testFunctionSYNC0(void) {
-	tempCounterSYNC0++;
-}
-
-void testFunctionSYNC1(void) {
-	tempCounterSYNC1++;
-}
-
-int main(void) {	
-	// HAL Init
+int main(void) {
   HAL_Init();
   SystemClock_Config();
   MX_GPIO_Init();
+	
+	delayTick = 0;
 	
 	modDelayInit();
 	modEffectInit();
 	modEffectChangeState(STAT_LED_DEBUG,STAT_FLASH);
 	
-	HW_Init();
+	soes_init();
 	
   while(true) {
 		modEffectTask();
+		soes_task();
   }
-	
-	HW_Release();
 }
 
 void SystemClock_Config(void) {
