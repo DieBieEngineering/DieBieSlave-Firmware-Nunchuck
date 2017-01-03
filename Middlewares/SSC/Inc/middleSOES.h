@@ -5,7 +5,6 @@
 #include <stdint.h>
 #include "esc.h"
 #include "esc_coe.h"
-#include "utypes.h"
 #include "objectlist.h"
 #include "driverSWNunChuck.h"
 

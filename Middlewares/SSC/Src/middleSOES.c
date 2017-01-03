@@ -6,7 +6,7 @@
 #define DEFAULTTXPDOITEMS  1
 #define DEFAULTRXPDOITEMS  1
 
-extern driverSWNunChuckDataStruct nunChuckData;
+extern driverSWNunChuckDataStruct nunChuckData; // Comes from main.c
 
 uint32_t            encoder_scale;
 uint32_t            encoder_scale_mirror;
@@ -16,9 +16,9 @@ _MBX              MBX[MBXBUFFERS];
 _MBXcontrol       MBXcontrol[MBXBUFFERS];
 uint8_t           MBXrun=0;
 uint16_t          SM2_sml,SM3_sml;
-_Rbuffer          Rb;
-_Wbuffer          Wb;
-_Cbuffer          Cb;
+_Rbuffer          ReadBuffer;
+_Wbuffer          WriteBuffer;
+_Cbuffer          CommandBuffer;
 _App              App;
 uint16_t          TXPDOsize,RXPDOsize;
 int               wd_cnt = WD_RESET;
@@ -72,7 +72,7 @@ void ESC_objecthandler(uint16_t index, uint8_t subindex) {
       case 0x8001: {
          switch (subindex) {
             case 0x01: {
-               Cb.reset_counter = 0; // When something is written to this variable
+               CommandBuffer.reset_counter = 0; // When something is written to this variable
                break;
             }
          }
@@ -87,17 +87,17 @@ void ESC_objecthandler(uint16_t index, uint8_t subindex) {
  */
 void APP_safeoutput(void) {
    DPRINT("APP_safeoutput called\n");
-   Wb.LED = 0;
+   WriteBuffer.LED = 0;
 }
 /** Mandatory: Write local process data to Sync Manager 3, Master Inputs.
  */
 void TXPDO_update(void) {
-	ESC_write(SM3_sma, &Rb.button, TXPDOsize);
+	ESC_write(SM3_sma, &ReadBuffer.joyStickX, TXPDOsize);						// Todo: test is passing stuckt pointer is enough
 }
 /** Mandatory: Read Sync Manager 2 to local process data, Master Outputs.
  */
 void RXPDO_update(void) {
-   ESC_read(SM2_sma, &Wb.LED, RXPDOsize);
+   ESC_read(SM2_sma, &WriteBuffer.LED, RXPDOsize);
 }
 
 /** Mandatory: Function to update local I/O, call read ethercat outputs, call
@@ -115,7 +115,7 @@ void DIG_process(void) {
          RXPDO_update();
          wd_cnt = WD_RESET;
          /* dummy output point */
-         if (Wb.LED) {
+         if (WriteBuffer.LED) {
             modEffectChangeState(STAT_LED_DEBUG,STAT_SET);
          } else {
             modEffectChangeState(STAT_LED_DEBUG,STAT_RESET);
@@ -131,14 +131,23 @@ void DIG_process(void) {
       }
    }else{
       wd_cnt = WD_RESET;
-   }
-   if (App.state){
-			//Rb.button = nunChuckData.joystickX; //
-			Rb.button = nunChuckData.buttonC ? 255 : 0;		 
-			Cb.reset_counter++;
-			Rb.encoder =  (nunChuckData.accelerometerX << 22);
-			TXPDO_update();
-   }
+	}
+	if (App.state){
+		// Update NunChuckVariables
+		ReadBuffer.joyStickX = nunChuckData.joystickX;
+		ReadBuffer.joyStickY = nunChuckData.joystickY;	
+		ReadBuffer.buttonC = nunChuckData.buttonC ? 255 : 0;
+		ReadBuffer.buttonZ = nunChuckData.buttonZ ? 255 : 0;
+		
+		// Update command variables
+		CommandBuffer.reset_counter++;
+		
+		// Update SDO variables
+		ReadBuffer.encoder =  (nunChuckData.accelerometerX << 22);
+		
+		// Update transmit PDO's
+		TXPDO_update();
+	}
 }
 
 /** SOES main loop. Start by initializing the stack software followed by

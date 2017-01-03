@@ -51,7 +51,6 @@ diebieslave\middlesoes.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 diebieslave\middlesoes.o: ..\Drivers\HWDrivers\Inc\driverHWECATTickTimer.h
 diebieslave\middlesoes.o: ..\Drivers\HWDrivers\Inc\driverHWLANInterrupt.h
 diebieslave\middlesoes.o: ..\Middlewares\SSC\Inc\esc_coe.h
-diebieslave\middlesoes.o: ..\Middlewares\SSC\Inc\utypes.h
 diebieslave\middlesoes.o: ..\Middlewares\SSC\Inc\objectlist.h
 diebieslave\middlesoes.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 diebieslave\middlesoes.o: ..\Drivers\SWDrivers\Inc\driverSWNunChuck.h
