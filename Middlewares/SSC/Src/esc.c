@@ -992,7 +992,6 @@ void ESC_write(uint16_t address, void *buf, uint16_t len) {
 
     /* loop for all bytes to be written */
     while ( len ) {
-
         if (address >= 0x1000) {
             i = len;
         }else{
@@ -1006,7 +1005,6 @@ void ESC_write(uint16_t address, void *buf, uint16_t len) {
                 i=1;
             }
         }
-
         /* start transmission */
         PDIWriteReg(pTmpData, address, i);
         /* next address */

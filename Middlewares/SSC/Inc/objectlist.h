@@ -9,7 +9,9 @@ typedef struct CC_PACKED {
 	uint8_t joyStickY;
 	uint8_t buttonC;
 	uint8_t buttonZ;
-	uint32_t encoder;
+	uint32_t AcceleroMeterX;
+	uint32_t AcceleroMeterY;
+	uint32_t AcceleroMeterZ;	
 } _Rbuffer;
 
 typedef struct CC_PACKED {

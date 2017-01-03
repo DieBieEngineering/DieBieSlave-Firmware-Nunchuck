@@ -143,7 +143,9 @@ void DIG_process(void) {
 		CommandBuffer.reset_counter++;
 		
 		// Update SDO variables
-		ReadBuffer.encoder =  (nunChuckData.accelerometerX << 22);
+		ReadBuffer.AcceleroMeterX =  (nunChuckData.accelerometerX << 22);
+		ReadBuffer.AcceleroMeterY =  (nunChuckData.accelerometerY << 22);
+		ReadBuffer.AcceleroMeterZ =  (nunChuckData.accelerometerZ << 22);
 		
 		// Update transmit PDO's
 		TXPDO_update();

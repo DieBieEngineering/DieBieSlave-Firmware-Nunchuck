@@ -28,7 +28,10 @@ static const char acName6000_01[] = "JoyStickX";
 static const char acName6000_02[] = "JoyStickY";
 static const char acName6000_03[] = "ButtonC";
 static const char acName6000_04[] = "ButtonZ";
-static const char acName6000_05[] = "Encoder";
+
+static const char acName6000_05[] = "AcceleroMeterX";
+static const char acName6000_06[] = "AcceleroMeterY";
+static const char acName6000_07[] = "AcceleroMeterZ";
 
 static const char acName7000[] = "Digital outputs";
 static const char acName7000_01[] = "LED";
@@ -71,13 +74,15 @@ const _objd SDO1600[] =
 };
 
 const _objd SDO1A00[] =
-{ {0x00, DTYPE_UNSIGNED8, 8, ATYPE_RO, &acNameNOE[0], 0x05, NULL},
+{ {0x00, DTYPE_UNSIGNED8, 8, ATYPE_RO, &acNameNOE[0], 0x07, NULL},
   {0x01, DTYPE_UNSIGNED32, 32, ATYPE_RO, &acNameMO[0], 0x60000108, NULL},
   {0x02, DTYPE_UNSIGNED32, 32, ATYPE_RO, &acNameMO[0], 0x60000208, NULL},
   {0x03, DTYPE_UNSIGNED32, 32, ATYPE_RO, &acNameMO[0], 0x60000308, NULL},
   {0x04, DTYPE_UNSIGNED32, 32, ATYPE_RO, &acNameMO[0], 0x60000408, NULL},
-  {0x05, DTYPE_UNSIGNED32, 32, ATYPE_RO, &acNameMO[0], 0x60000520, NULL}	
-};
+  {0x05, DTYPE_UNSIGNED32, 32, ATYPE_RO, &acNameMO[0], 0x60000520, NULL},
+  {0x06, DTYPE_UNSIGNED32, 32, ATYPE_RO, &acNameMO[0], 0x60000620, NULL},
+  {0x07, DTYPE_UNSIGNED32, 32, ATYPE_RO, &acNameMO[0], 0x60000720, NULL}
+}; // PDO Items
 
 const _objd SDO1C00[] =
 { {0x00, DTYPE_UNSIGNED8, 8, ATYPE_RO, &acNameNOE[0], 0x04, NULL},
@@ -106,12 +111,14 @@ const _objd SDO1C13[] =
 };
 
 const _objd SDO6000[] =
-{ {0x00, DTYPE_UNSIGNED8, 8, ATYPE_RO, &acNameNOE[0], 0x05, NULL},
+{ {0x00, DTYPE_UNSIGNED8, 8, ATYPE_RO, &acNameNOE[0], 0x07, NULL},
   {0x01, DTYPE_UNSIGNED8, 8, ATYPE_RO, &acName6000_01[0], 0, &(ReadBuffer.joyStickX)},
   {0x02, DTYPE_UNSIGNED8, 8, ATYPE_RO, &acName6000_02[0], 0, &(ReadBuffer.joyStickY)},
   {0x03, DTYPE_UNSIGNED8, 8, ATYPE_RO, &acName6000_03[0], 0, &(ReadBuffer.buttonC)},
   {0x04, DTYPE_UNSIGNED8, 8, ATYPE_RO, &acName6000_04[0], 0, &(ReadBuffer.buttonZ)},
-  {0x05, DTYPE_UNSIGNED32, 32, ATYPE_RO, &acName6000_05[0], 0, (void *)&(ReadBuffer.encoder)}
+  {0x05, DTYPE_UNSIGNED32, 32, ATYPE_RO, &acName6000_05[0], 0, (void *)&(ReadBuffer.AcceleroMeterX)},
+  {0x06, DTYPE_UNSIGNED32, 32, ATYPE_RO, &acName6000_06[0], 0, (void *)&(ReadBuffer.AcceleroMeterY)},
+  {0x07, DTYPE_UNSIGNED32, 32, ATYPE_RO, &acName6000_07[0], 0, (void *)&(ReadBuffer.AcceleroMeterZ)}
 }; // SDO Mailbox items
 
 const _objd SDO7000[] =
@@ -137,13 +144,13 @@ const _objectlist SDOobjects[] =
   {0x100A, OTYPE_VAR, 0, 0, &acName100A[0], &SDO100A[0]},
   {0x1018, OTYPE_RECORD, 4, 0, &acName1018[0], &SDO1018[0]},
   {0x1600, OTYPE_RECORD, 0x01, 0, &acName1600[0], &SDO1600[0]},
-  {0x1A00, OTYPE_RECORD, 0x05, 0, &acName1A00[0], &SDO1A00[0]},
+  {0x1A00, OTYPE_RECORD, 0x07, 0, &acName1A00[0], &SDO1A00[0]},
   {0x1C00, OTYPE_ARRAY, 4, 0, &acName1C00[0], &SDO1C00[0]},
   {0x1C10, OTYPE_ARRAY, 0, 0, &acName1C10[0], &SDO1C10[0]},
   {0x1C11, OTYPE_ARRAY, 0, 0, &acName1C11[0], &SDO1C11[0]},
   {0x1C12, OTYPE_ARRAY, 1, 0, &acName1C12[0], &SDO1C12[0]},
   {0x1C13, OTYPE_ARRAY, 1, 0, &acName1C13[0], &SDO1C13[0]},
-  {0x6000, OTYPE_ARRAY, 0x05, 0, &acName6000[0], &SDO6000[0]},
+  {0x6000, OTYPE_ARRAY, 0x07, 0, &acName6000[0], &SDO6000[0]},
   {0x7000, OTYPE_ARRAY, 0x01, 0, &acName7000[0], &SDO7000[0]},
   {0x7100, OTYPE_ARRAY, 0x02, 0, &acName7100[0], &SDO7100[0]},
   {0x8001, OTYPE_ARRAY, 0x01, 0, &acName8001[0], &SDO8001[0]},
