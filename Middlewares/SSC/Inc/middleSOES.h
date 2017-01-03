@@ -6,8 +6,12 @@
 #include "esc.h"
 #include "esc_coe.h"
 #include "utypes.h"
+#include "objectlist.h"
+#include "driverSWNunChuck.h"
 
-extern void soes_init (void);
-extern void soes_task (void);
+#include "modEffect.h"
+
+void middleSOESInit(void);
+void middleSOESTask(void);
 
 #endif

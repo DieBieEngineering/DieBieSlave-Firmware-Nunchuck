@@ -39,14 +39,14 @@
 
 #include <cc.h>
 
-typedef struct
+typedef struct CC_PACKED
 {
    uint8_t state;
    uint8_t button;
    uint32_t encoder;
 } _Rbuffer;
 
-typedef struct
+typedef struct CC_PACKED
 {
    uint8_t LED;
 } _Wbuffer;

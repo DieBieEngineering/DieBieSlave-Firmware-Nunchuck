@@ -3,36 +3,31 @@
 #include "modDelay.h"
 #include "modEffect.h"
 #include "middleSOES.h"
+#include "objectlist.h"
+#include "driverSWNunChuck.h"
 
-uint32_t modDelaySPI1LastTick; // Only for SPI Evaluation
-uint32_t temp = 0;						// Only for SPI Evaluation
-uint16_t tempCounterIRQ = 0;
-uint16_t tempCounterSYNC0 = 0;
-uint16_t tempCounterSYNC1 = 0;
-
-/* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 void Error_Handler(void);
 static void MX_GPIO_Init(void);
 
-uint32_t delayTick;
+driverSWNunChuckDataStruct nunChuckData;
 
 int main(void) {
   HAL_Init();
   SystemClock_Config();
   MX_GPIO_Init();
 	
-	delayTick = 0;
-	
 	modDelayInit();
 	modEffectInit();
-	modEffectChangeState(STAT_LED_DEBUG,STAT_FLASH);
+	//modEffectChangeState(STAT_LED_DEBUG,STAT_FLASH);
+	middleSOESInit();
 	
-	soes_init();
+	driverSWNunChuckInit();
 	
   while(true) {
 		modEffectTask();
-		soes_task();
+		middleSOESTask();
+		driverSWNunChuckGetData(&nunChuckData);
   }
 }
 

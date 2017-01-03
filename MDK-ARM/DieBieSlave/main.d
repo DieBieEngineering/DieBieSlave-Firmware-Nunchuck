@@ -61,3 +61,11 @@ diebieslave\main.o: ..\Drivers\HWDrivers\Inc\driverHWECATTickTimer.h
 diebieslave\main.o: ..\Drivers\HWDrivers\Inc\driverHWLANInterrupt.h
 diebieslave\main.o: ..\Middlewares\SSC\Inc\esc_coe.h
 diebieslave\main.o: ..\Middlewares\SSC\Inc\utypes.h
+diebieslave\main.o: ..\Middlewares\SSC\Inc\objectlist.h
+diebieslave\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+diebieslave\main.o: ..\Drivers\SWDrivers\Inc\driverSWNunChuck.h
+diebieslave\main.o: ..\Drivers\HWDrivers\Inc\driverHWI2C3.h
+diebieslave\main.o: ..\Modules\Inc\modDelay.h
+diebieslave\main.o: ..\Modules\Inc\modEffect.h
+diebieslave\main.o: ..\Modules\Inc\modDelay.h
+diebieslave\main.o: ..\Middlewares\SSC\Inc\objectlist.h

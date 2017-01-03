@@ -44,7 +44,7 @@ typedef struct CC_PACKED
    uint16_t access;
    const char *name;
    uint32_t value;
-   void *data;
+   void  *data;
 } _objd;
 
 typedef struct CC_PACKED

@@ -1,47 +1,4 @@
-/*
- * SOES Simple Open EtherCAT Slave
- *
- * Copyright (C) 2007-2013 Arthur Ketels
- *
- * SOES is free software; you can redistribute it and/or modify it under
- * the terms of the GNU General Public License version 2 as published by the Free
- * Software Foundation.
- *
- * SOES is distributed in the hope that it will be useful, but WITHOUT ANY
- * WARRANTY; without even the implied warranty of MERCHANTABILITY or
- * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
- * for more details.
- *
- * As a special exception, if other files instantiate templates or use macros
- * or inline functions from this file, or you compile this file and link it
- * with other works to produce a work based on this file, this file does not
- * by itself cause the resulting work to be covered by the GNU General Public
- * License. However the source code for this file must still be made available
- * in accordance with section (3) of the GNU General Public License.
- *
- * This exception does not invalidate any other reasons why a work based on
- * this file might be covered by the GNU General Public License.
- *
- * The EtherCAT Technology, the trade name and logo "EtherCAT" are the intellectual
- * property of, and protected by Beckhoff Automation GmbH.
- */
-
- /** \file
- * \brief
- * CoE Object Dictionary.
- *
- * Part of application, describe the slave and its process data.
- */
-
-#include "esc_coe.h"
-#include "utypes.h"
-#include <stddef.h>
-
-extern _Rbuffer Rb;
-extern _Wbuffer Wb;
-extern _Cbuffer Cb;
-extern uint32_t encoder_scale;
-extern uint32_t encoder_scale_mirror;
+#include "objectlist.h"
 
 static const char acName1000[] = "Device Type";
 static const char acName1008[] = "Manufacturer Device Name";
@@ -76,7 +33,7 @@ static const char acName7100_02[] = "Encoder scale mirror";
 static const char acName8001[] = "Slave commands";
 static const char acName8001_01[] = "Reset counter";
 
-static char ac1008_00[] = "SOES test application";
+static char ac1008_00[] = "DieBieSlave - Evaluation";
 static char ac1009_00[] = "0.0.2";
 static char ac100A_00[] = "0.9.3";
 
@@ -93,7 +50,7 @@ const _objd SDO100A[] =
 };
 const _objd SDO1018[] =
 { {0x00, DTYPE_UNSIGNED8, 8, ATYPE_RO, &acNameNOE[0], 0x04, NULL},
-  {0x01, DTYPE_UNSIGNED32, 32, ATYPE_RO, &acName1018_01[0], 0x00001337, NULL},
+  {0x01, DTYPE_UNSIGNED32, 32, ATYPE_RO, &acName1018_01[0], 0x00000959, NULL},
   {0x02, DTYPE_UNSIGNED32, 32, ATYPE_RO, &acName1018_02[0], 0x12783456, NULL},
   {0x03, DTYPE_UNSIGNED32, 32, ATYPE_RO, &acName1018_03[0], 0x00000001, NULL},
   {0x04, DTYPE_UNSIGNED32, 32, ATYPE_RO, &acName1018_04[0], 0x00000000, NULL}
@@ -132,7 +89,7 @@ const _objd SDO1C13[] =
 const _objd SDO6000[] =
 { {0x00, DTYPE_UNSIGNED8, 8, ATYPE_RO, &acNameNOE[0], 0x02, NULL},
   {0x01, DTYPE_UNSIGNED8, 8, ATYPE_RO, &acName6000_01[0], 0, &(Rb.button)},
-  {0x02, DTYPE_UNSIGNED32, 32, ATYPE_RO, &acName6000_02[0], 0, &(Rb.encoder)}
+  {0x02, DTYPE_UNSIGNED32, 32, ATYPE_RO, &acName6000_02[0], 0, (void *)&(Rb.encoder)}
 };
 const _objd SDO7000[] =
 { {0x00, DTYPE_UNSIGNED8, 8, ATYPE_RO, &acNameNOE[0], 0x01, NULL},

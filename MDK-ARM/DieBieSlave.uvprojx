@@ -508,6 +508,11 @@
               <FilePath>..\Drivers\HWDrivers\Src\driverHWSPI1.c</FilePath>
             </File>
             <File>
+              <FileName>driverHWI2C3.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\HWDrivers\Src\driverHWI2C3.c</FilePath>
+            </File>
+            <File>
               <FileName>usb_device.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Drivers\HWDrivers\Src\usb_device.c</FilePath>
@@ -537,6 +542,11 @@
               <FileType>1</FileType>
               <FilePath>..\Drivers\SWDrivers\Src\driverSWLAN9252.c</FilePath>
             </File>
+            <File>
+              <FileName>driverSWNunChuck.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\SWDrivers\Src\driverSWNunChuck.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -558,14 +568,14 @@
               <FilePath>..\Middlewares\SSC\Src\esc_foe.c</FilePath>
             </File>
             <File>
-              <FileName>soes.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Middlewares\SSC\Src\soes.c</FilePath>
-            </File>
-            <File>
               <FileName>objectlist.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Middlewares\SSC\Src\objectlist.c</FilePath>
+            </File>
+            <File>
+              <FileName>middleSOES.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Middlewares\SSC\Src\middleSOES.c</FilePath>
             </File>
           </Files>
         </Group>
