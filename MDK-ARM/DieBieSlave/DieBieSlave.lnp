@@ -40,6 +40,7 @@
 "diebieslave\usbd_ioreq.o"
 "diebieslave\usbd_ctlreq.o"
 "diebieslave\usbd_core.o"
+"diebieslave\middlenunchuck.o"
 "diebieslave\moddelay.o"
 "diebieslave\modeffect.o"
 "diebieslave\startup_stm32f303xe.o"

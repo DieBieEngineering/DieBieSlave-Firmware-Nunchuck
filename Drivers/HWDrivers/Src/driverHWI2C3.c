@@ -24,16 +24,12 @@ void driverHWI2C3Init(void) {
 
 bool driverHWI2C3ReadWrite(uint16_t DevAddress, bool readWrite, uint8_t *pData, uint16_t Size) {
 	uint16_t addresRW = (DevAddress << 1) | readWrite;
-	
-	HAL_I2C_Master_Transmit(&driverHWI2C3Handle,addresRW,pData,Size,driverHWI2C3DefaultTimout);
-	return false;
+	return (HAL_I2C_Master_Transmit(&driverHWI2C3Handle,addresRW,pData,Size,driverHWI2C3DefaultTimout) == HAL_OK);
 };
 
 bool driverHWI2C3Read(uint16_t DevAddress, uint8_t *pData, uint16_t Size) {
 	uint16_t addresRW = (DevAddress << 1) | 0x01; // Read bit high
-	
-	HAL_I2C_Master_Receive(&driverHWI2C3Handle,addresRW,pData,Size,driverHWI2C3DefaultTimout);
-	return false;
+	return (HAL_I2C_Master_Receive(&driverHWI2C3Handle,addresRW,pData,Size,driverHWI2C3DefaultTimout) == HAL_OK);
 };
 
 

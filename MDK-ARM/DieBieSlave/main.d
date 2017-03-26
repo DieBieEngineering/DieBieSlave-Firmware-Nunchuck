@@ -67,3 +67,4 @@ diebieslave\main.o: ..\Drivers\HWDrivers\Inc\driverHWI2C3.h
 diebieslave\main.o: ..\Modules\Inc\modDelay.h
 diebieslave\main.o: ..\Modules\Inc\modEffect.h
 diebieslave\main.o: ..\Modules\Inc\modDelay.h
+diebieslave\main.o: ..\Middlewares\DieBie\Inc\middleNunChuck.h

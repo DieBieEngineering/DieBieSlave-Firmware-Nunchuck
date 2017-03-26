@@ -12,5 +12,6 @@
 
 void middleSOESInit(void);
 void middleSOESTask(void);
+void middleSOESReadBufferUpdateEvent(void (*eventFunctionPointer)(void));
 
 #endif

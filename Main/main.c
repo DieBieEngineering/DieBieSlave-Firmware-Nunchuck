@@ -3,14 +3,16 @@
 #include "modDelay.h"
 #include "modEffect.h"
 #include "middleSOES.h"
-#include "objectlist.h"
-#include "driverSWNunChuck.h"
+#include "middleNunChuck.h"
 
 void SystemClock_Config(void);
 void Error_Handler(void);
 static void MX_GPIO_Init(void);
 
-driverSWNunChuckDataStruct nunChuckData;
+middleNunChuckDataStruct mainNunChuckSensorDataStruct;
+
+void newNunChuckDataEventHandler(middleNunChuckDataStruct newData);
+void newSOESReadBufferUpdateHandler(void);
 
 int main(void) {
   HAL_Init();
@@ -19,16 +21,36 @@ int main(void) {
 	
 	modDelayInit();
 	modEffectInit();
-	//modEffectChangeState(STAT_LED_DEBUG,STAT_FLASH);
 	middleSOESInit();
+	middleSOESReadBufferUpdateEvent(&newSOESReadBufferUpdateHandler);
 	
-	driverSWNunChuckInit();
+	middleNunChuckInit();
+	middleNunChuckNewDataEvent(&newNunChuckDataEventHandler);
 	
   while(true) {
 		modEffectTask();
 		middleSOESTask();
-		driverSWNunChuckGetData(&nunChuckData);
+		middleNunChuckTask();
   }
+}
+
+void newNunChuckDataEventHandler(middleNunChuckDataStruct newData) {
+	memcpy(&mainNunChuckSensorDataStruct,&newData,sizeof(middleNunChuckDataStruct));
+}
+
+void newSOESReadBufferUpdateHandler(void) {
+	// Update the SOES readbuffer
+	middleSOESReadBuffer.joyStickX = mainNunChuckSensorDataStruct.joystickX;
+	middleSOESReadBuffer.joyStickY = mainNunChuckSensorDataStruct.joystickY;
+	
+	middleSOESReadBuffer.AcceleroMeterX = mainNunChuckSensorDataStruct.accelerometerX;
+	middleSOESReadBuffer.AcceleroMeterY = mainNunChuckSensorDataStruct.accelerometerY;
+	middleSOESReadBuffer.AcceleroMeterZ = mainNunChuckSensorDataStruct.accelerometerZ;
+	
+	middleSOESReadBuffer.buttonC = mainNunChuckSensorDataStruct.buttonC;
+	middleSOESReadBuffer.buttonZ = mainNunChuckSensorDataStruct.buttonZ;
+	
+	middleSOESReadBuffer.dataValid = mainNunChuckSensorDataStruct.dataValid;
 }
 
 void SystemClock_Config(void) {
@@ -42,8 +64,7 @@ void SystemClock_Config(void) {
   RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
   RCC_OscInitStruct.PLL.PLLMUL = RCC_PLL_MUL6;
   RCC_OscInitStruct.PLL.PREDIV = RCC_PREDIV_DIV1;
-  if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
-  {
+  if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK) {
     Error_Handler();
   }
 
@@ -53,8 +74,7 @@ void SystemClock_Config(void) {
   RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
   RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV2;
   RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
-  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_2) != HAL_OK)
-  {
+  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_2) != HAL_OK) {
     Error_Handler();
   }
 
@@ -67,8 +87,7 @@ void SystemClock_Config(void) {
   PeriphClkInit.I2c3ClockSelection = RCC_I2C3CLKSOURCE_SYSCLK;
   PeriphClkInit.USBClockSelection = RCC_USBCLKSOURCE_PLL_DIV1_5;
   PeriphClkInit.Tim2ClockSelection = RCC_TIM2CLK_PLLCLK;
-  if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInit) != HAL_OK)
-  {
+  if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInit) != HAL_OK) {
     Error_Handler();
   }
 

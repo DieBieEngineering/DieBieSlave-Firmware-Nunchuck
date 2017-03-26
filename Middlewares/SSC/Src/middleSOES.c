@@ -6,28 +6,24 @@
 #define DEFAULTTXPDOITEMS  1
 #define DEFAULTRXPDOITEMS  1
 
-extern driverSWNunChuckDataStruct nunChuckData; // Comes from main.c
+volatile _ESCvar  							ESCvar;
+_MBX              							MBX[MBXBUFFERS];
+_MBXcontrol       							MBXcontrol[MBXBUFFERS];
+uint8_t           							MBXrun=0;
+uint16_t          							SM2_sml,SM3_sml;
+middleSOESReadbufferTypedef			middleSOESReadBuffer;
+middleSOESWritebufferTypedef		middleSOESWriteBuffer;
+middleSOESAppTypedef						App;
+uint16_t          							TXPDOsize,RXPDOsize;
+int               							wd_cnt = WD_RESET;
+volatile uint8_t  							digoutput;
+volatile uint8_t  							diginput;
+uint16_t          							txpdomap = DEFAULTTXPDOMAP;
+uint16_t          							rxpdomap = DEFAULTRXPDOMAP;
+uint8_t           							txpdoitems = DEFAULTTXPDOITEMS;
+uint8_t           							rxpdoitems = DEFAULTTXPDOITEMS;
 
-uint32_t            encoder_scale;
-uint32_t            encoder_scale_mirror;
-
-volatile _ESCvar  ESCvar;
-_MBX              MBX[MBXBUFFERS];
-_MBXcontrol       MBXcontrol[MBXBUFFERS];
-uint8_t           MBXrun=0;
-uint16_t          SM2_sml,SM3_sml;
-_Rbuffer          ReadBuffer;
-_Wbuffer          WriteBuffer;
-_Cbuffer          CommandBuffer;
-_App              App;
-uint16_t          TXPDOsize,RXPDOsize;
-int               wd_cnt = WD_RESET;
-volatile uint8_t  digoutput;
-volatile uint8_t  diginput;
-uint16_t          txpdomap = DEFAULTTXPDOMAP;
-uint16_t          rxpdomap = DEFAULTRXPDOMAP;
-uint8_t           txpdoitems = DEFAULTTXPDOITEMS;
-uint8_t           rxpdoitems = DEFAULTTXPDOITEMS;
+void (*middleSOESReadBufferUpdateEventFunctionPointer)(void);
 
 /** Mandatory: Hook called from the slave stack SDO Download handler to act on
  * user specified Index and Sub-index.
@@ -62,19 +58,15 @@ void ESC_objecthandler(uint16_t index, uint8_t subindex) {
       }
       case 0x7100: {
          switch (subindex) {
-            case 0x01: {
-               encoder_scale_mirror = encoder_scale;
+            default:
                break;
-            }
          }
          break;
       }
       case 0x8001: {
          switch (subindex) {
-            case 0x01: {
-               CommandBuffer.reset_counter = 0; // When something is written to this variable
+            default:
                break;
-            }
          }
          break;
       }
@@ -87,17 +79,17 @@ void ESC_objecthandler(uint16_t index, uint8_t subindex) {
  */
 void APP_safeoutput(void) {
    DPRINT("APP_safeoutput called\n");
-   WriteBuffer.LED = 0;
+   middleSOESWriteBuffer.LED = 0;
 }
 /** Mandatory: Write local process data to Sync Manager 3, Master Inputs.
  */
 void TXPDO_update(void) {
-	ESC_write(SM3_sma, &ReadBuffer.joyStickX, TXPDOsize);						// Todo: test is passing stuckt pointer is enough
+	ESC_write(SM3_sma, &middleSOESReadBuffer.joyStickX, TXPDOsize);						// Todo: test is passing struct pointer is enough?
 }
 /** Mandatory: Read Sync Manager 2 to local process data, Master Outputs.
  */
 void RXPDO_update(void) {
-   ESC_read(SM2_sma, &WriteBuffer.LED, RXPDOsize);
+   ESC_read(SM2_sma, &middleSOESWriteBuffer.LED, RXPDOsize);
 }
 
 /** Mandatory: Function to update local I/O, call read ethercat outputs, call
@@ -105,47 +97,50 @@ void RXPDO_update(void) {
  * made state change affecting the App.state.
  */
 void DIG_process(void) {
-   if (wd_cnt){
-      wd_cnt--;
-   }
-   if (App.state & APPSTATE_OUTPUT){
-      /* SM2 trigger ? */
-      if (ESCvar.ALevent & ESCREG_ALEVENT_SM2) {
-         ESCvar.ALevent &= ~ESCREG_ALEVENT_SM2;
-         RXPDO_update();
-         wd_cnt = WD_RESET;
-         /* dummy output point */
-         if (WriteBuffer.LED) {
-            modEffectChangeState(STAT_LED_DEBUG,STAT_SET);
-         } else {
-            modEffectChangeState(STAT_LED_DEBUG,STAT_RESET);
-         }
-      }
-      if (!wd_cnt) {
-         //DPRINT("DIG_process watchdog tripped\n");
-         ESC_stopoutput();
-         /* watchdog, invalid outputs */
-         ESC_ALerror(ALERR_WATCHDOG);
-         /* goto safe-op with error bit set */
-         ESC_ALstatus(ESCsafeop | ESCerror);
-      }
-   }else{
-      wd_cnt = WD_RESET;
+	if (wd_cnt){
+		wd_cnt--;
 	}
-	if (App.state){
-		// Update NunChuckVariables
-		ReadBuffer.joyStickX = nunChuckData.joystickX;
-		ReadBuffer.joyStickY = nunChuckData.joystickY;	
-		ReadBuffer.buttonC = nunChuckData.buttonC ? 255 : 0;
-		ReadBuffer.buttonZ = nunChuckData.buttonZ ? 255 : 0;
-		
-		// Update command variables
-		CommandBuffer.reset_counter++;
-		
-		// Update SDO variables
-		ReadBuffer.AcceleroMeterX =  (nunChuckData.accelerometerX << 22);
-		ReadBuffer.AcceleroMeterY =  (nunChuckData.accelerometerY << 22);
-		ReadBuffer.AcceleroMeterZ =  (nunChuckData.accelerometerZ << 22);
+	
+	if (App.state & APPSTATE_OUTPUT){
+		/* SM2 trigger ? */
+		if (ESCvar.ALevent & ESCREG_ALEVENT_SM2) {
+			 ESCvar.ALevent &= ~ESCREG_ALEVENT_SM2;
+			 RXPDO_update();
+			 wd_cnt = WD_RESET;
+			 
+			 if (middleSOESWriteBuffer.LED) {
+					modEffectChangeState(STAT_LED_DEBUG,STAT_SET);
+			 } else {
+					modEffectChangeState(STAT_LED_DEBUG,STAT_RESET);
+			 }
+		}
+	
+		if (!wd_cnt) {
+			 //DPRINT("DIG_process watchdog tripped\n");
+			 ESC_stopoutput();
+			 /* watchdog, invalid outputs */
+			 ESC_ALerror(ALERR_WATCHDOG);
+			 /* goto safe-op with error bit set */
+			 ESC_ALstatus(ESCsafeop | ESCerror);
+		}
+	}else{
+		wd_cnt = WD_RESET;
+		modEffectChangeState(STAT_LED_DEBUG,STAT_RESET);
+	}
+	
+	if (App.state) {
+		// Update NunChuckVariables	
+		if(middleSOESReadBufferUpdateEventFunctionPointer) {
+			middleSOESReadBufferUpdateEventFunctionPointer();
+		}else{
+		  middleSOESReadBuffer.joyStickX = 0;
+		  middleSOESReadBuffer.joyStickY = 0;
+		  middleSOESReadBuffer.AcceleroMeterX = 0;
+		  middleSOESReadBuffer.AcceleroMeterY = 0;
+		  middleSOESReadBuffer.AcceleroMeterZ = 0;
+		  middleSOESReadBuffer.buttonC = false;
+		  middleSOESReadBuffer.buttonZ = false;
+		}
 		
 		// Update transmit PDO's
 		TXPDO_update();
@@ -215,4 +210,9 @@ void middleSOESTask(void) {
        ESC_xoeprocess();
     }
     DIG_process();
+}
+
+void middleSOESReadBufferUpdateEvent(void (*eventFunctionPointer)(void)) {
+	if(eventFunctionPointer)
+		middleSOESReadBufferUpdateEventFunctionPointer = eventFunctionPointer;
 }

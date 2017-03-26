@@ -310,7 +310,7 @@
           </ArmAdsMisc>
           <Cads>
             <interw>1</interw>
-            <Optim>1</Optim>
+            <Optim>4</Optim>
             <oTime>0</oTime>
             <SplitLS>0</SplitLS>
             <OneElfS>1</OneElfS>
@@ -334,7 +334,7 @@
               <MiscControls>--C99</MiscControls>
               <Define>USE_HAL_DRIVER,STM32F303xE</Define>
               <Undefine></Undefine>
-              <IncludePath>..\Device\Src;..\Device\Inc;../Drivers/STM32F3xx_HAL_Driver/Inc;../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Include;../Drivers/CMSIS/Device/ST/STM32F3xx/Include;../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc;../Middlewares/ST/STM32_USB_Device_Library/Core/Inc;..\Drivers\HWDrivers\Inc;..\Drivers\HWDrivers\Src;..\Drivers\SWDrivers\Inc;..\Drivers\SWDrivers\Src;..\Modules\Inc;..\Modules\Src;..\Libraries\Inc;..\Libraries\Src;..\Middlewares\SSC\Inc;..\Middlewares\SSC\Src;..\ObjDictionary\Inc;..\ObjDictionary\Src</IncludePath>
+              <IncludePath>..\Device\Src;..\Device\Inc;../Drivers/STM32F3xx_HAL_Driver/Inc;../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Include;../Drivers/CMSIS/Device/ST/STM32F3xx/Include;../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc;../Middlewares/ST/STM32_USB_Device_Library/Core/Inc;..\Drivers\HWDrivers\Inc;..\Drivers\HWDrivers\Src;..\Drivers\SWDrivers\Inc;..\Drivers\SWDrivers\Src;..\Modules\Inc;..\Modules\Src;..\Libraries\Inc;..\Libraries\Src;..\Middlewares\SSC\Inc;..\Middlewares\SSC\Src;..\ObjDictionary\Inc;..\ObjDictionary\Src;..\Middlewares\DieBie\Inc;..\Middlewares\DieBie\Src</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -601,6 +601,16 @@
               <FileName>usbd_core.c</FileName>
               <FileType>1</FileType>
               <FilePath>../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>MiddleWares</GroupName>
+          <Files>
+            <File>
+              <FileName>middleNunChuck.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Middlewares\DieBie\Src\middleNunChuck.c</FilePath>
             </File>
           </Files>
         </Group>

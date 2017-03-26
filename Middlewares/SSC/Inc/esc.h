@@ -444,12 +444,12 @@ extern uint16_t SM2_sml, SM3_sml;
 typedef struct
 {
    uint8_t state;
-} _App;
+} middleSOESAppTypedef;
 
 #define APPSTATE_IDLE      0x00
 #define APPSTATE_INPUT     0x01
 #define APPSTATE_OUTPUT    0x02
 
-extern _App App;
+extern middleSOESAppTypedef App;
 
 #endif

@@ -1,5 +1,6 @@
 diebieslave\driverswnunchuck.o: ..\Drivers\SWDrivers\Src\driverSWNunChuck.c
 diebieslave\driverswnunchuck.o: ..\Drivers\SWDrivers\Inc\driverSWNunChuck.h
+diebieslave\driverswnunchuck.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 diebieslave\driverswnunchuck.o: ..\Drivers\HWDrivers\Inc\driverHWI2C3.h
 diebieslave\driverswnunchuck.o: ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h
 diebieslave\driverswnunchuck.o: ..\Device\Inc\stm32f3xx_hal_conf.h
