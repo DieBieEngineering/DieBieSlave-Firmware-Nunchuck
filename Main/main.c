@@ -7,7 +7,6 @@
 
 void SystemClock_Config(void);
 void Error_Handler(void);
-static void MX_GPIO_Init(void);
 
 middleNunChuckDataStruct mainNunChuckSensorDataStruct;
 
@@ -17,7 +16,6 @@ void newSOESReadBufferUpdateHandler(void);
 int main(void) {
   HAL_Init();
   SystemClock_Config();
-  MX_GPIO_Init();
 	
 	modDelayInit();
 	modEffectInit();
@@ -40,17 +38,17 @@ void newNunChuckDataEventHandler(middleNunChuckDataStruct newData) {
 
 void newSOESReadBufferUpdateHandler(void) {
 	// Update the SOES readbuffer
-	middleSOESReadBuffer.joyStickX = mainNunChuckSensorDataStruct.joystickX;
-	middleSOESReadBuffer.joyStickY = mainNunChuckSensorDataStruct.joystickY;
+	middleSOESReadBuffer.NunChuck.JoyStickX = mainNunChuckSensorDataStruct.joystickX;
+	middleSOESReadBuffer.NunChuck.JoyStickY = mainNunChuckSensorDataStruct.joystickY;
 	
-	middleSOESReadBuffer.AcceleroMeterX = mainNunChuckSensorDataStruct.accelerometerX;
-	middleSOESReadBuffer.AcceleroMeterY = mainNunChuckSensorDataStruct.accelerometerY;
-	middleSOESReadBuffer.AcceleroMeterZ = mainNunChuckSensorDataStruct.accelerometerZ;
+	middleSOESReadBuffer.NunChuck.AcceleroMeterX = mainNunChuckSensorDataStruct.accelerometerX;
+	middleSOESReadBuffer.NunChuck.AcceleroMeterY = mainNunChuckSensorDataStruct.accelerometerY;
+	middleSOESReadBuffer.NunChuck.AcceleroMeterZ = mainNunChuckSensorDataStruct.accelerometerZ;
 	
-	middleSOESReadBuffer.buttonC = mainNunChuckSensorDataStruct.buttonC;
-	middleSOESReadBuffer.buttonZ = mainNunChuckSensorDataStruct.buttonZ;
+	middleSOESReadBuffer.NunChuck.ButtonC = mainNunChuckSensorDataStruct.buttonC;
+	middleSOESReadBuffer.NunChuck.ButtonZ = mainNunChuckSensorDataStruct.buttonZ;
 	
-	middleSOESReadBuffer.dataValid = mainNunChuckSensorDataStruct.dataValid;
+	middleSOESReadBuffer.NunChuck.NunChuckDataValid = mainNunChuckSensorDataStruct.dataValid;
 }
 
 void SystemClock_Config(void) {
@@ -99,18 +97,6 @@ void SystemClock_Config(void) {
   HAL_NVIC_SetPriority(SysTick_IRQn, 0, 0);
 }
 
-static void MX_GPIO_Init(void) {
-	__HAL_RCC_GPIOA_CLK_ENABLE();
-	
-  HAL_GPIO_WritePin(GPIOA, GPIO0_Pin|GPIO1_Pin|GPIO2_Pin, GPIO_PIN_RESET);
-	
-	GPIO_InitTypeDef GPIO_InitStruct;				// GPIO's are configured peripheral specific. Accept for the GPIO.
-  GPIO_InitStruct.Pin = GPIO0_Pin|GPIO1_Pin|GPIO2_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
-}
 
 void Error_Handler(void) {
   while(1);

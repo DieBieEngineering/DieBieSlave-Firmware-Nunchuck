@@ -6,22 +6,23 @@
 #define DEFAULTTXPDOITEMS  1
 #define DEFAULTRXPDOITEMS  1
 
-volatile _ESCvar  							ESCvar;
-_MBX              							MBX[MBXBUFFERS];
-_MBXcontrol       							MBXcontrol[MBXBUFFERS];
-uint8_t           							MBXrun=0;
-uint16_t          							SM2_sml,SM3_sml;
-middleSOESReadbufferTypedef			middleSOESReadBuffer;
-middleSOESWritebufferTypedef		middleSOESWriteBuffer;
-middleSOESAppTypedef						App;
-uint16_t          							TXPDOsize,RXPDOsize;
-int               							wd_cnt = WD_RESET;
-volatile uint8_t  							digoutput;
-volatile uint8_t  							diginput;
-uint16_t          							txpdomap = DEFAULTTXPDOMAP;
-uint16_t          							rxpdomap = DEFAULTRXPDOMAP;
-uint8_t           							txpdoitems = DEFAULTTXPDOITEMS;
-uint8_t           							rxpdoitems = DEFAULTTXPDOITEMS;
+volatile _ESCvar  									ESCvar;
+_MBX              									MBX[MBXBUFFERS];
+_MBXcontrol       									MBXcontrol[MBXBUFFERS];
+uint8_t           									MBXrun=0;
+uint16_t          									SM2_sml,SM3_sml;
+middleSOESReadbufferTypedef					middleSOESReadBuffer;
+middleSOESReadBufferBooleansTypedef middleSOESReadBufferBooleans;
+middleSOESWritebufferTypedef				middleSOESWriteBuffer;
+middleSOESAppTypedef								App;
+uint16_t          									TXPDOsize,RXPDOsize;
+int               									wd_cnt = WD_RESET;
+volatile uint8_t  									digoutput;
+volatile uint8_t  									diginput;
+uint16_t          									txpdomap = DEFAULTTXPDOMAP;
+uint16_t          									rxpdomap = DEFAULTRXPDOMAP;
+uint8_t           									txpdoitems = DEFAULTTXPDOITEMS;
+uint8_t           									rxpdoitems = DEFAULTTXPDOITEMS;
 
 void (*middleSOESReadBufferUpdateEventFunctionPointer)(void);
 
@@ -79,17 +80,23 @@ void ESC_objecthandler(uint16_t index, uint8_t subindex) {
  */
 void APP_safeoutput(void) {
    DPRINT("APP_safeoutput called\n");
-   middleSOESWriteBuffer.LED = 0;
+   middleSOESWriteBuffer.Digital_outputs.LED0 = 0;
 }
 /** Mandatory: Write local process data to Sync Manager 3, Master Inputs.
  */
 void TXPDO_update(void) {
-	ESC_write(SM3_sma, &middleSOESReadBuffer.joyStickX, TXPDOsize);						// Todo: test is passing struct pointer is enough?
+	ESC_write(SM3_sma, &middleSOESReadBuffer, TXPDOsize);
+	
+	middleSOESReadBufferBooleans.ButtonC 						= middleSOESReadBuffer.NunChuck.ButtonC;
+	middleSOESReadBufferBooleans.ButtonZ 						= middleSOESReadBuffer.NunChuck.ButtonZ;
+	middleSOESReadBufferBooleans.NunChuckDataValid 	= middleSOESReadBuffer.NunChuck.NunChuckDataValid;	
 }
 /** Mandatory: Read Sync Manager 2 to local process data, Master Outputs.
  */
 void RXPDO_update(void) {
-   ESC_read(SM2_sma, &middleSOESWriteBuffer.LED, RXPDOsize);
+  ESC_read(SM2_sma, &middleSOESWriteBuffer, RXPDOsize);
+	
+	middleSOESReadBufferBooleans.LED0 = middleSOESWriteBuffer.Digital_outputs.LED0;
 }
 
 /** Mandatory: Function to update local I/O, call read ethercat outputs, call
@@ -108,7 +115,7 @@ void DIG_process(void) {
 			 RXPDO_update();
 			 wd_cnt = WD_RESET;
 			 
-			 if (middleSOESWriteBuffer.LED) {
+			 if (middleSOESWriteBuffer.Digital_outputs.LED0) {
 					modEffectChangeState(STAT_LED_DEBUG,STAT_SET);
 			 } else {
 					modEffectChangeState(STAT_LED_DEBUG,STAT_RESET);
@@ -133,17 +140,22 @@ void DIG_process(void) {
 		if(middleSOESReadBufferUpdateEventFunctionPointer) {
 			middleSOESReadBufferUpdateEventFunctionPointer();
 		}else{
-		  middleSOESReadBuffer.joyStickX = 0;
-		  middleSOESReadBuffer.joyStickY = 0;
-		  middleSOESReadBuffer.AcceleroMeterX = 0;
-		  middleSOESReadBuffer.AcceleroMeterY = 0;
-		  middleSOESReadBuffer.AcceleroMeterZ = 0;
-		  middleSOESReadBuffer.buttonC = false;
-		  middleSOESReadBuffer.buttonZ = false;
+		  middleSOESReadBuffer.NunChuck.JoyStickX = 0;
+		  middleSOESReadBuffer.NunChuck.JoyStickY = 0;
+		  middleSOESReadBuffer.NunChuck.AcceleroMeterX = 0;
+		  middleSOESReadBuffer.NunChuck.AcceleroMeterY = 0;
+		  middleSOESReadBuffer.NunChuck.AcceleroMeterZ = 0;
+		  middleSOESReadBuffer.NunChuck.ButtonC = false;
+		  middleSOESReadBuffer.NunChuck.ButtonZ = false;
 		}
 		
 		// Update transmit PDO's
+		
+		// Make gpio high
+		HAL_GPIO_WritePin(GPIOA, GPIO0_Pin, GPIO_PIN_SET);
 		TXPDO_update();
+		HAL_GPIO_WritePin(GPIOA, GPIO0_Pin, GPIO_PIN_RESET);
+		// Make gpio low
 	}
 }
 
@@ -160,16 +172,16 @@ void middleSOESInit(void) {
 	TXPDOsize = SM3_sml = sizeTXPDO();
 	RXPDOsize = SM2_sml = sizeRXPDO();
 	
-	//Read BYTE-ORDER register 0x64.
+	//Check BYTE-ORDER register 0x64.
 	uint32_t data = 0;
 	do {
-		data = PDIReadLAN9252DirectReg(LAN9252_BYTE_ORDER_REG);     // If this works lots of other things work.
+		data = PDIReadLAN9252DirectReg(LAN9252_BYTE_ORDER_REG);
 	}while(0x87654321 != data);
 
 	/*  wait until ESC is started up */
 	do {
 		ESC_read(ESCREG_DLSTATUS, (void *)&ESCvar.DLstatus,sizeof(ESCvar.DLstatus));
-		ESCvar.DLstatus = etohs(ESCvar.DLstatus);
+		//ESCvar.DLstatus = etohs(ESCvar.DLstatus);
 	} while ((ESCvar.DLstatus & 0x0001) == 0);
 
 	/* reset ESC to init state */
@@ -181,35 +193,37 @@ void middleSOESInit(void) {
 }
 
 void middleSOESTask(void) {
-   /* On init restore PDO mappings to default size */
-   if((ESCvar.ALstatus & 0x0f) == ESCinit) {
-      txpdomap = DEFAULTTXPDOMAP;
-      rxpdomap = DEFAULTRXPDOMAP;
-      txpdoitems = DEFAULTTXPDOITEMS;
-      rxpdoitems = DEFAULTTXPDOITEMS;
-   }
-   /* Read local time from ESC*/
-   ESC_read(ESCREG_LOCALTIME, (void *) &ESCvar.Time, sizeof (ESCvar.Time));
-   ESCvar.Time = etohl(ESCvar.Time);
-	 
-	 ESC_ReadAlEvent();
+	/* On init restore PDO mappings to default size */
+	
+	if((ESCvar.ALstatus & 0x0f) == ESCinit) {
+		txpdomap = DEFAULTTXPDOMAP;
+		rxpdomap = DEFAULTRXPDOMAP;
+		txpdoitems = DEFAULTTXPDOITEMS;
+		rxpdoitems = DEFAULTTXPDOITEMS;
+	}
+	/* Read local time from ESC*/
+	ESC_read(ESCREG_LOCALTIME, (void *) &ESCvar.Time, sizeof (ESCvar.Time));
+	ESCvar.Time = etohl(ESCvar.Time);
 
-   /* Check the state machine */
-   ESC_state();
+	ESC_ReadAlEvent();
 
-   /* If else to two separate execution paths
-    * If we're running BOOSTRAP
-    *  - MailBox
-    *   - FoE
-    * Else we're running normal execution
-    *  - MailBox
-    *   - CoE
-    */
-    if (ESC_mbxprocess()) {
-       ESC_coeprocess();
-       ESC_xoeprocess();
-    }
-    DIG_process();
+	/* Check the state machine */
+	ESC_state();
+
+	/* If else to two separate execution paths
+	* If we're running BOOSTRAP
+	*  - MailBox
+	*   - FoE
+	* Else we're running normal execution
+	*  - MailBox
+	*   - CoE
+	*/
+	if (ESC_mbxprocess()) {
+		 ESC_coeprocess();
+		 ESC_xoeprocess();
+	}
+	
+	DIG_process();	
 }
 
 void middleSOESReadBufferUpdateEvent(void (*eventFunctionPointer)(void)) {

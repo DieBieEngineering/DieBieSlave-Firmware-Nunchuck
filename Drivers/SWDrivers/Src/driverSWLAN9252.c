@@ -41,7 +41,6 @@ void SPIWritePDRamRegister(uint8_t *WriteBuffer, uint16_t Address, uint16_t Coun
 	param32_1.w[3] = 0x8000;
     
   SPIWriteBytes (PRAM_WRITE_ADDR_LEN_REG, (uint8_t*)&param32_1.Val,8); // TODO: check if this works
-	//SPIWriteBytes (PRAM_WRITE_ADDR_LEN_REG, (uint8_t*)param32_1.Val,8); // TODO: check if this works
 
 	/*Read PRAM write Data Available (PRAM_READ_AVAIL) bit is set*/
 	do {
@@ -51,7 +50,7 @@ void SPIWritePDRamRegister(uint8_t *WriteBuffer, uint16_t Address, uint16_t Coun
 	/*Check write data available count*/
 	nWrtSpcAvlCount = param32_1.v[1] & PRAM_SPACE_AVBL_COUNT_MASK;
 
-	/*Write data to Write FIFO) */ 
+	/*Write data to Write FIFO */ 
 	/*get the byte lenth for first read*/
 	nBytePosition = (Address & 0x03);
 

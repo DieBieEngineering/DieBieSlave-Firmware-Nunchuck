@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Slave id="DieBieSlave - NunChuck" productCode="0x01001201">
+  <Name>DieBieSlave - NunChuck</Name>
+  <Vendor>
+    <Id>0x959</Id>
+    <Name>DieBie Engineering</Name>
+  </Vendor>
+  <Group>
+    <Type>DieBie Slaves</Type>
+    <Name>Sensors</Name>
+  </Group>
+  <Fmmu>Outputs</Fmmu>
+  <Fmmu>Inputs</Fmmu>
+  <Fmmu>MBoxState</Fmmu>
+  <Sm ControlByte="0x26" DefaultSize="128" StartAddress="0x1000">MBoxOut</Sm>
+  <Sm ControlByte="0x22" DefaultSize="128" StartAddress="0x1080">MBoxIn</Sm>
+  <Sm ControlByte="0x24" DefaultSize="0" StartAddress="0x1100">Outputs</Sm>
+  <Sm ControlByte="0x20" DefaultSize="0" StartAddress="0x1180">Inputs</Sm>
+  <Mailbox CoE="true">
+    <Bootstrap Length="128" Start="0x1000"/>
+    <Standard Length="128" Start="0x1000"/>
+  </Mailbox>
+  <Eeprom>
+    <ByteSize>2048</ByteSize>
+  </Eeprom>
+  <Dictionary>
+    <Item>
+      <Name>Device Type</Name>
+      <Index>0x1000</Index>
+      <DataType>UNSIGNED32</DataType>
+      <DefaultValue>0x01901389</DefaultValue>
+    </Item>
+    <Item>
+      <Name>Device Name</Name>
+      <Index>0x1008</Index>
+      <DataType>VISIBLE_STRING</DataType>
+      <DefaultValue>slave</DefaultValue>
+    </Item>
+    <Item>
+      <Name>Hardware Version</Name>
+      <Index>0x1009</Index>
+      <DataType>VISIBLE_STRING</DataType>
+      <DefaultValue>1.0</DefaultValue>
+    </Item>
+    <Item>
+      <Name>Software Version</Name>
+      <Index>0x100A</Index>
+      <DataType>VISIBLE_STRING</DataType>
+      <DefaultValue>1.0</DefaultValue>
+    </Item>
+    <Item Managed="true">
+      <Name>Identity Object</Name>
+      <Index>0x1018</Index>
+      <DataType>RECORD</DataType>
+      <SubItem>
+        <Name>Number of Elements</Name>
+        <DataType>UNSIGNED8</DataType>
+        <DefaultValue>4</DefaultValue>
+      </SubItem>
+      <SubItem>
+        <Name>Vendor ID</Name>
+        <DataType>UNSIGNED32</DataType>
+        <DefaultValue>0x959</DefaultValue>
+      </SubItem>
+      <SubItem>
+        <Name>Product Code</Name>
+        <DataType>UNSIGNED32</DataType>
+        <DefaultValue>0x01001201</DefaultValue>
+      </SubItem>
+      <SubItem>
+        <Name>Revision Number</Name>
+        <DataType>UNSIGNED32</DataType>
+        <DefaultValue>0</DefaultValue>
+      </SubItem>
+      <SubItem>
+        <Name>Serial Number</Name>
+        <DataType>UNSIGNED32</DataType>
+        <DefaultValue>0x00000000</DefaultValue>
+      </SubItem>
+    </Item>
+    <Item Managed="true">
+      <Name>Digital outputs</Name>
+      <Index>0x1600</Index>
+      <DataType>RECORD</DataType>
+      <SubItem>
+        <Name>Number of Elements</Name>
+        <DataType>UNSIGNED8</DataType>
+        <DefaultValue>2</DefaultValue>
+      </SubItem>
+      <SubItem>
+        <Name>LED0</Name>
+        <DataType>UNSIGNED32</DataType>
+        <DefaultValue>0x70000101</DefaultValue>
+      </SubItem>
+      <SubItem>
+        <Name>Padding</Name>
+        <DataType>UNSIGNED32</DataType>
+        <DefaultValue>0x00000007</DefaultValue>
+      </SubItem>
+    </Item>
+    <Item Managed="true">
+      <Name>NunChuck</Name>
+      <Index>0x1A00</Index>
+      <DataType>RECORD</DataType>
+      <SubItem>
+        <Name>Number of Elements</Name>
+        <DataType>UNSIGNED8</DataType>
+        <DefaultValue>9</DefaultValue>
+      </SubItem>
+      <SubItem>
+        <Name>JoyStickX</Name>
+        <DataType>UNSIGNED32</DataType>
+        <DefaultValue>0x60000108</DefaultValue>
+      </SubItem>
+      <SubItem>
+        <Name>JoyStickY</Name>
+        <DataType>UNSIGNED32</DataType>
+        <DefaultValue>0x60000208</DefaultValue>
+      </SubItem>
+      <SubItem>
+        <Name>AcceleroMeterX</Name>
+        <DataType>UNSIGNED32</DataType>
+        <DefaultValue>0x60000310</DefaultValue>
+      </SubItem>
+      <SubItem>
+        <Name>AcceleroMeterY</Name>
+        <DataType>UNSIGNED32</DataType>
+        <DefaultValue>0x60000410</DefaultValue>
+      </SubItem>
+      <SubItem>
+        <Name>AcceleroMeterZ</Name>
+        <DataType>UNSIGNED32</DataType>
+        <DefaultValue>0x60000510</DefaultValue>
+      </SubItem>
+      <SubItem>
+        <Name>ButtonC</Name>
+        <DataType>UNSIGNED32</DataType>
+        <DefaultValue>0x60000601</DefaultValue>
+      </SubItem>
+      <SubItem>
+        <Name>ButtonZ</Name>
+        <DataType>UNSIGNED32</DataType>
+        <DefaultValue>0x60000701</DefaultValue>
+      </SubItem>
+      <SubItem>
+        <Name>NunChuckDataValid</Name>
+        <DataType>UNSIGNED32</DataType>
+        <DefaultValue>0x60000801</DefaultValue>
+      </SubItem>
+      <SubItem>
+        <Name>Padding</Name>
+        <DataType>UNSIGNED32</DataType>
+        <DefaultValue>0x00000005</DefaultValue>
+      </SubItem>
+    </Item>
+    <Item Managed="true">
+      <Name>Sync Manager Communication Type</Name>
+      <Index>0x1C00</Index>
+      <DataType>ARRAY</DataType>
+      <SubItem>
+        <Name>Number of Elements</Name>
+        <DataType>UNSIGNED8</DataType>
+        <DefaultValue>4</DefaultValue>
+      </SubItem>
+      <SubItem>
+        <Name>Communications Type SM0</Name>
+        <DataType>UNSIGNED8</DataType>
+        <DefaultValue>1</DefaultValue>
+      </SubItem>
+      <SubItem>
+        <Name>Communications Type SM1</Name>
+        <DataType>UNSIGNED8</DataType>
+        <DefaultValue>2</DefaultValue>
+      </SubItem>
+      <SubItem>
+        <Name>Communications Type SM2</Name>
+        <DataType>UNSIGNED8</DataType>
+        <DefaultValue>3</DefaultValue>
+      </SubItem>
+      <SubItem>
+        <Name>Communications Type SM3</Name>
+        <DataType>UNSIGNED8</DataType>
+        <DefaultValue>4</DefaultValue>
+      </SubItem>
+    </Item>
+    <Item Managed="true">
+      <Name>Sync Manager 2 PDO Assignment</Name>
+      <Index>0x1C12</Index>
+      <DataType>ARRAY</DataType>
+      <SubItem>
+        <Name>Number of Elements</Name>
+        <DataType>UNSIGNED8</DataType>
+        <DefaultValue>1</DefaultValue>
+      </SubItem>
+      <SubItem>
+        <Name>PDO Mapping</Name>
+        <DataType>UNSIGNED16</DataType>
+        <DefaultValue>0x1600</DefaultValue>
+      </SubItem>
+    </Item>
+    <Item Managed="true">
+      <Name>Sync Manager 3 PDO Assignment</Name>
+      <Index>0x1C13</Index>
+      <DataType>ARRAY</DataType>
+      <SubItem>
+        <Name>Number of Elements</Name>
+        <DataType>UNSIGNED8</DataType>
+        <DefaultValue>1</DefaultValue>
+      </SubItem>
+      <SubItem>
+        <Name>PDO Mapping</Name>
+        <DataType>UNSIGNED16</DataType>
+        <DefaultValue>0x1A00</DefaultValue>
+      </SubItem>
+    </Item>
+    <Item Managed="true">
+      <Name>NunChuck</Name>
+      <Index>0x6000</Index>
+      <DataType>RECORD</DataType>
+      <Variable>NunChuck</Variable>
+      <VariableType>Input</VariableType>
+      <SubItem>
+        <Name>Number of Elements</Name>
+        <DataType>UNSIGNED8</DataType>
+        <DefaultValue>8</DefaultValue>
+      </SubItem>
+      <SubItem>
+        <Name>JoyStickX</Name>
+        <DataType>INTEGER8</DataType>
+        <DefaultValue>0</DefaultValue>
+        <Access>RO</Access>
+        <Variable>JoyStickX</Variable>
+        <VariableType>Input</VariableType>
+      </SubItem>
+      <SubItem>
+        <Name>JoyStickY</Name>
+        <DataType>INTEGER8</DataType>
+        <DefaultValue>0</DefaultValue>
+        <Access>RO</Access>
+        <Variable>JoyStickY</Variable>
+        <VariableType>Input</VariableType>
+      </SubItem>
+      <SubItem>
+        <Name>AcceleroMeterX</Name>
+        <DataType>INTEGER16</DataType>
+        <DefaultValue>0</DefaultValue>
+        <Access>RO</Access>
+        <Variable>AcceleroMeterX</Variable>
+        <VariableType>Input</VariableType>
+      </SubItem>
+      <SubItem>
+        <Name>AcceleroMeterY</Name>
+        <DataType>INTEGER16</DataType>
+        <DefaultValue>0</DefaultValue>
+        <Access>RO</Access>
+        <Variable>AcceleroMeterY</Variable>
+        <VariableType>Input</VariableType>
+      </SubItem>
+      <SubItem>
+        <Name>AcceleroMeterZ</Name>
+        <DataType>INTEGER16</DataType>
+        <DefaultValue>0</DefaultValue>
+        <Access>RO</Access>
+        <Variable>AcceleroMeterZ</Variable>
+        <VariableType>Input</VariableType>
+      </SubItem>
+      <SubItem>
+        <Name>ButtonC</Name>
+        <DataType>BOOLEAN</DataType>
+        <DefaultValue>0</DefaultValue>
+        <Access>RO</Access>
+        <Variable>ButtonC</Variable>
+        <VariableType>Input</VariableType>
+      </SubItem>
+      <SubItem>
+        <Name>ButtonZ</Name>
+        <DataType>BOOLEAN</DataType>
+        <DefaultValue>0</DefaultValue>
+        <Access>RO</Access>
+        <Variable>ButtonZ</Variable>
+        <VariableType>Input</VariableType>
+      </SubItem>
+      <SubItem>
+        <Name>NunChuckDataValid</Name>
+        <DataType>BOOLEAN</DataType>
+        <DefaultValue>0</DefaultValue>
+        <Access>RO</Access>
+        <Variable>NunChuckDataValid</Variable>
+        <VariableType>Input</VariableType>
+      </SubItem>
+    </Item>
+    <Item Managed="true">
+      <Name>Digital outputs</Name>
+      <Index>0x7000</Index>
+      <DataType>RECORD</DataType>
+      <Variable>Digital outputs</Variable>
+      <VariableType>Output</VariableType>
+      <SubItem>
+        <Name>Number of Elements</Name>
+        <DataType>UNSIGNED8</DataType>
+        <DefaultValue>1</DefaultValue>
+      </SubItem>
+      <SubItem>
+        <Name>LED0</Name>
+        <DataType>BOOLEAN</DataType>
+        <DefaultValue>0</DefaultValue>
+        <Access>RO</Access>
+        <Variable>LED0</Variable>
+        <VariableType>Output</VariableType>
+      </SubItem>
+    </Item>
+  </Dictionary>
+  <RxPdo>
+    <Index>0x1600</Index>
+    <Container>Digital outputs</Container>
+    <Name>Digital outputs</Name>
+    <Entry>
+      <Index>0x7000</Index>
+      <SubIndex>1</SubIndex>
+      <Variable>LED0</Variable>
+    </Entry>
+    <Entry padBits="7"/>
+  </RxPdo>
+  <TxPdo>
+    <Index>0x1A00</Index>
+    <Container>NunChuck</Container>
+    <Name>NunChuck</Name>
+    <Entry>
+      <Index>0x6000</Index>
+      <SubIndex>1</SubIndex>
+      <Variable>JoyStickX</Variable>
+    </Entry>
+    <Entry>
+      <Index>0x6000</Index>
+      <SubIndex>2</SubIndex>
+      <Variable>JoyStickY</Variable>
+    </Entry>
+    <Entry>
+      <Index>0x6000</Index>
+      <SubIndex>3</SubIndex>
+      <Variable>AcceleroMeterX</Variable>
+    </Entry>
+    <Entry>
+      <Index>0x6000</Index>
+      <SubIndex>4</SubIndex>
+      <Variable>AcceleroMeterY</Variable>
+    </Entry>
+    <Entry>
+      <Index>0x6000</Index>
+      <SubIndex>5</SubIndex>
+      <Variable>AcceleroMeterZ</Variable>
+    </Entry>
+    <Entry>
+      <Index>0x6000</Index>
+      <SubIndex>6</SubIndex>
+      <Variable>ButtonC</Variable>
+    </Entry>
+    <Entry>
+      <Index>0x6000</Index>
+      <SubIndex>7</SubIndex>
+      <Variable>ButtonZ</Variable>
+    </Entry>
+    <Entry>
+      <Index>0x6000</Index>
+      <SubIndex>8</SubIndex>
+      <Variable>NunChuckDataValid</Variable>
+    </Entry>
+    <Entry padBits="5"/>
+  </TxPdo>
+  <Input>
+    <Name>NunChuck</Name>
+    <Type>RECORD</Type>
+    <Member>
+      <Name>JoyStickX</Name>
+      <Type>INTEGER8</Type>
+    </Member>
+    <Member>
+      <Name>JoyStickY</Name>
+      <Type>INTEGER8</Type>
+    </Member>
+    <Member>
+      <Name>AcceleroMeterX</Name>
+      <Type>INTEGER16</Type>
+    </Member>
+    <Member>
+      <Name>AcceleroMeterY</Name>
+      <Type>INTEGER16</Type>
+    </Member>
+    <Member>
+      <Name>AcceleroMeterZ</Name>
+      <Type>INTEGER16</Type>
+    </Member>
+    <Member>
+      <Name>ButtonC</Name>
+    </Member>
+    <Member>
+      <Name>ButtonZ</Name>
+    </Member>
+    <Member>
+      <Name>NunChuckDataValid</Name>
+    </Member>
+  </Input>
+  <Output>
+    <Name>Digital outputs</Name>
+    <Type>RECORD</Type>
+    <Member>
+      <Name>LED0</Name>
+    </Member>
+  </Output>
+</Slave>
